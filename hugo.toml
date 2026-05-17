@@ -1,0 +1,15 @@
+baseURL = 'https://example.com/'
+languageCode = 'en-us'
+title = 'Outdoor Gear Note'
+theme = 'PaperMod'
+enableRobotsTXT = true
+disableKinds = ['taxonomy', 'term']
+
+[params]
+env = 'production'
+description = 'Practical outdoor gear buying guides, camping equipment comparisons, tent selection advice, and Amazon marketplace-informed product notes.'
+keywords = ['outdoor gear', 'camping gear', 'tent reviews', 'hiking equipment', 'camping buying guides']
+author = 'Outdoor Gear Note'
+defaultTheme = 'auto'
+mainSections = ['camping-hiking', 'outdoor-recreation']
+disableSpecial1stPost = true

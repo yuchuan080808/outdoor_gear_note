@@ -1,0 +1,17 @@
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  {{- $mainSections := site.Params.mainSections | default (slice "camping-hiking" "outdoor-recreation") -}}
+  {{- range where site.Pages "Kind" "in" (slice "home" "section" "page") -}}
+    {{- $isMainSection := and .IsSection (in $mainSections .Section) -}}
+    {{- $isMainPage := and .IsPage (in $mainSections .Section) -}}
+    {{- if and (or .IsHome $isMainSection $isMainPage) (ne .Params.robotsNoIndex true) (ne .Params.sitemap.disable true) -}}
+  <url>
+    <loc>{{ .Permalink }}</loc>
+    {{- if not .Lastmod.IsZero }}
+    <lastmod>{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }}</lastmod>
+    {{- end }}
+  </url>
+    {{- end -}}
+  {{- end }}
+</urlset>

@@ -1,0 +1,9 @@
+﻿.env
+.cache/
+public/
+resources/
+.hugo_build.lock
+__pycache__/
+*.pyc
+output/*.md
+auto_update.bat

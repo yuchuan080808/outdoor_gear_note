@@ -1,0 +1,29 @@
+name: Outdoor Gear Auto Post
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * 1"
+
+jobs:
+  autopost:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run pipeline
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          AUTOCLI_BESTSELLERS_COMMAND: ${{ vars.AUTOCLI_BESTSELLERS_COMMAND }}
+          AUTOCLI_PRODUCT_COMMAND: ${{ vars.AUTOCLI_PRODUCT_COMMAND }}
+        run: python main.py --batch-size 4 --reset-processing
+

@@ -1,0 +1,98 @@
+{{- if .IsPage -}}
+{{- $raw := .RawContent -}}
+{{- if in $raw "## Common Questions Before Buying" -}}
+  {{- $afterFaq := index (split $raw "## Common Questions Before Buying") 1 -}}
+  {{- $faqContent := $afterFaq -}}
+  {{- $stopMarkers := slice "\n## Related Resources" "\n### Related Resources" "\n## Comparison Table" "\n### Comparison Table" "\n## Deep Reviews" "\n### Deep Reviews" "\n## Final Summary" "\n### Final Summary" -}}
+  {{- range $stopMarkers -}}
+    {{- if in $faqContent . -}}
+      {{- $faqContent = index (split $faqContent .) 0 -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $parts := split $faqContent "\n### " -}}
+  {{- if gt (len $parts) 1 -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{- $first := true -}}
+    {{- range $index, $part := $parts -}}
+      {{- if ne $index 0 -}}
+        {{- $lines := split $part "\n" -}}
+        {{- $q := index $lines 0 | trim "\n\r " -}}
+        {{- if strings.HasSuffix $q "?" -}}
+          {{- $aRaw := delimit (after 1 $lines) "\n" -}}
+          {{- $a := $aRaw | markdownify | plainify | trim "\n\r " -}}
+          {{- if $a -}}
+            {{- if not $first -}},{{- end }}
+    {
+      "@type": "Question",
+      "name": {{ $q | jsonify }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ $a | jsonify }}
+      }
+    }
+            {{- $first = false -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end }}
+  ]
+}
+</script>
+  {{- end -}}
+{{- end -}}
+{{- end -}}
+{{- with .Params.products }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ $.Title | jsonify }},
+  {{- with $.Description }}
+  "description": {{ . | jsonify }},
+  {{- end }}
+  "url": {{ $.Permalink | jsonify }},
+  "mainEntity": {
+    "@type": "ItemList",
+    "itemListElement": [
+      {{- range $index, $product := . }}
+        {{- if gt $index 0 -}},{{- end }}
+      {
+        "@type": "ListItem",
+        "position": {{ add $index 1 }},
+        "item": {
+          "@type": "Product",
+          "name": {{ (index $product "title") | jsonify }},
+          "sku": {{ (index $product "asin") | jsonify }},
+          "url": {{ (index $product "amazon_url") | jsonify }}
+          {{- with (index $product "image") }},
+          "image": {{ . | jsonify }}
+          {{- end }}
+          {{- if and (eq (index $product "rating_source") "first_party") (index $product "rating") (index $product "review_count") }},
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": {{ index $product "rating" | jsonify }},
+            "reviewCount": {{ index $product "review_count" | jsonify }}
+          }
+          {{- end }}
+          {{- with (index $product "price_tier") }},
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Price tier",
+              "value": {{ . | jsonify }}
+            }
+          ]
+          {{- end }}
+        }
+      }
+      {{- end }}
+    ]
+  }
+}
+</script>
+{{- end }}
+{{- end -}}
