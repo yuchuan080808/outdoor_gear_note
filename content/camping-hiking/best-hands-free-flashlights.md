@@ -45,12 +45,6 @@ products:
     review_count: 3046
     rating_source: "amazon_marketplace"
     price_tier: "$$ / Mid-range"
-  - asin: "B0BJPX358D"
-    title: "B0BJPX358D"
-    amazon_url: "https://www.amazon.com/dp/B0BJPX358D"
-    review_count: 0
-    rating_source: "amazon_marketplace"
-    price_tier: "Price varies"
   - asin: "B08ZJQCZJ4"
     title: "MOIPEJO LED Flashlight Gloves, Gifts for Men Dad Him Boyfriend Husband, Cool Gadget Hands-Free Finger Lights for Camping Fishing Repairing, Fathers Day Christmas Birthday..."
     image: "https://m.media-amazon.com/images/I/61GS1Bos9xL._AC_SX342_SY445_QL70_FMwebp_.jpg"
@@ -59,42 +53,6 @@ products:
     review_count: 10125
     rating_source: "amazon_marketplace"
     price_tier: "$ / Budget-friendly"
-  - asin: "B0CCJDRK76"
-    title: "B0CCJDRK76"
-    amazon_url: "https://www.amazon.com/dp/B0CCJDRK76"
-    review_count: 0
-    rating_source: "amazon_marketplace"
-    price_tier: "Price varies"
-  - asin: "B09SG6PN72"
-    title: "B09SG6PN72"
-    amazon_url: "https://www.amazon.com/dp/B09SG6PN72"
-    review_count: 0
-    rating_source: "amazon_marketplace"
-    price_tier: "Price varies"
-  - asin: "B0894DKS43"
-    title: "B0894DKS43"
-    amazon_url: "https://www.amazon.com/dp/B0894DKS43"
-    review_count: 0
-    rating_source: "amazon_marketplace"
-    price_tier: "Price varies"
-  - asin: "B09351Z6JM"
-    title: "B09351Z6JM"
-    amazon_url: "https://www.amazon.com/dp/B09351Z6JM"
-    review_count: 0
-    rating_source: "amazon_marketplace"
-    price_tier: "Price varies"
-  - asin: "B0DTG49MBC"
-    title: "B0DTG49MBC"
-    amazon_url: "https://www.amazon.com/dp/B0DTG49MBC"
-    review_count: 0
-    rating_source: "amazon_marketplace"
-    price_tier: "Price varies"
-  - asin: "B08PL46G5W"
-    title: "B08PL46G5W"
-    amazon_url: "https://www.amazon.com/dp/B08PL46G5W"
-    review_count: 0
-    rating_source: "amazon_marketplace"
-    price_tier: "Price varies"
 ---
 
 Trying to pitch a tent, fix a camp stove, or change a flat tire in the dark with a flashlight clamped between your teeth is a miserable experience. If you spend enough time outdoors, you quickly realize that your hands need to be free. A dedicated hands-free flashlight—whether it’s a magnetic clip-on, a wearable glove, or a versatile headlamp—solves this problem immediately. 
@@ -148,16 +106,10 @@ Water resistance, secure hanging or hands-free use, reliable switches, and a bat
 ## Comparison Table
 
 | Product | Best For | Standout Upside | Buyer Caution | Skip-If |
+| :--- | :--- | :--- | :--- | :--- |
 | **OLIGHT Oclip Pro** | Everyday carry and camp clipping | Multiple lighting solutions including red light | Built-in battery eventually loses total capacity | You want a traditional headlamp strap |
 | **MOIPEJO Gloves** | Detailed repair work in tight spaces | Puts light directly at your fingertips | Very specific use case, not for hiking | You need a beam that throws light far down a trail |
 | **Victoper 2 Pack** | General backup lighting | High brightness and zoomable beam | No obvious hands-free clip or magnet in specs | You explicitly need a hands-free mounting system |
-| **Listing B0BJPX358D** | Pending Spec Review | N/A | Missing product data | You need verified specs before buying |
-| **Listing B0CCJDRK76** | Pending Spec Review | N/A | Missing product data | You need verified specs before buying |
-| **Listing B09SG6PN72** | Pending Spec Review | N/A | Missing product data | You need verified specs before buying |
-| **Listing B0894DKS43** | Pending Spec Review | N/A | Missing product data | You need verified specs before buying |
-| **Listing B09351Z6JM** | Pending Spec Review | N/A | Missing product data | You need verified specs before buying |
-| **Listing B0DTG49MBC** | Pending Spec Review | N/A | Missing product data | You need verified specs before buying |
-| **Listing B08PL46G5W** | Pending Spec Review | N/A | Missing product data | You need verified specs before buying |
 
 ## Deep Reviews
 
@@ -226,37 +178,6 @@ Water resistance, secure hanging or hands-free use, reliable switches, and a bat
 
 [Check Price on Amazon](https://www.amazon.com/dp/B0DDC4MH84)
 
-### Outdoor Utility Light (ASIN: B0BJPX358D)
-
-**Short Verdict:** Product specifications and customer feedback patterns are currently unavailable for this ASIN in our data feed. 
-**Best For:** Evaluating against your specific trip needs once you locate the manufacturer specs.
-**Skip It If:** You require confirmed battery runtime and waterproof ratings before trusting a piece of gear.
-**What Buyers May Regret:** Buying unverified lighting online often results in receiving products with cheap plastic housings that crack under minor impact.
-
-**User Feedback Summary:**
-
-| Signal | Read |
-| :--- | :--- |
-| Pros signal | [###--] No reliable aggregate rating was available in the scraped product data. |
-| Evidence depth | [#----] Thin sample size; watch for pattern changes over time. |
-| Complaint pressure | [###--] N/A |
-| Price tier | Price varies; exact Amazon prices change frequently. |
-
-**Complaint / Watch-Out Pattern:** Without confirmed data, the biggest risk is exaggerated performance claims on the live listing.
-
-**Pros:**
-* Data currently unavailable
-* Data currently unavailable
-* Data currently unavailable
-
-**Cons:**
-* Lacks confirmed product details
-* Unknown battery chemistry
-
-**Expert Tip:** Always check if a hands-free light offers a red-light mode. White light shrinks your pupils and destroys natural night vision, making it harder to see outside the beam's direct path.
-
-[Check Price on Amazon](https://www.amazon.com/dp/B0BJPX358D)
-
 ### MOIPEJO LED Flashlight Gloves
 ![How to use MOIPEJO LED Flashlight Gloves for hands-free campsite lighting](https://m.media-amazon.com/images/I/61GS1Bos9xL._AC_SX342_SY445_QL70_FMwebp_.jpg)
 
@@ -288,192 +209,6 @@ Water resistance, secure hanging or hands-free use, reliable switches, and a bat
 **Expert Tip:** These are excellent for checking oil or changing tires on a road trip, as they prevent the frustrating shadows that standard headlamps cast when your hands get in the way of the beam. 
 
 [Check Price on Amazon](https://www.amazon.com/dp/B08ZJQCZJ4)
-
-### Outdoor Utility Light (ASIN: B0CCJDRK76)
-
-**Short Verdict:** Product specifications and customer feedback patterns are currently unavailable for this ASIN in our data feed. 
-**Best For:** General research once product details are confirmed.
-**Skip It If:** You need gear for an immediate, high-stakes outdoor trip.
-**What Buyers May Regret:** Purchasing a light without verifying the charging method.
-
-**User Feedback Summary:**
-
-| Signal | Read |
-| :--- | :--- |
-| Pros signal | [###--] No reliable aggregate rating was available in the scraped product data. |
-| Evidence depth | [#----] Thin sample size; watch for pattern changes over time. |
-| Complaint pressure | [###--] N/A |
-| Price tier | Price varies; exact Amazon prices change frequently. |
-
-**Complaint / Watch-Out Pattern:** Unknown performance in cold weather.
-
-**Pros:**
-* Data currently unavailable
-* Data currently unavailable
-* Data currently unavailable
-
-**Cons:**
-* Lacks confirmed product details
-* Unknown durability
-
-**Expert Tip:** Look for IPX4 or higher water resistance if you camp in rainy regions. A light without an IPX rating will likely short out if exposed to heavy dew or a sudden downpour.
-
-[Check Price on Amazon](https://www.amazon.com/dp/B0CCJDRK76)
-
-### Outdoor Utility Light (ASIN: B09SG6PN72)
-
-**Short Verdict:** Product specifications and customer feedback patterns are currently unavailable for this ASIN in our data feed. 
-**Best For:** Comparing against known models once specs are visible.
-**Skip It If:** The listing lacks clear warranty information.
-**What Buyers May Regret:** Buying without knowing the weight—heavy lights are uncomfortable to wear.
-
-**User Feedback Summary:**
-
-| Signal | Read |
-| :--- | :--- |
-| Pros signal | [###--] No reliable aggregate rating was available in the scraped product data. |
-| Evidence depth | [#----] Thin sample size; watch for pattern changes over time. |
-| Complaint pressure | [###--] N/A |
-| Price tier | Price varies; exact Amazon prices change frequently. |
-
-**Complaint / Watch-Out Pattern:** Missing lumen decay charts on many generic listings.
-
-**Pros:**
-* Data currently unavailable
-* Data currently unavailable
-* Data currently unavailable
-
-**Cons:**
-* Lacks confirmed product details
-* Unknown mounting system
-
-**Expert Tip:** Cold weather drains lithium-ion batteries significantly faster. Keep rechargeable lights inside your sleeping bag at night to preserve battery life for the next day.
-
-[Check Price on Amazon](https://www.amazon.com/dp/B09SG6PN72)
-
-### Outdoor Utility Light (ASIN: B0894DKS43)
-
-**Short Verdict:** Product specifications and customer feedback patterns are currently unavailable for this ASIN in our data feed. 
-**Best For:** Buyers willing to verify manufacturer details before purchase.
-**Skip It If:** You prefer gear with a long history of customer reviews.
-**What Buyers May Regret:** Ending up with a proprietary charging cable that is difficult to replace.
-
-**User Feedback Summary:**
-
-| Signal | Read |
-| :--- | :--- |
-| Pros signal | [###--] No reliable aggregate rating was available in the scraped product data. |
-| Evidence depth | [#----] Thin sample size; watch for pattern changes over time. |
-| Complaint pressure | [###--] N/A |
-| Price tier | Price varies; exact Amazon prices change frequently. |
-
-**Complaint / Watch-Out Pattern:** Unknown beam patterns (flood vs. spot).
-
-**Pros:**
-* Data currently unavailable
-* Data currently unavailable
-* Data currently unavailable
-
-**Cons:**
-* Lacks confirmed product details
-* Unknown runtimes
-
-**Expert Tip:** Magnetic bases are excellent for overlanding and car camping. Being able to securely attach a light to the inside of your trunk lid or your vehicle's hood is incredibly useful for organization.
-
-[Check Price on Amazon](https://www.amazon.com/dp/B0894DKS43)
-
-### Outdoor Utility Light (ASIN: B09351Z6JM)
-
-**Short Verdict:** Product specifications and customer feedback patterns are currently unavailable for this ASIN in our data feed. 
-**Best For:** Broadening your search parameters.
-**Skip It If:** You need confirmed high-lumen output for search and rescue.
-**What Buyers May Regret:** Discovering the light has poor heat dissipation and gets too hot to handle.
-
-**User Feedback Summary:**
-
-| Signal | Read |
-| :--- | :--- |
-| Pros signal | [###--] No reliable aggregate rating was available in the scraped product data. |
-| Evidence depth | [#----] Thin sample size; watch for pattern changes over time. |
-| Complaint pressure | [###--] N/A |
-| Price tier | Price varies; exact Amazon prices change frequently. |
-
-**Complaint / Watch-Out Pattern:** Lack of verifiable durability claims.
-
-**Pros:**
-* Data currently unavailable
-* Data currently unavailable
-* Data currently unavailable
-
-**Cons:**
-* Lacks confirmed product details
-* Unknown beam distance
-
-**Expert Tip:** If you are buying a headlamp-style light, models with a top strap over the crown of your head offer significantly better stability during active hiking than single-band models.
-
-[Check Price on Amazon](https://www.amazon.com/dp/B09351Z6JM)
-
-### Outdoor Utility Light (ASIN: B0DTG49MBC)
-
-**Short Verdict:** Product specifications and customer feedback patterns are currently unavailable for this ASIN in our data feed. 
-**Best For:** Checking live marketplace details for flash deals.
-**Skip It If:** You need a light with a certified drop-test rating.
-**What Buyers May Regret:** Finding out the light has a complex UI requiring multiple clicks just to turn it off.
-
-**User Feedback Summary:**
-
-| Signal | Read |
-| :--- | :--- |
-| Pros signal | [###--] No reliable aggregate rating was available in the scraped product data. |
-| Evidence depth | [#----] Thin sample size; watch for pattern changes over time. |
-| Complaint pressure | [###--] N/A |
-| Price tier | Price varies; exact Amazon prices change frequently. |
-
-**Complaint / Watch-Out Pattern:** Hidden battery requirements.
-
-**Pros:**
-* Data currently unavailable
-* Data currently unavailable
-* Data currently unavailable
-
-**Cons:**
-* Lacks confirmed product details
-* Unknown interface
-
-**Expert Tip:** Removable batteries (like standard AAs or removable 18650s) provide a safer backup plan when USB charging isn't available during extended off-grid trips.
-
-[Check Price on Amazon](https://www.amazon.com/dp/B0DTG49MBC)
-
-### Outdoor Utility Light (ASIN: B08PL46G5W)
-
-**Short Verdict:** Product specifications and customer feedback patterns are currently unavailable for this ASIN in our data feed. 
-**Best For:** Wait-and-see buyers monitoring new product releases.
-**Skip It If:** You rely on professional outdoor reviews before trusting a brand.
-**What Buyers May Regret:** Purchasing a clip-on light with a weak tension spring that falls off during movement.
-
-**User Feedback Summary:**
-
-| Signal | Read |
-| :--- | :--- |
-| Pros signal | [###--] No reliable aggregate rating was available in the scraped product data. |
-| Evidence depth | [#----] Thin sample size; watch for pattern changes over time. |
-| Complaint pressure | [###--] N/A |
-| Price tier | Price varies; exact Amazon prices change frequently. |
-
-**Complaint / Watch-Out Pattern:** Unverified structural integrity.
-
-**Pros:**
-* Data currently unavailable
-* Data currently unavailable
-* Data currently unavailable
-
-**Cons:**
-* Lacks confirmed product details
-* Unknown weight
-
-**Expert Tip:** Verify the physical weight of clip-on lights before buying. Anything over 2 ounces will pull down the brim of a lightweight hat and become frustrating to wear.
-
-[Check Price on Amazon](https://www.amazon.com/dp/B08PL46G5W)
 
 ## Final Summary
 
