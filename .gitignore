@@ -7,3 +7,4 @@ __pycache__/
 *.pyc
 output/*.md
 auto_update.bat
+themes/

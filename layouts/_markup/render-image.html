@@ -1,0 +1,7 @@
+{{- $alt := .PlainText | plainify | htmlEscape -}}
+<figure class="article-image">
+  <img src="{{ .Destination | safeURL }}" alt="{{ $alt }}" loading="lazy">
+  {{- with .Title }}
+  <figcaption>{{ . | markdownify }}</figcaption>
+  {{- end }}
+</figure>

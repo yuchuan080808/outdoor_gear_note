@@ -21,17 +21,17 @@
       {{- if ne $index 0 -}}
         {{- $lines := split $part "\n" -}}
         {{- $q := index $lines 0 | trim "\n\r " -}}
-        {{- if strings.HasSuffix $q "?" -}}
+        {{- if $q -}}
           {{- $aRaw := delimit (after 1 $lines) "\n" -}}
           {{- $a := $aRaw | markdownify | plainify | trim "\n\r " -}}
           {{- if $a -}}
             {{- if not $first -}},{{- end }}
     {
       "@type": "Question",
-      "name": {{ $q | jsonify }},
+      "name": {{ $q | jsonify | safeJS }},
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": {{ $a | jsonify }}
+        "text": {{ $a | jsonify | safeJS }}
       }
     }
             {{- $first = false -}}
@@ -50,11 +50,11 @@
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": {{ $.Title | jsonify }},
+  "headline": {{ $.Title | jsonify | safeJS }},
   {{- with $.Description }}
-  "description": {{ . | jsonify }},
+  "description": {{ . | jsonify | safeJS }},
   {{- end }}
-  "url": {{ $.Permalink | jsonify }},
+  "url": {{ $.Permalink | jsonify | safeJS }},
   "mainEntity": {
     "@type": "ItemList",
     "itemListElement": [
@@ -65,17 +65,17 @@
         "position": {{ add $index 1 }},
         "item": {
           "@type": "Product",
-          "name": {{ (index $product "title") | jsonify }},
-          "sku": {{ (index $product "asin") | jsonify }},
-          "url": {{ (index $product "amazon_url") | jsonify }}
+          "name": {{ (index $product "title") | jsonify | safeJS }},
+          "sku": {{ (index $product "asin") | jsonify | safeJS }},
+          "url": {{ (index $product "amazon_url") | jsonify | safeJS }}
           {{- with (index $product "image") }},
-          "image": {{ . | jsonify }}
+          "image": {{ . | jsonify | safeJS }}
           {{- end }}
           {{- if and (eq (index $product "rating_source") "first_party") (index $product "rating") (index $product "review_count") }},
           "aggregateRating": {
             "@type": "AggregateRating",
-            "ratingValue": {{ index $product "rating" | jsonify }},
-            "reviewCount": {{ index $product "review_count" | jsonify }}
+            "ratingValue": {{ index $product "rating" | jsonify | safeJS }},
+            "reviewCount": {{ index $product "review_count" | jsonify | safeJS }}
           }
           {{- end }}
           {{- with (index $product "price_tier") }},
@@ -83,7 +83,7 @@
             {
               "@type": "PropertyValue",
               "name": "Price tier",
-              "value": {{ . | jsonify }}
+              "value": {{ . | jsonify | safeJS }}
             }
           ]
           {{- end }}

@@ -71,10 +71,10 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Install PaperMod theme
+      - name: Install Stack theme
         run: |
-          if [ ! -d themes/PaperMod ]; then
-            git clone --depth 1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+          if [ ! -d themes/hugo-theme-stack ]; then
+            git clone --depth 1 https://github.com/CaiJimmy/hugo-theme-stack.git themes/hugo-theme-stack
           fi
 
       - name: Build

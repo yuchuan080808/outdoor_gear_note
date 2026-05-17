@@ -1,7 +1,7 @@
 baseURL = 'https://outdoorgearnotes.com/'
-languageCode = 'en-us'
-title = 'Outdoor Gear Note'
-theme = 'PaperMod'
+locale = 'en-US'
+title = 'Outdoor Gear Notes'
+theme = 'hugo-theme-stack'
 enableRobotsTXT = true
 disableKinds = ['taxonomy', 'term']
 
@@ -9,7 +9,41 @@ disableKinds = ['taxonomy', 'term']
 env = 'production'
 description = 'Practical outdoor gear buying guides, camping equipment comparisons, tent selection advice, and Amazon marketplace-informed product notes.'
 keywords = ['outdoor gear', 'camping gear', 'tent reviews', 'hiking equipment', 'camping buying guides']
-author = 'Outdoor Gear Note'
+author = 'Outdoor Gear Notes'
 defaultTheme = 'auto'
 mainSections = ['camping-hiking', 'outdoor-recreation']
-disableSpecial1stPost = true
+rssFullContent = true
+
+[params.sidebar]
+subtitle = 'Camping and hiking gear notes for practical outdoor buyers.'
+compact = false
+
+[params.article]
+toc = true
+readingTime = true
+
+[params.article.list]
+showTags = true
+
+[params.comments]
+enabled = false
+
+[params.colorScheme]
+toggle = true
+default = 'auto'
+
+[[menu.main]]
+name = 'Home'
+url = '/'
+weight = 10
+identifier = 'home'
+  [menu.main.params]
+  icon = 'home'
+
+[[menu.main]]
+name = 'Camping & Hiking'
+url = '/camping-hiking/'
+weight = 20
+identifier = 'camping-hiking'
+  [menu.main.params]
+  icon = 'categories'
