@@ -1,1 +1,5 @@
+{{- with resources.Get "css/outdoor-skin.css" -}}
+{{- $skin := . | minify | fingerprint "sha256" -}}
+<link rel="stylesheet" href="{{ $skin.RelPermalink }}">
+{{- end }}
 {{ partial "extend_head.html" . }}
