@@ -76,12 +76,6 @@ products:
     review_count: 1077
     rating_source: "amazon_marketplace"
     price_tier: "$ / Budget-friendly"
-  - asin: "B0CY4P8JW9"
-    title: "B0CY4P8JW9"
-    amazon_url: "https://www.amazon.com/dp/B0CY4P8JW9"
-    review_count: 0
-    rating_source: "amazon_marketplace"
-    price_tier: "Price varies"
   - asin: "B01IJWUYLK"
     title: "Arcturus Military Wool Blanket - Warm, Thick, Washable - Great for Outdoors, Camping, Stadium Blanket, Picnics, Travel - Car & Bushcraft Survival Kits"
     image: "https://m.media-amazon.com/images/I/81WeiP+XeYL._AC_SX679_.jpg"
@@ -160,6 +154,7 @@ Noise, zipper feel, width, support, inflation or setup effort, and how easily th
 ## Comparison Table
 
 | Product | Best For | Standout Upside | Buyer Caution | Skip-If |
+| :--- | :--- | :--- | :--- | :--- |
 | **Arcturus Military Wool** | Cold tent nights | High warmth-to-weight ratio | Strong initial wool odor | You need an ultralight hiking layer |
 | **Molithe 100% Virgin Wool** | Rugged outdoor survival | Thick virgin wool construction | Can feel scratchy to some | You want a soft, fleece-like throw |
 | **WEKAPO Beach Blanket** | Family beach/camp days | Sheds sand easily | Zero thermal insulation | You need sleep warmth |

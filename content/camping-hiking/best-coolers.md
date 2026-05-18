@@ -162,6 +162,7 @@ Pre-chill the cooler, use block ice when possible, limit warm items, keep it sha
 ## Comparison Table
 
 | Product | Best For | Standout Upside | Buyer Caution | Skip-If |
+| :--- | :--- | :--- | :--- | :--- |
 | **Coleman Classic Rolling 100-Quart** | Basecamp families | Massive 160-can capacity | Prone to shipping dents | You have a compact car |
 | **Titan by Arctic Zone Zipperless** | Golfers and solo road trippers | Hard liner prevents crushed food | Mixed real-world ice retention | You need multi-day food storage |
 | **Coleman Chiller Series** | Quick afternoon outings | Very lightweight | Handle feels flimsy to buyers | You want ice to last 24+ hours |

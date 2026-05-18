@@ -1,87 +1,18 @@
 {
   "version": 1,
-  "last_synced": "2026-05-18T01:59:55+00:00",
+  "last_synced": "2026-05-18T13:53:47+00:00",
   "categories": [
-    {
-      "node_id": "19450135011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Stoves & Grills > Backpacking Stoves",
-      "category_name": "Backpacking Stoves",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/19450135011",
-      "section": "camping-hiking",
-      "status": "failed",
-      "last_updated": "2026-05-18T01:59:55+00:00"
-    },
-    {
-      "node_id": "19450136011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Stoves & Grills > Camping Stoves",
-      "category_name": "Camping Stoves",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/19450136011",
-      "section": "camping-hiking",
-      "status": "failed",
-      "last_updated": "2026-05-18T01:59:55+00:00"
-    },
-    {
-      "node_id": "21222468011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Lights & Lanterns > Lanterns > Fuel Lanterns",
-      "category_name": "Fuel Lanterns",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/21222468011",
-      "section": "camping-hiking",
-      "status": "failed",
-      "last_updated": "2026-05-18T01:59:55+00:00"
-    },
-    {
-      "node_id": "21222469011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Lights & Lanterns > Lanterns > Electric Lanterns",
-      "category_name": "Electric Lanterns",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/21222469011",
-      "section": "camping-hiking",
-      "status": "failed",
-      "last_updated": "2026-05-18T01:59:55+00:00"
-    },
-    {
-      "node_id": "2204498011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Sleeping Bags & Camp Bedding > Sleeping Bags",
-      "category_name": "Sleeping Bags",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/2204498011",
-      "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
-    {
-      "node_id": "2204647011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Stove Accessories > Fire Starters",
-      "category_name": "Fire Starters",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/2204647011",
-      "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
-    {
-      "node_id": "2204650011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Sleeping Bags & Camp Bedding > Sleeping Bag Accessories > Compression Sacks",
-      "category_name": "Compression Sacks",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/2204650011",
-      "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
-    {
-      "node_id": "2204654011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Hydration & Filtration > Canteens",
-      "category_name": "Canteens",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/2204654011",
-      "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
     {
       "node_id": "2404179011",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Backpacks, Bags & Accessories > Daypacks & Casual Bags > Casual Daypacks",
       "category_name": "Casual Daypacks",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/2404179011",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-05-18T14:01:14+00:00",
+      "article_path": "content\\camping-hiking\\best-casual-daypacks.md",
+      "article_url": "/camping-hiking/best-casual-daypacks/",
+      "article_title": "Best Casual Daypacks for Hiking Carry Comfort and Gear Organization"
     },
     {
       "node_id": "2445457011",
@@ -89,8 +20,11 @@
       "category_name": "Handheld Flashlights",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/2445457011",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-05-18T14:08:40+00:00",
+      "article_path": "content\\camping-hiking\\best-handheld-flashlights.md",
+      "article_url": "/camping-hiking/best-handheld-flashlights/",
+      "article_title": "Best Handheld Flashlights: Buying Guide and Buyer Cautions"
     },
     {
       "node_id": "2975314011",
@@ -625,6 +559,78 @@
       "article_path": "content\\camping-hiking\\best-hands-free-flashlights.md",
       "article_url": "/camping-hiking/best-hands-free-flashlights/",
       "article_title": "Best Hands Free Flashlights: Buying Guide and Buyer Cautions"
+    },
+    {
+      "node_id": "19450135011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Stoves & Grills > Backpacking Stoves",
+      "category_name": "Backpacking Stoves",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/19450135011",
+      "section": "camping-hiking",
+      "status": "failed",
+      "last_updated": "2026-05-18T01:59:55+00:00"
+    },
+    {
+      "node_id": "19450136011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Stoves & Grills > Camping Stoves",
+      "category_name": "Camping Stoves",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/19450136011",
+      "section": "camping-hiking",
+      "status": "failed",
+      "last_updated": "2026-05-18T01:59:55+00:00"
+    },
+    {
+      "node_id": "21222468011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Lights & Lanterns > Lanterns > Fuel Lanterns",
+      "category_name": "Fuel Lanterns",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/21222468011",
+      "section": "camping-hiking",
+      "status": "failed",
+      "last_updated": "2026-05-18T01:59:55+00:00"
+    },
+    {
+      "node_id": "21222469011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Lights & Lanterns > Lanterns > Electric Lanterns",
+      "category_name": "Electric Lanterns",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/21222469011",
+      "section": "camping-hiking",
+      "status": "failed",
+      "last_updated": "2026-05-18T01:59:55+00:00"
+    },
+    {
+      "node_id": "2204498011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Sleeping Bags & Camp Bedding > Sleeping Bags",
+      "category_name": "Sleeping Bags",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/2204498011",
+      "section": "camping-hiking",
+      "status": "pending",
+      "last_updated": "2026-05-18T13:53:47+00:00"
+    },
+    {
+      "node_id": "2204647011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Stove Accessories > Fire Starters",
+      "category_name": "Fire Starters",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/2204647011",
+      "section": "camping-hiking",
+      "status": "pending",
+      "last_updated": "2026-05-18T13:53:47+00:00"
+    },
+    {
+      "node_id": "2204650011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Sleeping Bags & Camp Bedding > Sleeping Bag Accessories > Compression Sacks",
+      "category_name": "Compression Sacks",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/2204650011",
+      "section": "camping-hiking",
+      "status": "pending",
+      "last_updated": "2026-05-18T13:53:47+00:00"
+    },
+    {
+      "node_id": "2204654011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Hydration & Filtration > Canteens",
+      "category_name": "Canteens",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/2204654011",
+      "section": "camping-hiking",
+      "status": "pending",
+      "last_updated": "2026-05-18T13:53:47+00:00"
     },
     {
       "node_id": "10208170011",

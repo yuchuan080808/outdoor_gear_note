@@ -166,6 +166,7 @@ Buying for an ideal trip instead of your real habits. If you cook simply, compac
 ## Comparison Table
 
 | Product | Best For | Standout Upside | Buyer Caution | Skip-If |
+| :--- | :--- | :--- | :--- | :--- |
 | **Fit & Fresh XL Slim** | Base layers in medium coolers | Excellent surface area coverage | Can thaw quickly in extreme heat | You need multi-day ice retention |
 | **Fit + Fresh Slim** | Tight day-trip lunchboxes | Extremely thin profile | Bulges slightly if frozen unevenly | You are packing a massive chest cooler |
 | **Igloo Maxcold Block** | Classic weekend coolers | Reliable gel performance | Plastic casing can crack if dropped frozen | You need flexibility to wrap items |
