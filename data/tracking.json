@@ -1,63 +1,15 @@
 {
   "version": 1,
-  "last_synced": "2026-05-17T04:10:55+00:00",
+  "last_synced": "2026-05-18T01:59:55+00:00",
   "categories": [
-    {
-      "node_id": "14329861",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Cooler Accessories",
-      "category_name": "Cooler Accessories",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/14329861",
-      "section": "camping-hiking",
-      "status": "completed",
-      "last_updated": "2026-05-17T04:18:33+00:00",
-      "article_path": "content\\camping-hiking\\best-cooler-accessories.md",
-      "article_url": "/camping-hiking/best-cooler-accessories/",
-      "article_title": "Best Cooler Accessories for Camp Kitchen Setup and Meal Prep"
-    },
-    {
-      "node_id": "14332921",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Sleeping Bags & Camp Bedding > Blankets",
-      "category_name": "Blankets",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/14332921",
-      "section": "camping-hiking",
-      "status": "completed",
-      "last_updated": "2026-05-17T04:26:09+00:00",
-      "article_path": "content\\camping-hiking\\best-blankets.md",
-      "article_url": "/camping-hiking/best-blankets/",
-      "article_title": "Best Blankets for Camping Sleep Comfort and Packability"
-    },
-    {
-      "node_id": "14335431",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Coolers",
-      "category_name": "Coolers",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/14335431",
-      "section": "camping-hiking",
-      "status": "completed",
-      "last_updated": "2026-05-17T04:34:05+00:00",
-      "article_path": "content\\camping-hiking\\best-coolers.md",
-      "article_url": "/camping-hiking/best-coolers/",
-      "article_title": "Best Coolers for Camping, Road Trips, and Ice Retention"
-    },
-    {
-      "node_id": "17384527011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Lights & Lanterns > Flashlights > Hands Free Flashlights",
-      "category_name": "Hands Free Flashlights",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/17384527011",
-      "section": "camping-hiking",
-      "status": "completed",
-      "last_updated": "2026-05-17T04:41:46+00:00",
-      "article_path": "content\\camping-hiking\\best-hands-free-flashlights.md",
-      "article_url": "/camping-hiking/best-hands-free-flashlights/",
-      "article_title": "Best Hands Free Flashlights: Buying Guide and Buyer Cautions"
-    },
     {
       "node_id": "19450135011",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Stoves & Grills > Backpacking Stoves",
       "category_name": "Backpacking Stoves",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/19450135011",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "failed",
+      "last_updated": "2026-05-18T01:59:55+00:00"
     },
     {
       "node_id": "19450136011",
@@ -65,8 +17,8 @@
       "category_name": "Camping Stoves",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/19450136011",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "failed",
+      "last_updated": "2026-05-18T01:59:55+00:00"
     },
     {
       "node_id": "21222468011",
@@ -74,8 +26,8 @@
       "category_name": "Fuel Lanterns",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/21222468011",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "failed",
+      "last_updated": "2026-05-18T01:59:55+00:00"
     },
     {
       "node_id": "21222469011",
@@ -83,8 +35,8 @@
       "category_name": "Electric Lanterns",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/21222469011",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "failed",
+      "last_updated": "2026-05-18T01:59:55+00:00"
     },
     {
       "node_id": "2204498011",
@@ -625,6 +577,54 @@
       "section": "camping-hiking",
       "status": "pending",
       "last_updated": "2026-05-17T04:10:55+00:00"
+    },
+    {
+      "node_id": "14329861",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Cooler Accessories",
+      "category_name": "Cooler Accessories",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/14329861",
+      "section": "camping-hiking",
+      "status": "completed",
+      "last_updated": "2026-05-17T04:18:33+00:00",
+      "article_path": "content\\camping-hiking\\best-cooler-accessories.md",
+      "article_url": "/camping-hiking/best-cooler-accessories/",
+      "article_title": "Best Cooler Accessories for Camp Kitchen Setup and Meal Prep"
+    },
+    {
+      "node_id": "14332921",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Sleeping Bags & Camp Bedding > Blankets",
+      "category_name": "Blankets",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/14332921",
+      "section": "camping-hiking",
+      "status": "completed",
+      "last_updated": "2026-05-17T04:26:09+00:00",
+      "article_path": "content\\camping-hiking\\best-blankets.md",
+      "article_url": "/camping-hiking/best-blankets/",
+      "article_title": "Best Blankets for Camping Sleep Comfort and Packability"
+    },
+    {
+      "node_id": "14335431",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Coolers",
+      "category_name": "Coolers",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/14335431",
+      "section": "camping-hiking",
+      "status": "completed",
+      "last_updated": "2026-05-17T04:34:05+00:00",
+      "article_path": "content\\camping-hiking\\best-coolers.md",
+      "article_url": "/camping-hiking/best-coolers/",
+      "article_title": "Best Coolers for Camping, Road Trips, and Ice Retention"
+    },
+    {
+      "node_id": "17384527011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Lights & Lanterns > Flashlights > Hands Free Flashlights",
+      "category_name": "Hands Free Flashlights",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/17384527011",
+      "section": "camping-hiking",
+      "status": "completed",
+      "last_updated": "2026-05-17T04:41:46+00:00",
+      "article_path": "content\\camping-hiking\\best-hands-free-flashlights.md",
+      "article_url": "/camping-hiking/best-hands-free-flashlights/",
+      "article_title": "Best Hands Free Flashlights: Buying Guide and Buyer Cautions"
     },
     {
       "node_id": "10208170011",
