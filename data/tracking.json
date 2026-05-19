@@ -1,39 +1,18 @@
 {
   "version": 1,
-  "last_synced": "2026-05-18T13:53:47+00:00",
+  "last_synced": "2026-05-19T23:31:37+00:00",
   "categories": [
-    {
-      "node_id": "2404179011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Backpacks, Bags & Accessories > Daypacks & Casual Bags > Casual Daypacks",
-      "category_name": "Casual Daypacks",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/2404179011",
-      "section": "camping-hiking",
-      "status": "completed",
-      "last_updated": "2026-05-18T14:01:14+00:00",
-      "article_path": "content\\camping-hiking\\best-casual-daypacks.md",
-      "article_url": "/camping-hiking/best-casual-daypacks/",
-      "article_title": "Best Casual Daypacks for Hiking Carry Comfort and Gear Organization"
-    },
-    {
-      "node_id": "2445457011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Lights & Lanterns > Flashlights > Handheld Flashlights",
-      "category_name": "Handheld Flashlights",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/2445457011",
-      "section": "camping-hiking",
-      "status": "completed",
-      "last_updated": "2026-05-18T14:08:40+00:00",
-      "article_path": "content\\camping-hiking\\best-handheld-flashlights.md",
-      "article_url": "/camping-hiking/best-handheld-flashlights/",
-      "article_title": "Best Handheld Flashlights: Buying Guide and Buyer Cautions"
-    },
     {
       "node_id": "2975314011",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Backpacks, Bags & Accessories > Backpacks",
       "category_name": "Backpacks",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/2975314011",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-05-19T23:35:54+00:00",
+      "article_path": "content\\camping-hiking\\best-backpacks.md",
+      "article_url": "/camping-hiking/best-backpacks/",
+      "article_title": "Best Hiking Backpacks for Day Hikes, Travel, and Gear Fit"
     },
     {
       "node_id": "3143613011",
@@ -41,8 +20,11 @@
       "category_name": "Cots",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3143613011",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-05-19T23:40:11+00:00",
+      "article_path": "content\\camping-hiking\\best-cots.md",
+      "article_url": "/camping-hiking/best-cots/",
+      "article_title": "Best Cots for Camping Sleep Comfort and Packability"
     },
     {
       "node_id": "3143614011",
@@ -631,6 +613,30 @@
       "section": "camping-hiking",
       "status": "pending",
       "last_updated": "2026-05-18T13:53:47+00:00"
+    },
+    {
+      "node_id": "2404179011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Backpacks, Bags & Accessories > Daypacks & Casual Bags > Casual Daypacks",
+      "category_name": "Casual Daypacks",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/2404179011",
+      "section": "camping-hiking",
+      "status": "completed",
+      "last_updated": "2026-05-18T14:01:14+00:00",
+      "article_path": "content\\camping-hiking\\best-casual-daypacks.md",
+      "article_url": "/camping-hiking/best-casual-daypacks/",
+      "article_title": "Best Casual Daypacks for Hiking Carry Comfort and Gear Organization"
+    },
+    {
+      "node_id": "2445457011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Lights & Lanterns > Flashlights > Handheld Flashlights",
+      "category_name": "Handheld Flashlights",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/2445457011",
+      "section": "camping-hiking",
+      "status": "completed",
+      "last_updated": "2026-05-18T14:08:40+00:00",
+      "article_path": "content\\camping-hiking\\best-handheld-flashlights.md",
+      "article_url": "/camping-hiking/best-handheld-flashlights/",
+      "article_title": "Best Handheld Flashlights: Buying Guide and Buyer Cautions"
     },
     {
       "node_id": "10208170011",
