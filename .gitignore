@@ -8,3 +8,4 @@ __pycache__/
 output/*.md
 auto_update.bat
 themes/
+logs/

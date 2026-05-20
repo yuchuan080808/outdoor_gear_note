@@ -14,8 +14,11 @@ import json
 import logging
 import os
 import re
+import shutil
 import shlex
 import subprocess
+import tempfile
+import time
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
@@ -35,6 +38,7 @@ ASIN_RE = re.compile(
     r"(?:/dp/|/gp/product/|/product/|asin=)([A-Z0-9]{10})|"
     r"(?:^|[^A-Z0-9])([A-Z0-9]{10})(?:[^A-Z0-9]|$)"
 )
+ANSI_ESCAPE_RE = re.compile(r"\x1b\[[0-?]*[ -/]*[@-~]")
 
 
 @dataclass(frozen=True)
@@ -72,11 +76,28 @@ class SEOTopic:
     faqs: tuple[tuple[str, str], ...]
 
 
+class AutoCLITimeoutError(TimeoutError):
+    def __init__(self, message: str, stdout: str = "", stderr: str = "") -> None:
+        super().__init__(message)
+        self.stdout = stdout
+        self.stderr = stderr
+
+
 def configure_logging() -> None:
+    log_dir = ROOT / "logs"
+    log_dir.mkdir(exist_ok=True)
+    file_handler = logging.FileHandler(log_dir / "pipeline.log", encoding="utf-8")
+    stream_handler = logging.StreamHandler()
+    formatter = logging.Formatter(
+        fmt="%(asctime)s %(levelname)s %(name)s - %(message)s",
+        datefmt="%Y-%m-%d %H:%M:%S",
+    )
+    file_handler.setFormatter(formatter)
+    stream_handler.setFormatter(formatter)
     logging.basicConfig(
         level=logging.INFO,
-        format="%(asctime)s %(levelname)s %(name)s - %(message)s",
-        datefmt="%Y-%m-%d %H:%M:%S",
+        handlers=[stream_handler, file_handler],
+        force=True,
     )
 
 
@@ -1049,22 +1070,26 @@ class ScraperEngine:
         timeout_seconds: int = 180,
         bestsellers_command_template: str | None = None,
         product_command_template: str | None = None,
+        autocli_path: str | None = None,
     ) -> None:
         self.bestseller_cache = bestseller_cache
         self.product_cache = product_cache
         self.timeout_seconds = timeout_seconds
+        self.autocli_path = (autocli_path or os.environ.get("AUTOCLI_PATH") or "autocli").strip()
+        autocli_command = self._quote_command_token(self.autocli_path)
         self.bestsellers_command_template = (
             bestsellers_command_template
             or os.environ.get("AUTOCLI_BESTSELLERS_COMMAND")
-            or "autocli amazon bestsellers {url} -f json"
+            or f"{autocli_command} amazon bestsellers {{url}} -f json"
         )
         self.product_command_template = (
             product_command_template
             or os.environ.get("AUTOCLI_PRODUCT_COMMAND")
-            or "autocli amazon product {asin} -f json"
+            or f"{autocli_command} amazon product {{asin}} -f json"
         )
         self.bestseller_cache.mkdir(parents=True, exist_ok=True)
         self.product_cache.mkdir(parents=True, exist_ok=True)
+        self._log_autocli_resolution()
 
     def scrape_category(self, task: CategoryTask, top_n: int = 20, min_success: int = 10) -> list[dict[str, Any]]:
         LOGGER.info("Scraping %s (%s)", task.category_name, task.node_id)
@@ -1076,7 +1101,8 @@ class ScraperEngine:
         LOGGER.info("Found %s ASIN candidates for %s", len(asins), task.node_id)
 
         products: list[dict[str, Any]] = []
-        for asin in asins:
+        for index, asin in enumerate(asins, start=1):
+            LOGGER.info("Fetching product detail %s/%s for %s: %s", index, len(asins), task.node_id, asin)
             try:
                 payload = self._cached_autocli_json(
                     self._format_command(self.product_command_template, asin=asin),
@@ -1102,33 +1128,250 @@ class ScraperEngine:
 
         LOGGER.info("Cache miss; running: %s", " ".join(command))
         try:
-            completed = subprocess.run(
-                command,
-                check=True,
-                capture_output=True,
-                text=True,
-                encoding="utf-8",
-                timeout=self.timeout_seconds,
-            )
+            stdout, stderr = self._run_command_with_timeout(command)
+        except OSError as exc:
+            LOGGER.error("Failed to start AutoCLI command: %s", " ".join(command))
+            LOGGER.error("AutoCLI start error: %s", exc)
+            raise
+        except AutoCLITimeoutError as exc:
+            stdout, stderr = exc.stdout, exc.stderr
+            payload = self._load_autocli_json(stdout, stderr, strict=False)
+            if payload is not None:
+                LOGGER.warning("AutoCLI timed out but returned valid JSON; saving cache anyway: %s", cache_path)
+                cache_path.parent.mkdir(parents=True, exist_ok=True)
+                cache_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+                LOGGER.info("Saved cache: %s", cache_path)
+                return payload
+            self._save_autocli_raw_output(command, cache_path, stdout, stderr, "timeout_without_json")
+            raise
         except subprocess.CalledProcessError as exc:
             LOGGER.error("AutoCLI failed with exit code %s", exc.returncode)
             if exc.stdout:
-                LOGGER.error("AutoCLI stdout:\n%s", exc.stdout[-4000:])
+                LOGGER.error("AutoCLI stdout:\n%s", str(exc.stdout)[-4000:])
             if exc.stderr:
-                LOGGER.error("AutoCLI stderr:\n%s", exc.stderr[-4000:])
+                LOGGER.error("AutoCLI stderr:\n%s", str(exc.stderr)[-4000:])
+            payload = self._load_autocli_json(str(exc.stdout or ""), str(exc.stderr or ""), strict=False)
+            if payload is not None:
+                LOGGER.warning("AutoCLI failed but output contained valid JSON; saving cache anyway: %s", cache_path)
+                cache_path.parent.mkdir(parents=True, exist_ok=True)
+                cache_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+                LOGGER.info("Saved cache: %s", cache_path)
+                return payload
+            self._save_autocli_raw_output(
+                command,
+                cache_path,
+                str(exc.stdout or ""),
+                str(exc.stderr or ""),
+                f"exit_{exc.returncode}_without_json",
+            )
             raise
 
-        try:
-            payload = json.loads(completed.stdout)
-        except json.JSONDecodeError:
-            LOGGER.error("AutoCLI returned non-JSON stdout:\n%s", completed.stdout[-4000:])
-            if completed.stderr.strip():
-                LOGGER.error("AutoCLI stderr:\n%s", completed.stderr[-4000:])
-            raise
+        payload = self._load_autocli_json(stdout, stderr, strict=False)
+        if payload is None:
+            self._save_autocli_raw_output(command, cache_path, stdout, stderr, "success_without_json")
+            LOGGER.error("AutoCLI exited successfully but no JSON payload could be parsed.")
+            raise json.JSONDecodeError("AutoCLI did not return valid JSON", stdout or stderr or "", 0)
 
         cache_path.parent.mkdir(parents=True, exist_ok=True)
         cache_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+        LOGGER.info("Saved cache: %s", cache_path)
         return payload
+
+    @staticmethod
+    def _load_autocli_json(stdout: str, stderr: str = "", strict: bool = True) -> Any | None:
+        sources = [stdout or "", stderr or "", f"{stdout or ''}\n{stderr or ''}"]
+        payloads: list[Any] = []
+        for raw_text in sources:
+            text = ScraperEngine._clean_autocli_text(raw_text)
+            if not text:
+                continue
+            try:
+                return json.loads(text)
+            except json.JSONDecodeError:
+                pass
+
+            for line in reversed(text.splitlines()):
+                candidate = line.strip().rstrip(",")
+                if candidate.startswith(("{", "[")):
+                    try:
+                        return json.loads(candidate)
+                    except json.JSONDecodeError:
+                        continue
+
+            payloads.extend(ScraperEngine._scan_json_payloads(text))
+        if payloads:
+            return max(payloads, key=ScraperEngine._json_payload_size)
+
+        if strict:
+            LOGGER.error("AutoCLI returned non-JSON stdout:\n%s", (stdout or "")[-4000:])
+            if stderr.strip():
+                LOGGER.error("AutoCLI stderr:\n%s", stderr[-4000:])
+            raise json.JSONDecodeError("AutoCLI did not return valid JSON", stdout or "", 0)
+        return None
+
+    @staticmethod
+    def _clean_autocli_text(text: str) -> str:
+        text = ANSI_ESCAPE_RE.sub("", text or "")
+        return text.replace("\x00", "").lstrip("\ufeff").strip()
+
+    @staticmethod
+    def _scan_json_payloads(text: str) -> list[Any]:
+        decoder = json.JSONDecoder()
+        payloads: list[Any] = []
+        for index, char in enumerate(text):
+            if char not in "{[":
+                continue
+            try:
+                payload, _ = decoder.raw_decode(text[index:])
+            except json.JSONDecodeError:
+                continue
+            payloads.append(payload)
+        return payloads
+
+    @staticmethod
+    def _json_payload_size(payload: Any) -> int:
+        try:
+            return len(json.dumps(payload, ensure_ascii=False))
+        except (TypeError, ValueError):
+            return 0
+
+    @staticmethod
+    def _save_autocli_raw_output(command: list[str], cache_path: Path, stdout: str, stderr: str, reason: str) -> None:
+        debug_dir = ROOT / "logs" / "autocli_raw"
+        debug_dir.mkdir(parents=True, exist_ok=True)
+        stamp = datetime.now(timezone.utc).strftime("%Y%m%d-%H%M%S")
+        safe_reason = safe_json_filename(reason) or "autocli"
+        base = f"{stamp}-{safe_json_filename(cache_path.stem)}-{safe_reason}"
+        metadata = {
+            "reason": reason,
+            "cache_path": str(cache_path),
+            "command": command,
+            "stdout_bytes": len((stdout or "").encode("utf-8", errors="replace")),
+            "stderr_bytes": len((stderr or "").encode("utf-8", errors="replace")),
+        }
+        (debug_dir / f"{base}.meta.json").write_text(json.dumps(metadata, ensure_ascii=False, indent=2), encoding="utf-8")
+        (debug_dir / f"{base}.stdout.txt").write_text(stdout or "", encoding="utf-8", errors="replace")
+        (debug_dir / f"{base}.stderr.txt").write_text(stderr or "", encoding="utf-8", errors="replace")
+        LOGGER.error("Saved raw AutoCLI output for inspection: %s", debug_dir / f"{base}.*")
+
+    def _run_command_with_timeout(self, command: list[str]) -> tuple[str, str]:
+        creationflags = subprocess.CREATE_NEW_PROCESS_GROUP if os.name == "nt" else 0
+        use_shell = os.name == "nt"
+        popen_command: list[str] | str = self._windows_shell_join(command) if use_shell else command
+        start_time = time.monotonic()
+        stdout_fd, stdout_name = tempfile.mkstemp(prefix="autocli-stdout-", suffix=".log")
+        stderr_fd, stderr_name = tempfile.mkstemp(prefix="autocli-stderr-", suffix=".log")
+        os.close(stdout_fd)
+        os.close(stderr_fd)
+        stdout_path = Path(stdout_name)
+        stderr_path = Path(stderr_name)
+        timed_out = False
+        try:
+            with stdout_path.open("w", encoding="utf-8", errors="replace") as stdout_file, stderr_path.open(
+                "w", encoding="utf-8", errors="replace"
+            ) as stderr_file:
+                process = subprocess.Popen(
+                    popen_command,
+                    stdout=stdout_file,
+                    stderr=stderr_file,
+                    creationflags=creationflags,
+                    shell=use_shell,
+                )
+                LOGGER.info("AutoCLI started with PID %s", process.pid)
+                deadline = start_time + self.timeout_seconds
+                while process.poll() is None:
+                    remaining = deadline - time.monotonic()
+                    if remaining <= 0:
+                        timed_out = True
+                        self._kill_process_tree(process)
+                        try:
+                            process.wait(timeout=5)
+                        except subprocess.TimeoutExpired:
+                            process.kill()
+                            process.wait()
+                        break
+                    try:
+                        process.wait(timeout=min(15, remaining))
+                    except subprocess.TimeoutExpired:
+                        LOGGER.info("AutoCLI still running after %.0fs (PID %s)", time.monotonic() - start_time, process.pid)
+
+            stdout = stdout_path.read_text(encoding="utf-8", errors="replace")
+            stderr = stderr_path.read_text(encoding="utf-8", errors="replace")
+            elapsed = time.monotonic() - start_time
+            if timed_out:
+                LOGGER.error("AutoCLI timed out after %s seconds: %s", self.timeout_seconds, " ".join(command))
+                if stdout:
+                    LOGGER.error("AutoCLI stdout before timeout:\n%s", stdout[-4000:])
+                if stderr:
+                    LOGGER.error("AutoCLI stderr before timeout:\n%s", stderr[-4000:])
+                raise AutoCLITimeoutError(
+                    f"AutoCLI timed out after {self.timeout_seconds} seconds",
+                    stdout=stdout,
+                    stderr=stderr,
+                )
+
+            LOGGER.info("AutoCLI exited with code %s in %.1fs", process.returncode, elapsed)
+            if process.returncode != 0:
+                raise subprocess.CalledProcessError(process.returncode, command, output=stdout, stderr=stderr)
+            return stdout, stderr
+        finally:
+            for temp_path in (stdout_path, stderr_path):
+                try:
+                    if temp_path.exists():
+                        temp_path.unlink()
+                except OSError:
+                    LOGGER.debug("Could not remove temp AutoCLI log file: %s", temp_path)
+
+    @staticmethod
+    def _kill_process_tree(process: subprocess.Popen[str]) -> None:
+        if process.poll() is not None:
+            return
+        if os.name == "nt":
+            subprocess.run(
+                ["taskkill", "/F", "/T", "/PID", str(process.pid)],
+                stdout=subprocess.DEVNULL,
+                stderr=subprocess.DEVNULL,
+                check=False,
+            )
+            if process.poll() is None:
+                process.kill()
+            return
+        process.kill()
+
+    @staticmethod
+    def _quote_command_token(token: str) -> str:
+        token = token.strip()
+        if not token:
+            return "autocli"
+        if len(token) >= 2 and token[0] in {"'", '"'} and token[-1] == token[0]:
+            return token
+        if os.name == "nt":
+            return subprocess.list2cmdline([token])
+        return shlex.quote(token)
+
+    @staticmethod
+    def _windows_shell_join(command: list[str]) -> str:
+        parts: list[str] = []
+        for arg in command:
+            quoted = subprocess.list2cmdline([arg])
+            if not quoted.startswith('"') and re.search(r'[&|<>^()]', arg):
+                quoted = f'"{arg}"'
+            parts.append(quoted)
+        return " ".join(parts)
+
+    def _log_autocli_resolution(self) -> None:
+        executable = self.autocli_path.strip().strip('"').strip("'")
+        if Path(executable).is_file():
+            LOGGER.info("Using AutoCLI executable: %s", executable)
+            return
+        resolved = shutil.which(executable)
+        if resolved:
+            LOGGER.info("Using AutoCLI executable from PATH: %s", resolved)
+            return
+        LOGGER.warning(
+            "AutoCLI executable was not found on PATH: %s. Set AUTOCLI_PATH to the full autocli executable path.",
+            executable,
+        )
 
     @staticmethod
     def _format_command(template: str, **values: str) -> list[str]:
@@ -2200,6 +2443,7 @@ def run_pipeline(args: argparse.Namespace) -> int:
             timeout_seconds=args.timeout,
             bestsellers_command_template=args.autocli_bestsellers_command,
             product_command_template=args.autocli_product_command,
+            autocli_path=args.autocli_path,
         )
         generator = ContentGenerator(model=args.model, base_url=args.base_url, api_key=args.api_key)
         exporter = MarkdownExporter()
@@ -2209,6 +2453,8 @@ def run_pipeline(args: argparse.Namespace) -> int:
             LOGGER.info("No pending categories found. Nothing to do.")
             return 0
 
+        success_count = 0
+        failed_count = 0
         for task in batch:
             try:
                 related_articles = task_manager.get_related_articles(task, limit=args.related_limit)
@@ -2217,9 +2463,16 @@ def run_pipeline(args: argparse.Namespace) -> int:
                 article_path, article_url, title = exporter.export(task, markdown, products=products)
                 task_manager.mark_completed(task.node_id, article_path=article_path, article_url=article_url, title=title)
                 LOGGER.info("Completed category %s", task.node_id)
+                success_count += 1
             except Exception as exc:
                 LOGGER.exception("Failed category %s: %s", task.node_id, exc)
                 task_manager.mark_failed(task.node_id)
+                failed_count += 1
+        if failed_count and not success_count:
+            LOGGER.error("All %s claimed categories failed; stopping with exit code 1", failed_count)
+            return 1
+        if failed_count:
+            LOGGER.warning("Completed %s categories with %s failures", success_count, failed_count)
         return 0
     finally:
         task_manager.close()
@@ -2237,6 +2490,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--top-n", type=int, default=20, help="Top ASINs to fetch from each bestseller page")
     parser.add_argument("--min-products", type=int, default=10, help="Minimum successful product details per category")
     parser.add_argument("--related-limit", type=int, default=5, help="Completed articles to offer as internal-link candidates")
+    parser.add_argument("--autocli-path", default=os.environ.get("AUTOCLI_PATH"), help="Full path to autocli if it is not on PATH")
     parser.add_argument("--autocli-bestsellers-command", default=os.environ.get("AUTOCLI_BESTSELLERS_COMMAND"), help='Command template, e.g. "autocli amazon bestsellers {url} -f json"')
     parser.add_argument("--autocli-product-command", default=os.environ.get("AUTOCLI_PRODUCT_COMMAND"), help='Command template, e.g. "autocli amazon product {asin} -f json"')
     parser.add_argument("--timeout", type=int, default=180, help="AutoCLI timeout in seconds per request")

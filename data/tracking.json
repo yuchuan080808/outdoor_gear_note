@@ -1,111 +1,15 @@
 {
   "version": 1,
-  "last_synced": "2026-05-19T23:31:37+00:00",
+  "last_synced": "2026-05-20T14:45:15+00:00",
   "categories": [
-    {
-      "node_id": "2975314011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Backpacks, Bags & Accessories > Backpacks",
-      "category_name": "Backpacks",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/2975314011",
-      "section": "camping-hiking",
-      "status": "completed",
-      "last_updated": "2026-05-19T23:35:54+00:00",
-      "article_path": "content\\camping-hiking\\best-backpacks.md",
-      "article_url": "/camping-hiking/best-backpacks/",
-      "article_title": "Best Hiking Backpacks for Day Hikes, Travel, and Gear Fit"
-    },
-    {
-      "node_id": "3143613011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camping Furniture > Cots & Hammocks > Cots",
-      "category_name": "Cots",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3143613011",
-      "section": "camping-hiking",
-      "status": "completed",
-      "last_updated": "2026-05-19T23:40:11+00:00",
-      "article_path": "content\\camping-hiking\\best-cots.md",
-      "article_url": "/camping-hiking/best-cots/",
-      "article_title": "Best Cots for Camping Sleep Comfort and Packability"
-    },
-    {
-      "node_id": "3143614011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camping Furniture > Cots & Hammocks > Hammocks",
-      "category_name": "Hammocks",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3143614011",
-      "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
-    {
-      "node_id": "3258961011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Camping Cookware > Pots, Pans & Griddles",
-      "category_name": "Pots, Pans & Griddles",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3258961011",
-      "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
-    {
-      "node_id": "3258963011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Tents & Shelters > Camping Shelters > Sun Shelters",
-      "category_name": "Sun Shelters",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3258963011",
-      "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
-    {
-      "node_id": "3400441",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Backpacks, Bags & Accessories > Backpack Accessories > Pack Covers",
-      "category_name": "Pack Covers",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400441",
-      "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
-    {
-      "node_id": "3400451",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Backpacks, Bags & Accessories > Backpack Accessories > Pack Pockets",
-      "category_name": "Pack Pockets",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400451",
-      "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
-    {
-      "node_id": "3400461",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Backpacks, Bags & Accessories > Backpack Accessories > Reservoirs",
-      "category_name": "Reservoirs",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400461",
-      "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
-    {
-      "node_id": "3400471",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Backpacks, Bags & Accessories > Backpacking Packs > Hiking Daypacks",
-      "category_name": "Hiking Daypacks",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400471",
-      "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
-    {
-      "node_id": "3400481",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Backpacks, Bags & Accessories > Backpacking Packs > External Frame Backpacks",
-      "category_name": "External Frame Backpacks",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400481",
-      "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
     {
       "node_id": "3400491",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Backpacks, Bags & Accessories > Backpacking Packs > Internal Frame Backpacks",
       "category_name": "Internal Frame Backpacks",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400491",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "failed",
+      "last_updated": "2026-05-20T14:45:38+00:00"
     },
     {
       "node_id": "3400511",
@@ -113,8 +17,11 @@
       "category_name": "Hiking Backpacks",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400511",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-05-20T14:53:39+00:00",
+      "article_path": "content\\camping-hiking\\best-hiking-backpacks.md",
+      "article_url": "/camping-hiking/best-hiking-backpacks/",
+      "article_title": "Best Hiking Backpacks for Hiking Carry Comfort and Gear Organization"
     },
     {
       "node_id": "3400541",
@@ -637,6 +544,102 @@
       "article_path": "content\\camping-hiking\\best-handheld-flashlights.md",
       "article_url": "/camping-hiking/best-handheld-flashlights/",
       "article_title": "Best Handheld Flashlights: Buying Guide and Buyer Cautions"
+    },
+    {
+      "node_id": "2975314011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Backpacks, Bags & Accessories > Backpacks",
+      "category_name": "Backpacks",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/2975314011",
+      "section": "camping-hiking",
+      "status": "completed",
+      "last_updated": "2026-05-19T23:35:54+00:00",
+      "article_path": "content\\camping-hiking\\best-backpacks.md",
+      "article_url": "/camping-hiking/best-backpacks/",
+      "article_title": "Best Hiking Backpacks for Day Hikes, Travel, and Gear Fit"
+    },
+    {
+      "node_id": "3143613011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camping Furniture > Cots & Hammocks > Cots",
+      "category_name": "Cots",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3143613011",
+      "section": "camping-hiking",
+      "status": "completed",
+      "last_updated": "2026-05-19T23:40:11+00:00",
+      "article_path": "content\\camping-hiking\\best-cots.md",
+      "article_url": "/camping-hiking/best-cots/",
+      "article_title": "Best Cots for Camping Sleep Comfort and Packability"
+    },
+    {
+      "node_id": "3143614011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camping Furniture > Cots & Hammocks > Hammocks",
+      "category_name": "Hammocks",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3143614011",
+      "section": "camping-hiking",
+      "status": "pending",
+      "last_updated": "2026-05-20T14:06:01+00:00"
+    },
+    {
+      "node_id": "3258961011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Camping Cookware > Pots, Pans & Griddles",
+      "category_name": "Pots, Pans & Griddles",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3258961011",
+      "section": "camping-hiking",
+      "status": "pending",
+      "last_updated": "2026-05-20T14:06:01+00:00"
+    },
+    {
+      "node_id": "3258963011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Tents & Shelters > Camping Shelters > Sun Shelters",
+      "category_name": "Sun Shelters",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3258963011",
+      "section": "camping-hiking",
+      "status": "pending",
+      "last_updated": "2026-05-20T14:16:24+00:00"
+    },
+    {
+      "node_id": "3400441",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Backpacks, Bags & Accessories > Backpack Accessories > Pack Covers",
+      "category_name": "Pack Covers",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400441",
+      "section": "camping-hiking",
+      "status": "pending",
+      "last_updated": "2026-05-20T14:16:24+00:00"
+    },
+    {
+      "node_id": "3400451",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Backpacks, Bags & Accessories > Backpack Accessories > Pack Pockets",
+      "category_name": "Pack Pockets",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400451",
+      "section": "camping-hiking",
+      "status": "pending",
+      "last_updated": "2026-05-20T14:23:49+00:00"
+    },
+    {
+      "node_id": "3400461",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Backpacks, Bags & Accessories > Backpack Accessories > Reservoirs",
+      "category_name": "Reservoirs",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400461",
+      "section": "camping-hiking",
+      "status": "pending",
+      "last_updated": "2026-05-20T14:23:49+00:00"
+    },
+    {
+      "node_id": "3400471",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Backpacks, Bags & Accessories > Backpacking Packs > Hiking Daypacks",
+      "category_name": "Hiking Daypacks",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400471",
+      "section": "camping-hiking",
+      "status": "pending",
+      "last_updated": "2026-05-20T14:45:15+00:00"
+    },
+    {
+      "node_id": "3400481",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Backpacks, Bags & Accessories > Backpacking Packs > External Frame Backpacks",
+      "category_name": "External Frame Backpacks",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400481",
+      "section": "camping-hiking",
+      "status": "pending",
+      "last_updated": "2026-05-20T14:45:15+00:00"
     },
     {
       "node_id": "10208170011",
