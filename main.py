@@ -2076,7 +2076,7 @@ class GeneratedArticleEnhancer:
     def _remove_feedback_summaries(cls, markdown_body: str) -> str:
         """Remove previously inserted feedback tables, including partial rows from older runs."""
         summary_rows = re.compile(
-            r"^\|\s*(?:Signal|:---|Marketplace rating|Positive signal|Pros signal|Evidence depth|Complaint risk|Complaint control|Complaint pressure|Watch-out pressure|Price tier)\s*\|"
+            r"^\|\s*(?:Signal|Marketplace rating|Positive signal|Pros signal|Evidence depth|Complaint risk|Complaint control|Complaint pressure|Watch-out pressure|Price tier)\s*\|"
         )
         lines = markdown_body.splitlines()
         output: list[str] = []
@@ -2202,9 +2202,9 @@ class GeneratedArticleEnhancer:
             "**User Feedback Summary:**\n\n"
             "| Signal | Read |\n"
             "| :--- | :--- |\n"
-            f"| Pros signal | {cls._score_bar(pros_score)} {rating_text} |\n"
-            f"| Evidence depth | {cls._score_bar(evidence_score)} {cls._evidence_text(review_count)} |\n"
-            f"| Complaint pressure | {cls._score_bar(complaint_pressure)} {risk_note} |\n"
+            f"| Pros signal | {cls._score_label(pros_score, 'pros')} - {rating_text} |\n"
+            f"| Evidence depth | {cls._score_label(evidence_score, 'evidence')} - {cls._evidence_text(review_count)} |\n"
+            f"| Complaint pressure | {cls._score_label(complaint_pressure, 'complaint')} - {risk_note} |\n"
             f"| Price tier | {price_tier}; exact Amazon prices change frequently. |"
         )
 
@@ -2226,9 +2226,32 @@ class GeneratedArticleEnhancer:
         return GeneratedArticleEnhancer._clean_text(alt, 145)
 
     @staticmethod
-    def _score_bar(score: int) -> str:
+    def _score_label(score: int, signal: str) -> str:
         score = max(1, min(5, score))
-        return "[" + ("#" * score) + ("-" * (5 - score)) + "]"
+        labels = {
+            "pros": {
+                5: "Excellent buyer signal",
+                4: "Strong buyer signal",
+                3: "Moderate buyer signal",
+                2: "Mixed buyer signal",
+                1: "Weak buyer signal",
+            },
+            "evidence": {
+                5: "Very strong evidence",
+                4: "Strong evidence",
+                3: "Moderate evidence",
+                2: "Thin evidence",
+                1: "Limited evidence",
+            },
+            "complaint": {
+                5: "High complaint pressure",
+                4: "Elevated complaint pressure",
+                3: "Moderate complaint pressure",
+                2: "Low complaint pressure",
+                1: "Very low complaint pressure",
+            },
+        }
+        return labels.get(signal, labels["evidence"])[score]
 
     @staticmethod
     def _pros_score(rating: float | None, review_count: int | None) -> int:
@@ -2285,10 +2308,22 @@ class GeneratedArticleEnhancer:
 
     @staticmethod
     def _risk_note(note: str) -> str:
-        if not note:
+        note = (note or "").strip()
+        if not note or note.upper() == "N/A":
             return "No clear customer-summary complaint signal was available."
-        sentence = re.split(r"(?<=[.!?])\s+", note.strip())[0]
-        return GeneratedArticleEnhancer._clean_text(sentence, 150)
+        complaint_patterns = [
+            r"(?i)\b(?:however|but|while|although)\b[^.!?]*(?:mixed|others|some|report|complain|issue|problem|difficult|hard|leak|break|crack|rip|tear|fail|fragile|small|heavy|overpriced|smell|odor|scratchy|not\s+\w+)[^.!?]*[.!?]?",
+            r"(?i)\b(?:the|its|their)?\s*(?:durability|fit|size|zipper|water resistance|brightness|value|taste|texture|comfort|assembly|weight|odor|smell|battery|leakage)\s+(?:receives?|gets?|is|are)\s+mixed[^.!?]*[.!?]?",
+            r"(?i)\b(?:some|others|several|many)\s+(?:customers|buyers|reviewers|users)?[^.!?]*(?:report|say|note|mention|find|complain)[^.!?]*(?:break|broke|leak|rip|tear|fail|small|heavy|hard|difficult|overpriced|smell|odor|scratchy|not|issue|problem)[^.!?]*[.!?]?",
+        ]
+        for pattern in complaint_patterns:
+            match = re.search(pattern, note)
+            if match:
+                return GeneratedArticleEnhancer._clean_text(match.group(0), 170)
+        if re.search(r"(?i)\b(?:mixed|others report|some report|however|but)\b", note):
+            sentence = re.split(r"(?<=[.!?])\s+", note)[-1]
+            return GeneratedArticleEnhancer._clean_text(sentence, 170)
+        return "No clear recurring complaint theme surfaced in the customer-summary data."
 
     @staticmethod
     def _parse_float(value: Any) -> float | None:

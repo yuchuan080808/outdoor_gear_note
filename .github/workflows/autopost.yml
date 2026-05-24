@@ -9,6 +9,9 @@ on:
       - 'static/**'
       - 'hugo.toml'
       - 'data/**'
+      - 'main.py'
+      - 'normalize_article_content.py'
+      - 'clean_markdown.py'
       - '.github/workflows/autopost.yml'
   workflow_dispatch:
   schedule:
@@ -51,6 +54,14 @@ jobs:
           AUTOCLI_BESTSELLERS_COMMAND: ${{ vars.AUTOCLI_BESTSELLERS_COMMAND }}
           AUTOCLI_PRODUCT_COMMAND: ${{ vars.AUTOCLI_PRODUCT_COMMAND }}
         run: python main.py --batch-size 4 --reset-processing
+
+      - name: Clean generated Markdown
+        if: github.event_name != 'push'
+        run: python clean_markdown.py
+
+      - name: Normalize generated article content
+        if: github.event_name != 'push'
+        run: python normalize_article_content.py
 
       - name: Commit generated content
         if: github.event_name != 'push'
