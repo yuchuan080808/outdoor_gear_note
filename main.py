@@ -594,9 +594,15 @@ class SEOTopicCatalog:
 class SEOResourceLinker:
     """Adds crawlable, contextual internal links and vetted authority links."""
 
-    INTERNAL_LINK_LIMIT = 3
+    INTERNAL_LINK_LIMIT = 4
+    CONTEXTUAL_LINK_LIMIT = 2
+    AUTHORITY_LINK_LIMIT = 2
     RELATED_SECTION_RE = re.compile(
         r"\n*#{2,3}[ \t]+Related Resources[ \t]*\n.*?(?=\n#{2,3}[ \t]+(?:Comparison Table|Deep Reviews|Final Summary)\b|\Z)",
+        re.DOTALL,
+    )
+    CONTEXTUAL_LINK_RE = re.compile(
+        r"\n*<!-- seo-context-links:start -->\n.*?\n<!-- seo-context-links:end -->\n*",
         re.DOTALL,
     )
     INSERT_TARGETS = (
@@ -619,6 +625,18 @@ class SEOResourceLinker:
             url="https://www.weather.gov/safety/",
             note="Weather-safety context for storms, heat, cold, wind, and lightning planning.",
             keywords=("weather", "tent", "shelter", "lightning", "rain", "cold", "heat", "lantern"),
+        ),
+        AuthorityResource(
+            title="USDA food safety while hiking, camping, and boating",
+            url="https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-safety-while-hiking-camping",
+            note="Cold-food, cooler-packing, and camp-kitchen safety guidance from USDA FSIS.",
+            keywords=("cooler", "food", "kitchen", "cook", "stove", "camp", "ice", "lunch", "meal"),
+        ),
+        AuthorityResource(
+            title="CDC water treatment for hiking and camping",
+            url="https://www.cdc.gov/drinking-water/prevention/water-treatment-hiking-camping-traveling.html",
+            note="Public-health guidance for filtering, disinfecting, and boiling backcountry water.",
+            keywords=("water", "filter", "hydration", "canteen", "bottle", "reservoir", "purifier"),
         ),
         AuthorityResource(
             title="Leave No Trace Seven Principles",
@@ -675,7 +693,17 @@ class SEOResourceLinker:
         related_articles: list[PublishedArticle] | None = None,
         current_url: str | None = None,
     ) -> str:
-        body = cls._remove_related_resources(markdown_body)
+        body = cls._remove_contextual_links(cls._remove_related_resources(markdown_body))
+        contextual_articles = cls._rank_related_articles(
+            task,
+            related_articles or [],
+            current_url or cls._url_for(task),
+            body,
+            limit=cls.CONTEXTUAL_LINK_LIMIT,
+            allow_existing=False,
+            min_score=18,
+        )
+        body = cls._insert_contextual_links(body, task, contextual_articles)
         resource_section = cls._build_resource_section(
             task=task,
             related_articles=related_articles or [],
@@ -738,7 +766,16 @@ class SEOResourceLinker:
             section=article.section,
         )
         body_without_resource_section = cls._remove_related_resources(body)
-        related_articles = cls._rank_related_articles(task, all_articles, article.url, body_without_resource_section)
+        body_without_resource_section = cls._remove_contextual_links(body_without_resource_section)
+        related_articles = cls._rank_related_articles(
+            task,
+            all_articles,
+            article.url,
+            body_without_resource_section,
+            limit=cls.INTERNAL_LINK_LIMIT + cls.CONTEXTUAL_LINK_LIMIT,
+            allow_existing=True,
+            min_score=10,
+        )
         updated_body = cls.enrich(body, task, related_articles=related_articles, current_url=article.url).strip()
         if not frontmatter:
             return updated_body + "\n"
@@ -755,14 +792,30 @@ class SEOResourceLinker:
         current_url: str,
     ) -> str:
         lines = []
-        for article in cls._rank_related_articles(task, related_articles, current_url, body)[: cls.INTERNAL_LINK_LIMIT]:
+        internal_articles = cls._rank_related_articles(
+            task,
+            related_articles,
+            current_url,
+            body,
+            limit=cls.INTERNAL_LINK_LIMIT,
+            allow_existing=True,
+            min_score=10,
+        )
+        if internal_articles:
+            lines.append("### Internal Gear Guides")
+        for article in internal_articles:
             lines.append(
-                f"- **Related Guide:** [{article.title}]({article.url}) - "
+                f"- [{article.title}]({article.url}) - "
                 f"{cls._internal_link_note(task, article)}"
             )
 
-        authority = cls._select_authority_resource(task, body)
-        lines.append(f"- **Authority Reference:** [{authority.title}]({authority.url}) - {authority.note}")
+        authority_resources = cls._select_authority_resources(task, body, limit=cls.AUTHORITY_LINK_LIMIT)
+        if authority_resources:
+            if lines:
+                lines.append("")
+            lines.append("### External References")
+        for authority in authority_resources:
+            lines.append(f"- [{authority.title}]({authority.url}) - {authority.note}")
         return "## Related Resources\n\n" + "\n".join(lines)
 
     @classmethod
@@ -772,6 +825,9 @@ class SEOResourceLinker:
         related_articles: list[PublishedArticle],
         current_url: str,
         body: str,
+        limit: int | None = None,
+        allow_existing: bool = False,
+        min_score: int = 1,
     ) -> list[PublishedArticle]:
         existing_urls = cls._extract_link_urls(body)
         task_terms = cls._link_terms(f"{task.category_name} {task.category_path}")
@@ -780,44 +836,101 @@ class SEOResourceLinker:
         for article in related_articles:
             if article.url == current_url:
                 continue
+            if article.url in existing_urls and not allow_existing:
+                continue
             article_terms = cls._link_terms(f"{article.title} {article.category_name} {article.category_path}")
             article_groups = cls._topic_groups(article_terms)
             same_section = 2 if article.section == task.section else 0
             overlap = len(task_terms & article_terms)
             topic_overlap = len(task_groups & article_groups)
             common_path_depth = cls._common_path_depth(task.category_path, article.category_path)
-            score = (overlap * 10) + (topic_overlap * 8) + (common_path_depth * 4) + same_section
+            score = (overlap * 10) + (topic_overlap * 14) + (common_path_depth * 5) + same_section
             if article.url in existing_urls:
-                score -= 3
+                score -= 4
             scored.append((score, article.title, article))
 
-        scored = [item for item in scored if item[0] > 0]
+        scored = [item for item in scored if item[0] >= min_score]
         scored.sort(key=lambda item: (-item[0], item[1]))
-        return [article for _, _, article in scored[: cls.INTERNAL_LINK_LIMIT]]
+        return [article for _, _, article in scored[: (limit or cls.INTERNAL_LINK_LIMIT)]]
 
     @classmethod
-    def _select_authority_resource(cls, task: CategoryTask, body: str) -> AuthorityResource:
-        haystack = f"{task.category_name} {task.category_path}".lower()
+    def _select_authority_resources(cls, task: CategoryTask, body: str, limit: int) -> list[AuthorityResource]:
+        haystack = f"{task.category_name} {task.category_path} {body[:2000]}".lower()
         existing_urls = cls._extract_link_urls(body)
 
         def score(resource: AuthorityResource) -> int:
-            return sum(1 for keyword in resource.keywords if keyword != "default" and keyword in haystack)
+            weighted = 0
+            for keyword in resource.keywords:
+                if keyword == "default":
+                    continue
+                if keyword in haystack:
+                    weighted += 3 if keyword in f"{task.category_name} {task.category_path}".lower() else 1
+            return weighted
 
         ordered = sorted(cls.AUTHORITY_RESOURCES, key=lambda resource: (-score(resource), "default" in resource.keywords))
-        matched = [resource for resource in ordered if score(resource) > 0]
-        for resource in matched:
-            if resource.url not in existing_urls:
-                return resource
-        if matched:
-            return matched[0]
+        selected: list[AuthorityResource] = []
         for resource in ordered:
-            if "default" in resource.keywords and resource.url not in existing_urls:
-                return resource
-        return ordered[0]
+            if resource.url in existing_urls:
+                continue
+            if score(resource) > 0:
+                selected.append(resource)
+            if len(selected) >= limit:
+                return selected
+        for resource in ordered:
+            if resource.url in existing_urls or resource in selected:
+                continue
+            if "default" in resource.keywords:
+                selected.append(resource)
+            if len(selected) >= limit:
+                break
+        if not selected and ordered:
+            selected.append(ordered[0])
+        return selected[:limit]
 
     @classmethod
     def _remove_related_resources(cls, markdown_body: str) -> str:
         return cls._collapse_blank_lines(cls.RELATED_SECTION_RE.sub("\n\n", markdown_body))
+
+    @classmethod
+    def _remove_contextual_links(cls, markdown_body: str) -> str:
+        return cls._collapse_blank_lines(cls.CONTEXTUAL_LINK_RE.sub("\n\n", markdown_body))
+
+    @classmethod
+    def _insert_contextual_links(
+        cls,
+        markdown_body: str,
+        task: CategoryTask,
+        related_articles: list[PublishedArticle],
+    ) -> str:
+        existing_internal_links = [
+            url for url in cls._extract_link_urls(markdown_body)
+            if url.startswith(f"/{task.section}/")
+        ]
+        if len(existing_internal_links) >= cls.CONTEXTUAL_LINK_LIMIT:
+            return markdown_body
+        articles = related_articles[: cls.CONTEXTUAL_LINK_LIMIT]
+        if not articles:
+            return markdown_body
+        linked = [f"[{cls._contextual_anchor(article)}]({article.url})" for article in articles]
+        link_phrase = cls._join_link_phrase(linked)
+        category = cls._clean_anchor_text(task.category_name.lower())
+        paragraph = (
+            "<!-- seo-context-links:start -->\n"
+            f"For adjacent buying decisions, compare {link_phrase} before you finalize your {category} shortlist.\n"
+            "<!-- seo-context-links:end -->"
+        )
+        body = markdown_body.strip()
+        for pattern in (
+            re.compile(r"(?m)^#{2,3}\s+Common Questions Before Buying\b"),
+            re.compile(r"(?m)^#{2,3}\s+Comparison Table\b"),
+            re.compile(r"(?m)^#{2,3}\s+Deep Reviews\b"),
+        ):
+            match = pattern.search(body)
+            if match:
+                prefix = body[: match.start()].rstrip()
+                suffix = body[match.start() :].lstrip()
+                return f"{prefix}\n\n{paragraph}\n\n{suffix}".strip()
+        return f"{body}\n\n{paragraph}".strip()
 
     @classmethod
     def _insert_resource_section(cls, markdown_body: str, resource_section: str) -> str:
@@ -933,7 +1046,27 @@ class SEOResourceLinker:
             )
             if shared_groups:
                 shared_context = shared_groups[0]
-        return f"Compare nearby {shared_context} tradeoffs before you buy."
+        return f"Use this to compare nearby {shared_context} tradeoffs before you buy."
+
+    @classmethod
+    def _contextual_anchor(cls, article: PublishedArticle) -> str:
+        title = article.title.strip()
+        title = re.sub(r"\s*:\s*Buying Guide(?: and Buyer Cautions)?$", "", title, flags=re.IGNORECASE)
+        title = re.sub(r"\s+Buyer Cautions$", "", title, flags=re.IGNORECASE)
+        return cls._clean_anchor_text(title)
+
+    @staticmethod
+    def _clean_anchor_text(value: str) -> str:
+        value = re.sub(r"\s+", " ", value.replace("&", "and")).strip()
+        return value[:90].rsplit(" ", 1)[0].rstrip(".,;:") if len(value) > 90 else value
+
+    @staticmethod
+    def _join_link_phrase(links: list[str]) -> str:
+        if len(links) == 1:
+            return links[0]
+        if len(links) == 2:
+            return f"{links[0]} and {links[1]}"
+        return ", ".join(links[:-1]) + f", and {links[-1]}"
 
     @staticmethod
     def _shared_context(left: str, right: str) -> str:

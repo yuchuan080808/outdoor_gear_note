@@ -12,7 +12,7 @@ keywords:
   - "warmth"
 slug: "best-cots"
 date: "2026-05-19T23:40:11+00:00"
-lastmod: "2026-05-24T01:18:13+00:00"
+lastmod: "2026-05-24T01:25:49+00:00"
 draft: false
 categories:
   - "Camping & Hiking"
@@ -159,8 +159,12 @@ Noise, zipper feel, width, support, inflation or setup effort, and how easily th
 
 ## Related Resources
 
-- **Related Guide:** [Best Casual Daypacks for Hiking Carry Comfort and Gear Organization](/camping-hiking/best-casual-daypacks/) - Compare nearby outdoor gear tradeoffs before you buy.
-- **Authority Reference:** [REI Expert Advice on the Ten Essentials](https://www.rei.com/learn/expert-advice/ten-essentials.html) - Practical checklist context for packing and evaluating outdoor gear systems.
+### Internal Gear Guides
+- [Best Blankets for Camping Sleep Comfort and Packability](/camping-hiking/best-blankets/) - Use this to compare nearby camp sleep systems tradeoffs before you buy.
+
+### External References
+- [REI Expert Advice on the Ten Essentials](https://www.rei.com/learn/expert-advice/ten-essentials.html) - Practical checklist context for packing and evaluating outdoor gear systems.
+- [USDA food safety while hiking, camping, and boating](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-safety-while-hiking-camping) - Cold-food, cooler-packing, and camp-kitchen safety guidance from USDA FSIS.
 
 ## Comparison Table
 

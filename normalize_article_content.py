@@ -11,7 +11,7 @@ from __future__ import annotations
 import re
 from pathlib import Path
 
-from main import GeneratedArticleEnhancer, OUTPUT_DIR, PRODUCT_CACHE
+from main import GeneratedArticleEnhancer, OUTPUT_DIR, PRODUCT_CACHE, SEOArticleOptimizer, SEOResourceLinker
 
 
 SCORE_BAR_RE = re.compile(r"(\|\s*(Pros signal|Evidence depth|Complaint pressure)\s*\|\s*)\[([#-]{5})\]\s*")
@@ -78,8 +78,13 @@ def fallback_normalize_content(content_dir: Path = OUTPUT_DIR) -> int:
 
 def main() -> int:
     refreshed = GeneratedArticleEnhancer.refresh_existing_content(OUTPUT_DIR, PRODUCT_CACHE)
+    seo_refreshed = SEOArticleOptimizer.refresh_existing_content(OUTPUT_DIR)
+    link_refreshed = SEOResourceLinker.refresh_existing_content(OUTPUT_DIR)
     fallback_fixed = fallback_normalize_content(OUTPUT_DIR)
-    print(f"Normalized generated article content: refreshed={refreshed}, fallback_fixed={fallback_fixed}")
+    print(
+        "Normalized generated article content: "
+        f"feedback={refreshed}, seo={seo_refreshed}, links={link_refreshed}, fallback_fixed={fallback_fixed}"
+    )
     return 0
 
 

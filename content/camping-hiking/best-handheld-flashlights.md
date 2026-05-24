@@ -12,7 +12,7 @@ keywords:
   - "tent light"
 slug: "best-handheld-flashlights"
 date: "2026-05-18T14:08:40+00:00"
-lastmod: "2026-05-24T01:19:12+00:00"
+lastmod: "2026-05-24T01:25:49+00:00"
 draft: false
 categories:
   - "Camping & Hiking"
@@ -152,8 +152,12 @@ Water resistance, secure hanging or hands-free use, reliable switches, and a bat
 
 ## Related Resources
 
-- **Related Guide:** [Best Hands Free Flashlights: Buying Guide and Buyer Cautions](/camping-hiking/best-hands-free-flashlights/) - Compare nearby flashlights tradeoffs before you buy.
-- **Authority Reference:** [Weather.gov outdoor safety guidance](https://www.weather.gov/safety/) - Weather-safety context for storms, heat, cold, wind, and lightning planning.
+### Internal Gear Guides
+- [Best Hands Free Flashlights: Buying Guide and Buyer Cautions](/camping-hiking/best-hands-free-flashlights/) - Use this to compare nearby flashlights tradeoffs before you buy.
+
+### External References
+- [Weather.gov outdoor safety guidance](https://www.weather.gov/safety/) - Weather-safety context for storms, heat, cold, wind, and lightning planning.
+- [REI Expert Advice on the Ten Essentials](https://www.rei.com/learn/expert-advice/ten-essentials.html) - Practical checklist context for packing and evaluating outdoor gear systems.
 
 ## Comparison Table
 

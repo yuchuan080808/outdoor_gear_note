@@ -9,7 +9,7 @@ keywords:
   - "cooler buying guide"
 slug: "best-coolers"
 date: "2026-05-17T04:34:05+00:00"
-lastmod: "2026-05-24T01:18:13+00:00"
+lastmod: "2026-05-24T01:25:49+00:00"
 draft: false
 categories:
   - "Camping & Hiking"
@@ -155,9 +155,12 @@ Pre-chill the cooler, use block ice when possible, limit warm items, keep it sha
 
 ## Related Resources
 
-- **Related Guide:** [Best Cooler Accessories for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-cooler-accessories/) - Compare nearby camp kitchen tradeoffs before you buy.
-- **Related Guide:** [Best Blankets for Camping Sleep Comfort and Packability](/camping-hiking/best-blankets/) - Compare nearby outdoor gear tradeoffs before you buy.
-- **Authority Reference:** [Leave No Trace Seven Principles](https://lnt.org/why/7-principles/) - Low-impact camping guidance for campsites, cooking, waste, fires, and shared outdoor spaces.
+### Internal Gear Guides
+- [Best Cooler Accessories for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-cooler-accessories/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
+
+### External References
+- [USDA food safety while hiking, camping, and boating](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-safety-while-hiking-camping) - Cold-food, cooler-packing, and camp-kitchen safety guidance from USDA FSIS.
+- [Leave No Trace Seven Principles](https://lnt.org/why/7-principles/) - Low-impact camping guidance for campsites, cooking, waste, fires, and shared outdoor spaces.
 
 ## Comparison Table
 
