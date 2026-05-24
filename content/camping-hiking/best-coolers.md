@@ -9,7 +9,7 @@ keywords:
   - "cooler buying guide"
 slug: "best-coolers"
 date: "2026-05-17T04:34:05+00:00"
-lastmod: "2026-05-24T01:25:49+00:00"
+lastmod: "2026-05-24T11:39:56+00:00"
 draft: false
 categories:
   - "Camping & Hiking"
@@ -157,6 +157,8 @@ Pre-chill the cooler, use block ice when possible, limit warm items, keep it sha
 
 ### Internal Gear Guides
 - [Best Cooler Accessories for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-cooler-accessories/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
+- [Best Cooking Utensils for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-cooking-utensils/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
+- [Best Open Fire Cookware for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-open-fire-cookware/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
 
 ### External References
 - [USDA food safety while hiking, camping, and boating](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-safety-while-hiking-camping) - Cold-food, cooler-packing, and camp-kitchen safety guidance from USDA FSIS.
