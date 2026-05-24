@@ -1,36 +1,18 @@
 {
   "version": 1,
-  "last_synced": "2026-05-20T14:45:15+00:00",
+  "last_synced": "2026-05-24T00:58:45+00:00",
   "categories": [
-    {
-      "node_id": "3400491",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Backpacks, Bags & Accessories > Backpacking Packs > Internal Frame Backpacks",
-      "category_name": "Internal Frame Backpacks",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400491",
-      "section": "camping-hiking",
-      "status": "failed",
-      "last_updated": "2026-05-20T14:45:38+00:00"
-    },
-    {
-      "node_id": "3400511",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Backpacks, Bags & Accessories > Hiking Backpacks",
-      "category_name": "Hiking Backpacks",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400511",
-      "section": "camping-hiking",
-      "status": "completed",
-      "last_updated": "2026-05-20T14:53:39+00:00",
-      "article_path": "content\\camping-hiking\\best-hiking-backpacks.md",
-      "article_url": "/camping-hiking/best-hiking-backpacks/",
-      "article_title": "Best Hiking Backpacks for Hiking Carry Comfort and Gear Organization"
-    },
     {
       "node_id": "3400541",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Backpacks, Bags & Accessories > Daypacks & Casual Bags > Waist Packs",
       "category_name": "Waist Packs",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400541",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-05-24T01:03:26+00:00",
+      "article_path": "content\\camping-hiking\\best-waist-packs.md",
+      "article_url": "/camping-hiking/best-waist-packs/",
+      "article_title": "Best Waist Packs for Hiking Carry Comfort and Gear Organization"
     },
     {
       "node_id": "3400551",
@@ -38,8 +20,11 @@
       "category_name": "Hydration Packs",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400551",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-05-24T01:07:25+00:00",
+      "article_path": "content\\camping-hiking\\best-hydration-packs.md",
+      "article_url": "/camping-hiking/best-hydration-packs/",
+      "article_title": "Best Hydration Packs: Buying Guide and Buyer Cautions"
     },
     {
       "node_id": "3400591",
@@ -640,6 +625,27 @@
       "section": "camping-hiking",
       "status": "pending",
       "last_updated": "2026-05-20T14:45:15+00:00"
+    },
+    {
+      "node_id": "3400491",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Backpacks, Bags & Accessories > Backpacking Packs > Internal Frame Backpacks",
+      "category_name": "Internal Frame Backpacks",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400491",
+      "section": "camping-hiking",
+      "status": "failed",
+      "last_updated": "2026-05-20T14:45:38+00:00"
+    },
+    {
+      "node_id": "3400511",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Backpacks, Bags & Accessories > Hiking Backpacks",
+      "category_name": "Hiking Backpacks",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400511",
+      "section": "camping-hiking",
+      "status": "completed",
+      "last_updated": "2026-05-20T14:53:39+00:00",
+      "article_path": "content\\camping-hiking\\best-hiking-backpacks.md",
+      "article_url": "/camping-hiking/best-hiking-backpacks/",
+      "article_title": "Best Hiking Backpacks for Hiking Carry Comfort and Gear Organization"
     },
     {
       "node_id": "10208170011",
