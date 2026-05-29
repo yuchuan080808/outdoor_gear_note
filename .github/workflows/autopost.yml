@@ -1,4 +1,4 @@
-name: Outdoor Gear Auto Post and Deploy
+name: Outdoor Gear Build and Deploy
 
 on:
   push:
@@ -7,15 +7,13 @@ on:
       - 'content/**'
       - 'layouts/**'
       - 'static/**'
-      - 'hugo.toml'
+      - 'assets/**'
       - 'data/**'
-      - 'main.py'
-      - 'normalize_article_content.py'
-      - 'clean_markdown.py'
+      - 'themes/**'
+      - 'config/**'
+      - 'hugo.toml'
       - '.github/workflows/autopost.yml'
   workflow_dispatch:
-  schedule:
-    - cron: '0 0 * * 1'
 
 permissions:
   contents: write
@@ -25,7 +23,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  autopost:
+  build-deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -33,53 +31,10 @@ jobs:
           submodules: true
           fetch-depth: 0
 
-      - uses: actions/setup-python@v5
-        if: github.event_name != 'push'
-        with:
-          python-version: '3.11'
-
-      - name: Install Python dependencies
-        if: github.event_name != 'push'
-        run: pip install -r requirements.txt
-
-      - name: Run content pipeline
-        if: github.event_name != 'push'
-        env:
-          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
-          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
-          LLM_MODEL: ${{ secrets.LLM_MODEL }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_BASE_URL: ${{ secrets.GEMINI_BASE_URL }}
-          GEMINI_MODEL: ${{ secrets.GEMINI_MODEL }}
-          AUTOCLI_BESTSELLERS_COMMAND: ${{ vars.AUTOCLI_BESTSELLERS_COMMAND }}
-          AUTOCLI_PRODUCT_COMMAND: ${{ vars.AUTOCLI_PRODUCT_COMMAND }}
-        run: python main.py --batch-size 4 --reset-processing
-
-      - name: Clean generated Markdown
-        if: github.event_name != 'push'
-        run: python clean_markdown.py
-
-      - name: Normalize generated article content
-        if: github.event_name != 'push'
-        run: python normalize_article_content.py
-
-      - name: Commit generated content
-        if: github.event_name != 'push'
-        run: |
-          if [ -n "$(git status --porcelain content data)" ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add content data
-            git commit -m "chore: auto-generate outdoor gear posts"
-            git push
-          else
-            echo "No generated content changes to commit."
-          fi
-
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.161.1'
           extended: true
 
       - name: Install Stack theme
