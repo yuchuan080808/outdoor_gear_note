@@ -12,7 +12,7 @@ keywords:
   - "warmth"
 slug: "best-blankets"
 date: "2026-05-17T04:26:09+00:00"
-lastmod: "2026-05-24T11:39:56+00:00"
+lastmod: "2026-05-29T14:05:26+00:00"
 draft: false
 categories:
   - "Camping & Hiking"

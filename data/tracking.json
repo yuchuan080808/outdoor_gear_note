@@ -1,39 +1,15 @@
 {
   "version": 1,
-  "last_synced": "2026-05-24T11:32:37+00:00",
+  "last_synced": "2026-05-29T13:58:20+00:00",
   "categories": [
-    {
-      "node_id": "3400591",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Camping Cookware > Open Fire Cookware",
-      "category_name": "Open Fire Cookware",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400591",
-      "section": "camping-hiking",
-      "status": "completed",
-      "last_updated": "2026-05-24T11:36:23+00:00",
-      "article_path": "content\\camping-hiking\\best-open-fire-cookware.md",
-      "article_url": "/camping-hiking/best-open-fire-cookware/",
-      "article_title": "Best Open Fire Cookware for Camp Kitchen Setup and Meal Prep"
-    },
-    {
-      "node_id": "3400601",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Cooking Utensils",
-      "category_name": "Cooking Utensils",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400601",
-      "section": "camping-hiking",
-      "status": "completed",
-      "last_updated": "2026-05-24T11:39:56+00:00",
-      "article_path": "content\\camping-hiking\\best-cooking-utensils.md",
-      "article_url": "/camping-hiking/best-cooking-utensils/",
-      "article_title": "Best Cooking Utensils for Camp Kitchen Setup and Meal Prep"
-    },
     {
       "node_id": "3400711",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Dishes & Utensils > Bowls",
       "category_name": "Bowls",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400711",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "failed",
+      "last_updated": "2026-05-29T13:58:40+00:00"
     },
     {
       "node_id": "3400721",
@@ -41,8 +17,11 @@
       "category_name": "Coffee & Tea Pots",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400721",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-05-29T14:05:25+00:00",
+      "article_path": "content\\camping-hiking\\best-coffee-tea-pots.md",
+      "article_url": "/camping-hiking/best-coffee-tea-pots/",
+      "article_title": "Best Coffee and Tea Pots for Camp Kitchen Setup and Meal Prep"
     },
     {
       "node_id": "3400731",
@@ -652,6 +631,30 @@
       "article_path": "content\\camping-hiking\\best-hydration-packs.md",
       "article_url": "/camping-hiking/best-hydration-packs/",
       "article_title": "Best Hydration Packs: Buying Guide and Buyer Cautions"
+    },
+    {
+      "node_id": "3400591",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Camping Cookware > Open Fire Cookware",
+      "category_name": "Open Fire Cookware",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400591",
+      "section": "camping-hiking",
+      "status": "completed",
+      "last_updated": "2026-05-24T11:36:23+00:00",
+      "article_path": "content\\camping-hiking\\best-open-fire-cookware.md",
+      "article_url": "/camping-hiking/best-open-fire-cookware/",
+      "article_title": "Best Open Fire Cookware for Camp Kitchen Setup and Meal Prep"
+    },
+    {
+      "node_id": "3400601",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Cooking Utensils",
+      "category_name": "Cooking Utensils",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400601",
+      "section": "camping-hiking",
+      "status": "completed",
+      "last_updated": "2026-05-24T11:39:56+00:00",
+      "article_path": "content\\camping-hiking\\best-cooking-utensils.md",
+      "article_url": "/camping-hiking/best-cooking-utensils/",
+      "article_title": "Best Cooking Utensils for Camp Kitchen Setup and Meal Prep"
     },
     {
       "node_id": "10208170011",
