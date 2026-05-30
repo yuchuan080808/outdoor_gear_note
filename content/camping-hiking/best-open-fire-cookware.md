@@ -15,7 +15,7 @@ date: "2026-05-24T11:36:23+00:00"
 lastmod: "2026-05-30T03:51:26+00:00"
 draft: false
 categories:
-  - "Camping & Hiking"
+  - "Camp Kitchen"
 tags:
   - "camping-hiking"
   - "open fire cookware"

@@ -3,7 +3,9 @@ locale = 'en-US'
 title = 'Outdoor Gear Notes'
 theme = 'hugo-theme-stack'
 enableRobotsTXT = true
-disableKinds = ['taxonomy', 'term']
+
+[taxonomies]
+category = 'categories'
 
 [params]
 env = 'production'
@@ -45,5 +47,53 @@ name = 'Camping & Hiking'
 url = '/camping-hiking/'
 weight = 20
 identifier = 'camping-hiking'
+  [menu.main.params]
+  icon = 'categories'
+
+[[menu.main]]
+name = 'Camp Kitchen'
+url = '/categories/camp-kitchen/'
+weight = 30
+identifier = 'camp-kitchen'
+  [menu.main.params]
+  icon = 'categories'
+
+[[menu.main]]
+name = 'Packs and Bags'
+url = '/categories/packs-and-bags/'
+weight = 40
+identifier = 'packs-and-bags'
+  [menu.main.params]
+  icon = 'categories'
+
+[[menu.main]]
+name = 'Camp Sleep'
+url = '/categories/camp-sleep/'
+weight = 50
+identifier = 'camp-sleep'
+  [menu.main.params]
+  icon = 'categories'
+
+[[menu.main]]
+name = 'Lighting'
+url = '/categories/lighting/'
+weight = 60
+identifier = 'lighting'
+  [menu.main.params]
+  icon = 'categories'
+
+[[menu.main]]
+name = 'Water and Hydration'
+url = '/categories/water-and-hydration/'
+weight = 70
+identifier = 'water-and-hydration'
+  [menu.main.params]
+  icon = 'categories'
+
+[[menu.main]]
+name = 'Camp Furniture'
+url = '/categories/camp-furniture/'
+weight = 80
+identifier = 'camp-furniture'
   [menu.main.params]
   icon = 'categories'

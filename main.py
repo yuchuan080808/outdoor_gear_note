@@ -130,6 +130,134 @@ def section_label(section: str) -> str:
     return "Camping & Hiking" if section == "camping-hiking" else "Outdoor Recreation"
 
 
+CATEGORY_GROUP_RULES: tuple[tuple[str, tuple[str, ...]], ...] = (
+    (
+        "Camp Kitchen",
+        (
+            "camp kitchen",
+            "camping cookware",
+            "cookware",
+            "cooler",
+            "coffee & tea",
+            "cooking utensil",
+            "dishes & utensils",
+            "flatware",
+            "stove",
+            "grill",
+            "meal",
+        ),
+    ),
+    (
+        "Packs and Bags",
+        (
+            "backpacks, bags",
+            "backpacking pack",
+            "backpack",
+            "daypack",
+            "waist pack",
+            "fanny pack",
+            "duffel",
+            "dry bag",
+            "carry",
+        ),
+    ),
+    (
+        "Water and Hydration",
+        (
+            "hydration",
+            "water filter",
+            "water purifier",
+            "water bottle",
+            "canteen",
+            "reservoir",
+        ),
+    ),
+    (
+        "Camp Sleep",
+        (
+            "sleeping bag",
+            "camp bedding",
+            "blanket",
+            "sleeping pad",
+            "cot",
+            "hammock",
+            "pillow",
+        ),
+    ),
+    (
+        "Camp Furniture",
+        (
+            "camping furniture",
+            "camp chair",
+            "camp table",
+            "cots & hammocks",
+            "cot",
+            "hammock",
+        ),
+    ),
+    (
+        "Lighting",
+        (
+            "lights & lanterns",
+            "flashlight",
+            "headlamp",
+            "lantern",
+            "camp light",
+        ),
+    ),
+    (
+        "Shelter and Weather",
+        (
+            "tent",
+            "shelter",
+            "tarp",
+            "canopy",
+            "rain fly",
+            "footprint",
+            "sun shelter",
+        ),
+    ),
+    (
+        "Trail Safety",
+        (
+            "first aid",
+            "survival",
+            "emergency",
+            "navigation",
+            "bear",
+            "insect",
+            "sunscreen",
+            "safety",
+        ),
+    ),
+)
+
+
+def category_path_parts(category_path: str) -> list[str]:
+    return [part.strip() for part in category_path.split(">") if part.strip()]
+
+
+def article_categories(section: str, category_path: str, category_name: str = "") -> list[str]:
+    haystack = f"{category_path} {category_name}".lower()
+    labels: list[str] = []
+    for label, needles in CATEGORY_GROUP_RULES:
+        if any(needle in haystack for needle in needles):
+            labels.append(label)
+
+    if not labels:
+        parts = category_path_parts(category_path)
+        section_name = section_label(section)
+        try:
+            section_index = next(index for index, part in enumerate(parts) if part.lower() == section_name.lower())
+        except StopIteration:
+            section_index = -1
+        fallback = parts[section_index + 1] if section_index >= 0 and section_index + 1 < len(parts) else category_name
+        if fallback:
+            labels.append(fallback.replace("&", "and"))
+
+    return list(dict.fromkeys(labels or [section_label(section)]))
+
+
 class TaskManager:
     VALID_STATUSES = {"pending", "processing", "completed", "failed"}
     SOURCE_SECTIONS = ("outdoor_recreation", "camping_hiking")
@@ -226,7 +354,7 @@ class TaskManager:
     def get_next_batch(self, limit: int = 5) -> list[CategoryTask]:
         pending = [item for item in self.state["categories"] if item.get("status") == "pending"]
         pending.sort(key=self._sort_key)
-        batch = pending[:limit]
+        batch = self._balanced_batch(pending, limit)
         if not batch:
             return []
 
@@ -246,6 +374,30 @@ class TaskManager:
             )
             for item in batch
         ]
+
+    @staticmethod
+    def _balanced_batch(pending: list[dict[str, Any]], limit: int) -> list[dict[str, Any]]:
+        by_section: dict[str, list[dict[str, Any]]] = {}
+        for item in pending:
+            by_section.setdefault(item.get("section") or "outdoor-recreation", []).append(item)
+
+        section_order = ["camping-hiking", "outdoor-recreation"]
+        section_order.extend(section for section in by_section if section not in section_order)
+
+        batch: list[dict[str, Any]] = []
+        while len(batch) < limit:
+            made_progress = False
+            for section in section_order:
+                section_items = by_section.get(section) or []
+                if not section_items:
+                    continue
+                batch.append(section_items.pop(0))
+                made_progress = True
+                if len(batch) >= limit:
+                    break
+            if not made_progress:
+                break
+        return batch
 
     def mark_completed(self, node_id: str, article_path: Path, article_url: str, title: str) -> None:
         self._set_status(
@@ -2543,6 +2695,10 @@ class MarkdownExporter:
             )
         )
         yaml_tags = "\n".join(f"  - {MarkdownExporter._yaml_quote(tag)}" for tag in tags)
+        yaml_categories = "\n".join(
+            f"  - {MarkdownExporter._yaml_quote(category)}"
+            for category in article_categories(task.section, task.category_path, task.category_name)
+        )
         yaml_keywords = "\n".join(f"  - {MarkdownExporter._yaml_quote(keyword)}" for keyword in topic.keywords)
         product_lines = GeneratedArticleEnhancer.update_products_frontmatter("---\n---", GeneratedArticleEnhancer.product_metadata(products or [])).splitlines()
         yaml_products = "\n".join(line for line in product_lines if line not in {"---"})
@@ -2558,7 +2714,7 @@ class MarkdownExporter:
             f"lastmod: {MarkdownExporter._yaml_quote(now)}\n"
             "draft: false\n"
             "categories:\n"
-            f"  - {MarkdownExporter._yaml_quote(section_label(task.section))}\n"
+            f"{yaml_categories}\n"
             "tags:\n"
             f"{yaml_tags}\n"
             f"section: {MarkdownExporter._yaml_quote(task.section)}\n"

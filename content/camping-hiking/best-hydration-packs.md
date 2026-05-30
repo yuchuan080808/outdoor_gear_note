@@ -15,7 +15,8 @@ date: "2026-05-24T01:07:25+00:00"
 lastmod: "2026-05-24T01:26:19+00:00"
 draft: false
 categories:
-  - "Camping & Hiking"
+  - "Packs and Bags"
+  - "Water and Hydration"
 tags:
   - "camping-hiking"
   - "hydration packs"

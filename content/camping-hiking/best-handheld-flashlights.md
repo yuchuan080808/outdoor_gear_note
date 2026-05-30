@@ -15,7 +15,7 @@ date: "2026-05-18T14:08:40+00:00"
 lastmod: "2026-05-30T03:51:26+00:00"
 draft: false
 categories:
-  - "Camping & Hiking"
+  - "Lighting"
 tags:
   - "camping-hiking"
   - "handheld flashlights"

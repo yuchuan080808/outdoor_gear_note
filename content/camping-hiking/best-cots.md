@@ -15,7 +15,8 @@ date: "2026-05-19T23:40:11+00:00"
 lastmod: "2026-05-24T01:25:49+00:00"
 draft: false
 categories:
-  - "Camping & Hiking"
+  - "Camp Sleep"
+  - "Camp Furniture"
 tags:
   - "camping-hiking"
   - "cots"

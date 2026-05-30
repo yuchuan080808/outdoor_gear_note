@@ -15,7 +15,7 @@ date: "2026-05-17T04:18:33+00:00"
 lastmod: "2026-05-30T03:51:26+00:00"
 draft: false
 categories:
-  - "Camping & Hiking"
+  - "Camp Kitchen"
 tags:
   - "camping-hiking"
   - "cooler accessories"

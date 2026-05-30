@@ -15,7 +15,7 @@ date: "2026-05-24T01:03:26+00:00"
 lastmod: "2026-05-24T01:26:19+00:00"
 draft: false
 categories:
-  - "Camping & Hiking"
+  - "Packs and Bags"
 tags:
   - "camping-hiking"
   - "waist packs"
