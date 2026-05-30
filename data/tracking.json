@@ -1,36 +1,15 @@
 {
   "version": 1,
-  "last_synced": "2026-05-29T13:58:20+00:00",
+  "last_synced": "2026-05-30T03:44:28+00:00",
   "categories": [
-    {
-      "node_id": "3400711",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Dishes & Utensils > Bowls",
-      "category_name": "Bowls",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400711",
-      "section": "camping-hiking",
-      "status": "failed",
-      "last_updated": "2026-05-29T13:58:40+00:00"
-    },
-    {
-      "node_id": "3400721",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Coffee & Tea Pots",
-      "category_name": "Coffee & Tea Pots",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400721",
-      "section": "camping-hiking",
-      "status": "completed",
-      "last_updated": "2026-05-29T14:05:25+00:00",
-      "article_path": "content\\camping-hiking\\best-coffee-tea-pots.md",
-      "article_url": "/camping-hiking/best-coffee-tea-pots/",
-      "article_title": "Best Coffee and Tea Pots for Camp Kitchen Setup and Meal Prep"
-    },
     {
       "node_id": "3400731",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Dishes & Utensils > Cups & Mugs",
       "category_name": "Cups & Mugs",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400731",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "failed",
+      "last_updated": "2026-05-30T03:44:46+00:00"
     },
     {
       "node_id": "3400741",
@@ -38,8 +17,11 @@
       "category_name": "Flatware",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400741",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-05-30T03:51:26+00:00",
+      "article_path": "content\\camping-hiking\\best-flatware.md",
+      "article_url": "/camping-hiking/best-flatware/",
+      "article_title": "Best Flatware for Camp Kitchen Setup and Meal Prep"
     },
     {
       "node_id": "3400751",
@@ -655,6 +637,27 @@
       "article_path": "content\\camping-hiking\\best-cooking-utensils.md",
       "article_url": "/camping-hiking/best-cooking-utensils/",
       "article_title": "Best Cooking Utensils for Camp Kitchen Setup and Meal Prep"
+    },
+    {
+      "node_id": "3400711",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Dishes & Utensils > Bowls",
+      "category_name": "Bowls",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400711",
+      "section": "camping-hiking",
+      "status": "failed",
+      "last_updated": "2026-05-29T13:58:40+00:00"
+    },
+    {
+      "node_id": "3400721",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Coffee & Tea Pots",
+      "category_name": "Coffee & Tea Pots",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400721",
+      "section": "camping-hiking",
+      "status": "completed",
+      "last_updated": "2026-05-29T14:05:25+00:00",
+      "article_path": "content\\camping-hiking\\best-coffee-tea-pots.md",
+      "article_url": "/camping-hiking/best-coffee-tea-pots/",
+      "article_title": "Best Coffee and Tea Pots for Camp Kitchen Setup and Meal Prep"
     },
     {
       "node_id": "10208170011",
