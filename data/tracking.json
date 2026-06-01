@@ -1,36 +1,18 @@
 {
   "version": 1,
-  "last_synced": "2026-05-30T03:44:28+00:00",
+  "last_synced": "2026-06-01T13:55:22+00:00",
   "categories": [
-    {
-      "node_id": "3400731",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Dishes & Utensils > Cups & Mugs",
-      "category_name": "Cups & Mugs",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400731",
-      "section": "camping-hiking",
-      "status": "failed",
-      "last_updated": "2026-05-30T03:44:46+00:00"
-    },
-    {
-      "node_id": "3400741",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Dishes & Utensils > Flatware",
-      "category_name": "Flatware",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400741",
-      "section": "camping-hiking",
-      "status": "completed",
-      "last_updated": "2026-05-30T03:51:26+00:00",
-      "article_path": "content\\camping-hiking\\best-flatware.md",
-      "article_url": "/camping-hiking/best-flatware/",
-      "article_title": "Best Flatware for Camp Kitchen Setup and Meal Prep"
-    },
     {
       "node_id": "3400751",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Dishes & Utensils > Mess Kits",
       "category_name": "Mess Kits",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400751",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-06-01T14:02:56+00:00",
+      "article_path": "content\\camping-hiking\\best-mess-kits.md",
+      "article_url": "/camping-hiking/best-mess-kits/",
+      "article_title": "Best Mess Kits for Camp Kitchen Setup and Meal Prep"
     },
     {
       "node_id": "3400771",
@@ -660,6 +642,27 @@
       "article_title": "Best Coffee and Tea Pots for Camp Kitchen Setup and Meal Prep"
     },
     {
+      "node_id": "3400731",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Dishes & Utensils > Cups & Mugs",
+      "category_name": "Cups & Mugs",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400731",
+      "section": "camping-hiking",
+      "status": "failed",
+      "last_updated": "2026-05-30T03:44:46+00:00"
+    },
+    {
+      "node_id": "3400741",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Dishes & Utensils > Flatware",
+      "category_name": "Flatware",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400741",
+      "section": "camping-hiking",
+      "status": "completed",
+      "last_updated": "2026-05-30T03:51:26+00:00",
+      "article_path": "content\\camping-hiking\\best-flatware.md",
+      "article_url": "/camping-hiking/best-flatware/",
+      "article_title": "Best Flatware for Camp Kitchen Setup and Meal Prep"
+    },
+    {
       "node_id": "10208170011",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Footwear & Accessories > Gaiters",
       "category_name": "Gaiters",
@@ -1097,8 +1100,11 @@
       "category_name": "Water Bottle Cages",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3403511",
       "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-06-01T14:10:31+00:00",
+      "article_path": "content\\outdoor-recreation\\best-water-bottle-cages.md",
+      "article_url": "/outdoor-recreation/best-water-bottle-cages/",
+      "article_title": "Best Water Bottle Cages: Buying Guide and Buyer Cautions"
     },
     {
       "node_id": "3403521",
