@@ -12,7 +12,7 @@ keywords:
   - "leak prevention"
 slug: "best-water-bottle-cages"
 date: "2026-06-01T14:10:31+00:00"
-lastmod: "2026-06-01T14:10:32+00:00"
+lastmod: "2026-06-03T00:32:35+00:00"
 draft: false
 categories:
   - "Water and Hydration"
@@ -140,7 +140,7 @@ Aluminum cages allow you to bend the arms slightly for a tighter grip, but they 
 Clamp-on cages and plastic brackets often carry strict weight limits. For example, some no-drill clamps max out at around 27 ounces of water. Filling a massive steel thermos and clamping it to your handlebars shifts your steering weight and strains the clamp material. If you ride aggressive trails or washboard gravel, heavy bottles in clamp-style mounts are highly likely to wobble, slip, or snap off. Reserve clamp mounts for casual riding and hard-mounted alloy or heavy-duty fabric cages for off-road recreation.
 
 <!-- seo-context-links:start -->
-For adjacent buying decisions, compare [Best Hydration Packs](/camping-hiking/best-hydration-packs/) before you finalize your water bottle cages shortlist.
+For adjacent buying decisions, compare [Best Water Bottles for Hiking Hydration and Backcountry Water Planning](/outdoor-recreation/best-water-bottles/) and [Best Hydration Packs](/camping-hiking/best-hydration-packs/) before you finalize your water bottle cages shortlist.
 <!-- seo-context-links:end -->
 
 ## Common Questions Before Buying
@@ -160,6 +160,7 @@ Leaks, hard cleaning, poor flow, plastic taste, and poor pack fit are the proble
 ## Related Resources
 
 ### Internal Gear Guides
+- [Best Water Bottles for Hiking Hydration and Backcountry Water Planning](/outdoor-recreation/best-water-bottles/) - Use this to compare nearby hydration tradeoffs before you buy.
 - [Best Hydration Packs: Buying Guide and Buyer Cautions](/camping-hiking/best-hydration-packs/) - Use this to compare nearby hiking hydration tradeoffs before you buy.
 
 ### External References
