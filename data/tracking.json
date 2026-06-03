@@ -1,24 +1,18 @@
 {
   "version": 1,
-  "last_synced": "2026-06-03T00:27:09+00:00",
+  "last_synced": "2026-06-03T14:19:40+00:00",
   "categories": [
-    {
-      "node_id": "3400771",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Dishes & Utensils > Plates",
-      "category_name": "Plates",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400771",
-      "section": "camping-hiking",
-      "status": "failed",
-      "last_updated": "2026-06-03T00:27:28+00:00"
-    },
     {
       "node_id": "3400791",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camping Furniture > Chairs",
       "category_name": "Chairs",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400791",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-06-03T14:26:44+00:00",
+      "article_path": "content\\camping-hiking\\best-chairs.md",
+      "article_url": "/camping-hiking/best-chairs/",
+      "article_title": "Best Chairs for Camping, Hiking, and Outdoor Use"
     },
     {
       "node_id": "3400831",
@@ -663,6 +657,15 @@
       "article_title": "Best Mess Kits for Camp Kitchen Setup and Meal Prep"
     },
     {
+      "node_id": "3400771",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Dishes & Utensils > Plates",
+      "category_name": "Plates",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400771",
+      "section": "camping-hiking",
+      "status": "failed",
+      "last_updated": "2026-06-03T00:27:28+00:00"
+    },
+    {
       "node_id": "10208170011",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Footwear & Accessories > Gaiters",
       "category_name": "Gaiters",
@@ -1095,25 +1098,16 @@
       "last_updated": "2026-05-10T03:45:28+00:00"
     },
     {
-      "node_id": "3403521",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Cycling > Hydration > Water Bottles",
-      "category_name": "Water Bottles",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3403521",
-      "section": "outdoor-recreation",
-      "status": "completed",
-      "last_updated": "2026-06-03T00:32:35+00:00",
-      "article_path": "content\\outdoor-recreation\\best-water-bottles.md",
-      "article_url": "/outdoor-recreation/best-water-bottles/",
-      "article_title": "Best Water Bottles for Hiking Hydration and Backcountry Water Planning"
-    },
-    {
       "node_id": "3406311",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Water Sports > Diving & Snorkeling > Backpacks",
       "category_name": "Backpacks",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3406311",
       "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-06-03T14:34:26+00:00",
+      "article_path": "content\\outdoor-recreation\\best-backpacks.md",
+      "article_url": "/outdoor-recreation/best-backpacks/",
+      "article_title": "Best Hiking Backpacks for Day Hikes, Travel, and Gear Fit"
     },
     {
       "node_id": "3403511",
@@ -1126,6 +1120,18 @@
       "article_path": "content\\outdoor-recreation\\best-water-bottle-cages.md",
       "article_url": "/outdoor-recreation/best-water-bottle-cages/",
       "article_title": "Best Water Bottle Cages: Buying Guide and Buyer Cautions"
+    },
+    {
+      "node_id": "3403521",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Cycling > Hydration > Water Bottles",
+      "category_name": "Water Bottles",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3403521",
+      "section": "outdoor-recreation",
+      "status": "completed",
+      "last_updated": "2026-06-03T00:32:35+00:00",
+      "article_path": "content\\outdoor-recreation\\best-water-bottles.md",
+      "article_url": "/outdoor-recreation/best-water-bottles/",
+      "article_title": "Best Water Bottles for Hiking Hydration and Backcountry Water Planning"
     },
     {
       "node_id": "10184604011",

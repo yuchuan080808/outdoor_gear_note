@@ -12,7 +12,7 @@ keywords:
   - "warmth"
 slug: "best-blankets"
 date: "2026-05-17T04:26:09+00:00"
-lastmod: "2026-06-03T00:32:35+00:00"
+lastmod: "2026-06-03T14:34:26+00:00"
 draft: false
 categories:
   - "Camp Sleep"
