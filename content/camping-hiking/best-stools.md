@@ -12,7 +12,7 @@ keywords:
   - "buyer cautions"
 slug: "best-stools"
 date: "2026-06-04T00:21:58+00:00"
-lastmod: "2026-06-04T00:25:33+00:00"
+lastmod: "2026-06-04T14:21:59+00:00"
 draft: false
 categories:
   - "Camp Furniture"
@@ -160,6 +160,7 @@ No. Bestseller signals help surface popular products, but the better choice depe
 ## Related Resources
 
 ### Internal Gear Guides
+- [Best Tables for Camping, Hiking, and Outdoor Use](/camping-hiking/best-tables/) - Use this to compare nearby camping furniture tradeoffs before you buy.
 - [Best Chairs for Camping, Hiking, and Outdoor Use](/camping-hiking/best-chairs/) - Use this to compare nearby camping furniture tradeoffs before you buy.
 - [Best Cots for Camping Sleep Comfort and Packability](/camping-hiking/best-cots/) - Use this to compare nearby camping furniture tradeoffs before you buy.
 
