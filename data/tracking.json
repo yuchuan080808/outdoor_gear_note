@@ -1,27 +1,18 @@
 {
   "version": 1,
-  "last_synced": "2026-06-03T14:19:40+00:00",
+  "last_synced": "2026-06-04T00:18:11+00:00",
   "categories": [
-    {
-      "node_id": "3400791",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camping Furniture > Chairs",
-      "category_name": "Chairs",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400791",
-      "section": "camping-hiking",
-      "status": "completed",
-      "last_updated": "2026-06-03T14:26:44+00:00",
-      "article_path": "content\\camping-hiking\\best-chairs.md",
-      "article_url": "/camping-hiking/best-chairs/",
-      "article_title": "Best Chairs for Camping, Hiking, and Outdoor Use"
-    },
     {
       "node_id": "3400831",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camping Furniture > Stools",
       "category_name": "Stools",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400831",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-06-04T00:21:58+00:00",
+      "article_path": "content\\camping-hiking\\best-stools.md",
+      "article_url": "/camping-hiking/best-stools/",
+      "article_title": "Best Stools for Camping, Hiking, and Outdoor Use"
     },
     {
       "node_id": "3400841",
@@ -666,6 +657,18 @@
       "last_updated": "2026-06-03T00:27:28+00:00"
     },
     {
+      "node_id": "3400791",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camping Furniture > Chairs",
+      "category_name": "Chairs",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400791",
+      "section": "camping-hiking",
+      "status": "completed",
+      "last_updated": "2026-06-03T14:26:44+00:00",
+      "article_path": "content\\camping-hiking\\best-chairs.md",
+      "article_url": "/camping-hiking/best-chairs/",
+      "article_title": "Best Chairs for Camping, Hiking, and Outdoor Use"
+    },
+    {
       "node_id": "10208170011",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Footwear & Accessories > Gaiters",
       "category_name": "Gaiters",
@@ -1098,18 +1101,6 @@
       "last_updated": "2026-05-10T03:45:28+00:00"
     },
     {
-      "node_id": "3406311",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Water Sports > Diving & Snorkeling > Backpacks",
-      "category_name": "Backpacks",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3406311",
-      "section": "outdoor-recreation",
-      "status": "completed",
-      "last_updated": "2026-06-03T14:34:26+00:00",
-      "article_path": "content\\outdoor-recreation\\best-backpacks.md",
-      "article_url": "/outdoor-recreation/best-backpacks/",
-      "article_title": "Best Hiking Backpacks for Day Hikes, Travel, and Gear Fit"
-    },
-    {
       "node_id": "3403511",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Cycling > Hydration > Water Bottle Cages",
       "category_name": "Water Bottle Cages",
@@ -1134,13 +1125,28 @@
       "article_title": "Best Water Bottles for Hiking Hydration and Backcountry Water Planning"
     },
     {
+      "node_id": "3406311",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Water Sports > Diving & Snorkeling > Backpacks",
+      "category_name": "Backpacks",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3406311",
+      "section": "outdoor-recreation",
+      "status": "completed",
+      "last_updated": "2026-06-03T14:34:26+00:00",
+      "article_path": "content\\outdoor-recreation\\best-backpacks.md",
+      "article_url": "/outdoor-recreation/best-backpacks/",
+      "article_title": "Best Hiking Backpacks for Day Hikes, Travel, and Gear Fit"
+    },
+    {
       "node_id": "10184604011",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Accessories > Accessory & Keychain Carabiners",
       "category_name": "Accessory & Keychain Carabiners",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10184604011",
       "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-06-04T00:25:33+00:00",
+      "article_path": "content\\outdoor-recreation\\best-accessory-keychain-carabiners.md",
+      "article_url": "/outdoor-recreation/best-accessory-keychain-carabiners/",
+      "article_title": "Best Accessory and Keychain Carabiners: Buying Guide"
     },
     {
       "node_id": "10208049011",

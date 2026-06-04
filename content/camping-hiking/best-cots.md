@@ -12,7 +12,7 @@ keywords:
   - "warmth"
 slug: "best-cots"
 date: "2026-05-19T23:40:11+00:00"
-lastmod: "2026-06-03T14:34:26+00:00"
+lastmod: "2026-06-04T00:25:33+00:00"
 draft: false
 categories:
   - "Camp Sleep"
@@ -162,6 +162,7 @@ Noise, zipper feel, width, support, inflation or setup effort, and how easily th
 
 ### Internal Gear Guides
 - [Best Chairs for Camping, Hiking, and Outdoor Use](/camping-hiking/best-chairs/) - Use this to compare nearby camping furniture tradeoffs before you buy.
+- [Best Stools for Camping, Hiking, and Outdoor Use](/camping-hiking/best-stools/) - Use this to compare nearby camping furniture tradeoffs before you buy.
 - [Best Blankets for Camping Sleep Comfort and Packability](/camping-hiking/best-blankets/) - Use this to compare nearby camp sleep systems tradeoffs before you buy.
 
 ### External References
