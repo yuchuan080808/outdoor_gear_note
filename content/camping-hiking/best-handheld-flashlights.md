@@ -12,7 +12,7 @@ keywords:
   - "tent light"
 slug: "best-handheld-flashlights"
 date: "2026-05-18T14:08:40+00:00"
-lastmod: "2026-06-04T14:21:59+00:00"
+lastmod: "2026-06-05T14:27:40+00:00"
 draft: false
 categories:
   - "Lighting"

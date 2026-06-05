@@ -12,7 +12,7 @@ keywords:
   - "rain protection"
 slug: "best-hiking-backpacks"
 date: "2026-05-20T14:53:39+00:00"
-lastmod: "2026-06-04T14:21:59+00:00"
+lastmod: "2026-06-05T14:27:40+00:00"
 draft: false
 categories:
   - "Packs and Bags"

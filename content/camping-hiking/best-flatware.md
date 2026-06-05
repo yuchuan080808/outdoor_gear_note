@@ -12,7 +12,7 @@ keywords:
   - "meal prep"
 slug: "best-flatware"
 date: "2026-05-30T03:51:26+00:00"
-lastmod: "2026-06-01T14:10:32+00:00"
+lastmod: "2026-06-05T14:27:40+00:00"
 draft: false
 categories:
   - "Camp Kitchen"
@@ -166,7 +166,7 @@ Buying for an ideal trip instead of your real habits. If you cook simply, compac
 - [Best Mess Kits for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-mess-kits/) - Use this to compare nearby dishes & utensils tradeoffs before you buy.
 - [Best Cooking Utensils for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-cooking-utensils/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
 - [Best Coolers for Camping, Road Trips, and Ice Retention](/camping-hiking/best-coolers/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
-- [Best Coffee and Tea Pots for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-coffee-tea-pots/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
+- [Best Replacement Fuel for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-replacement-fuel/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
 
 ### External References
 - [USDA food safety while hiking, camping, and boating](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-safety-while-hiking-camping) - Cold-food, cooler-packing, and camp-kitchen safety guidance from USDA FSIS.
