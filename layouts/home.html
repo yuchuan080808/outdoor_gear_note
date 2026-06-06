@@ -1,0 +1,33 @@
+{{ define "main" }}
+    <header class="home-intro">
+        <p class="home-kicker">Marketplace-informed outdoor buying guides</p>
+        <h1>{{ .Title }}</h1>
+        {{ with .Content }}
+        <div class="home-intro-content">
+            {{ . }}
+        </div>
+        {{ end }}
+        {{ with .Site.Taxonomies.categories }}
+        <nav class="home-category-links" aria-label="Outdoor gear categories">
+            {{ range .ByCount }}
+                <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+            {{ end }}
+        </nav>
+        {{ end }}
+    </header>
+
+    {{- $paginator := partial "helper/paginator.html" . -}}
+    <section class="article-list">
+        {{ range $paginator.Pages }}
+            {{ partial "article-list/default" . }}
+        {{ end }}
+    </section>
+
+    {{- partial "pagination.html" . -}}
+    {{- partial "footer/footer" . -}}
+{{ end }}
+
+{{ define "right-sidebar" }}
+    {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
+{{ end }}
+

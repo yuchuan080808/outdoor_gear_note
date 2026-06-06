@@ -132,6 +132,29 @@ def section_label(section: str) -> str:
 
 CATEGORY_GROUP_RULES: tuple[tuple[str, tuple[str, ...]], ...] = (
     (
+        "Cycling Gear",
+        (
+            "cycling",
+            "bike",
+            "bicycle",
+            "mtb",
+            "road bike",
+            "bike water",
+        ),
+    ),
+    (
+        "Water Sports",
+        (
+            "water sports",
+            "diving",
+            "snorkeling",
+            "snorkel",
+            "scuba",
+            "beach gear",
+            "wet gear",
+        ),
+    ),
+    (
         "Camp Kitchen",
         (
             "camp kitchen",
@@ -491,6 +514,178 @@ class TaskManager:
 class SEOTopicCatalog:
     """Creates stable, human-readable SEO metadata for every outdoor leaf page."""
 
+    PATH_OVERRIDES: tuple[tuple[tuple[str, ...], SEOTopic], ...] = (
+        (
+            ("water sports", "diving & snorkeling", "backpacks"),
+            SEOTopic(
+                title="Best Mesh Snorkel Backpacks for Beach and Dive Gear",
+                description="Compare mesh snorkel backpacks by wet-gear drainage, strap comfort, capacity, sand cleanup, zipper durability, and beach-trip fit.",
+                keywords=("best snorkel backpack", "mesh dive bag backpack", "snorkeling gear bag", "beach gear backpack", "dive backpack buying guide"),
+                faqs=(
+                    ("What should I check before buying a snorkel backpack?", "Check mesh drainage, shoulder strap comfort, zipper quality, capacity for fins and towels, and whether wet gear can dry without trapping sand."),
+                    ("Is a mesh dive backpack better than a dry bag?", "Mesh bags drain and dry faster after beach use, while dry bags protect items from water. Many trips need both types for different gear."),
+                    ("What complaints matter most for snorkel backpacks?", "Weak zippers, rough straps, torn mesh, undersized fin storage, and sand trapped in seams are the complaints most likely to affect repeated trips."),
+                ),
+            ),
+        ),
+        (
+            ("cycling", "hydration", "water bottle cages"),
+            SEOTopic(
+                title="Best Bike Water Bottle Cages for Secure Bottle Fit",
+                description="Compare bike water bottle cages by bottle retention, frame fit, install hardware, weight, rattle control, and road or MTB use.",
+                keywords=("best bike water bottle cage", "water bottle cage for cycling", "bike bottle holder", "mtb bottle cage", "cycling hydration cage"),
+                faqs=(
+                    ("What should I check before buying a bike bottle cage?", "Check bottle diameter support, frame mount compatibility, retention grip, included bolts, and whether the cage is easy to access while riding."),
+                    ("Do all water bottle cages fit every bike?", "No. Most use standard frame bosses, but small frames, full-suspension bikes, and oversized bottles can create clearance problems."),
+                    ("What bottle cage complaints matter most?", "Bottles rattling loose, weak bolts, sharp edges, and cages that crack or bend are the problems most likely to show up during rides."),
+                ),
+            ),
+        ),
+        (
+            ("cycling", "hydration", "water bottles"),
+            SEOTopic(
+                title="Best Bike Water Bottles for Cycling Hydration and Cage Fit",
+                description="Compare bike water bottles by squeeze flow, cage fit, cap cleaning, leak risk, insulation, bottle feel, and ride-length use.",
+                keywords=("best bike water bottle", "cycling water bottle", "bike squeeze bottle", "insulated cycling bottle", "water bottle for bike cage"),
+                faqs=(
+                    ("What should I check before buying a bike water bottle?", "Check cage fit, squeeze flow, cap cleaning, leak resistance, insulation needs, and whether the bottle is easy to grab while riding."),
+                    ("Are insulated bike bottles worth it?", "They help in hot weather, but they add bulk and may hold less water. For short cool rides, a standard squeeze bottle may be simpler."),
+                    ("What bike bottle complaints matter most?", "Leaky caps, plastic taste, poor squeeze flow, hard cleaning, and bottles that eject from cages are the issues most likely to frustrate riders."),
+                ),
+            ),
+        ),
+        (
+            ("camping furniture", "chairs"),
+            SEOTopic(
+                title="Best Camping Chairs for Campsite Comfort and Packed Size",
+                description="Compare camping chairs by seat comfort, packed size, frame stability, cup holders, weight limits, fabric durability, and campsite use.",
+                keywords=("best camping chair", "camp chair buying guide", "folding camping chair", "portable outdoor chair", "comfortable camping chair"),
+                faqs=(
+                    ("What should I check before buying a camping chair?", "Check seat height, packed size, frame stability, fabric tension, armrest comfort, and whether the chair suits your campsite or beach use."),
+                    ("Are ultralight camping chairs comfortable?", "Some are, but smaller frames and lower seats can feel cramped. Comfort depends on your body size, posture, and how long you sit."),
+                    ("What camping chair complaints matter most?", "Sinking feet, torn fabric, bent frames, flimsy cup holders, and awkward carry bags are the complaints that usually affect real trips."),
+                ),
+            ),
+        ),
+        (
+            ("camping furniture", "stools"),
+            SEOTopic(
+                title="Best Camping Stools for Quick Seats and Small Campsites",
+                description="Compare camping stools by seat height, folded size, stability, weight support, setup speed, ground use, and durability complaints.",
+                keywords=("best camping stool", "portable camping stool", "folding outdoor stool", "telescoping stool", "camp stool buying guide"),
+                faqs=(
+                    ("What should I check before buying a camping stool?", "Check seat height, ground stability, folded size, weight support, and whether the stool is for short breaks or long sitting."),
+                    ("Are telescoping stools good for camping?", "They are compact, but they can be less stable on uneven or soft ground. Use them carefully and stay within manufacturer limits."),
+                    ("What stool complaints matter most?", "Collapsed locking rings, cracked plastic, wobble, low seat height, and uncomfortable edges are the complaints that affect usability."),
+                ),
+            ),
+        ),
+        (
+            ("camping furniture", "tables"),
+            SEOTopic(
+                title="Best Camping Tables for Cooking, Picnics, and Small Camps",
+                description="Compare camping tables by height, tabletop stability, packed size, heat limits, storage, setup speed, and camp kitchen use.",
+                keywords=("best camping table", "folding camp table", "portable picnic table", "camp kitchen table", "small camping table"),
+                faqs=(
+                    ("What should I check before buying a camping table?", "Check table height, tabletop rigidity, packed size, weight, heat limits, and whether it supports cooking prep or only light snacks."),
+                    ("Are fabric-top camping tables good for cooking?", "They are usually better for snacks and drinks than hot cookware or chopping. For meal prep, a rigid tabletop is safer and easier to clean."),
+                    ("What camping table complaints matter most?", "Wobbly legs, low height, flimsy tops, hard assembly, and poor carry bags are the issues that most often affect real campsite use."),
+                ),
+            ),
+        ),
+        (
+            ("accessory & keychain carabiners",),
+            SEOTopic(
+                title="Best Keychain Carabiners for Gear Clips and Camp Organization",
+                description="Compare keychain carabiners by gate action, size, material, non-climbing limits, key carry, campsite utility, and durability complaints.",
+                keywords=("best keychain carabiner", "accessory carabiner", "gear clip carabiner", "non climbing carabiner", "carabiner key clip"),
+                faqs=(
+                    ("What should I check before buying keychain carabiners?", "Check size, gate spring feel, material, weight rating wording, and whether the listing clearly says the clip is not for climbing."),
+                    ("Can accessory carabiners be used for climbing?", "No. Keychain and accessory carabiners are for organization and light utility, not life-safety climbing or load-bearing protection."),
+                    ("What carabiner complaints matter most?", "Sticky gates, bent springs, sharp edges, misleading strength claims, and finishes that chip quickly are the main buyer watch-outs."),
+                ),
+            ),
+        ),
+        (
+            ("daypacks & casual bags", "waist packs"),
+            SEOTopic(
+                title="Best Waist Packs for Hiking, Running, and Travel",
+                description="Compare waist packs by pocket layout, bounce control, strap comfort, bottle carry, weather resistance, and daily or trail use.",
+                keywords=("best waist pack", "hiking waist pack", "running waist pack", "travel fanny pack", "waist pack buying guide"),
+                faqs=(
+                    ("What should I check before buying a waist pack?", "Check pocket layout, strap adjustment, bounce control, phone fit, water carry, and whether the pack sits comfortably over layers."),
+                    ("Is a waist pack better than a small backpack?", "A waist pack is better for light loads and quick access, while a small backpack carries layers, food, and extra water more comfortably."),
+                    ("What waist pack complaints matter most?", "Bouncing, slipping straps, small phone pockets, weak zippers, and uncomfortable buckles are the issues that show up quickly during movement."),
+                ),
+            ),
+        ),
+        (
+            ("daypacks & casual bags", "casual daypacks"),
+            SEOTopic(
+                title="Best Casual Daypacks for Hiking, Travel, and Daily Gear",
+                description="Compare casual daypacks by carry comfort, pocket layout, laptop or hydration fit, fabric durability, weather limits, and travel use.",
+                keywords=("best casual daypack", "daypack for hiking", "travel daypack", "small hiking backpack", "daypack buying guide"),
+                faqs=(
+                    ("What should I check before buying a casual daypack?", "Check strap comfort, pocket layout, main-compartment access, water-bottle pockets, fabric durability, and whether it fits your daily or trail load."),
+                    ("Can a casual daypack work for hiking?", "Yes for short hikes with light gear, but longer hikes need better back support, hydration access, and enough room for layers and safety basics."),
+                    ("What daypack complaints matter most?", "Uncomfortable straps, weak zippers, poor bottle pockets, thin fabric, and a floppy shape are the problems that affect everyday use."),
+                ),
+            ),
+        ),
+        (
+            ("backpacking packs", "hydration packs"),
+            SEOTopic(
+                title="Best Hydration Packs for Running, Hiking, and Cycling",
+                description="Compare hydration packs by bladder capacity, bite-valve flow, bounce control, chest fit, pocket layout, leak risk, and cleaning.",
+                keywords=("best hydration pack", "running hydration pack", "hiking hydration backpack", "cycling hydration pack", "hydration pack buying guide"),
+                faqs=(
+                    ("What should I check before buying a hydration pack?", "Check bladder size, bite-valve flow, bounce control, chest strap adjustment, pocket layout, and how easy the reservoir is to clean."),
+                    ("Is a hydration pack better than bottles?", "Hydration packs are better for hands-free drinking and larger water capacity, while bottles are easier to clean and refill quickly."),
+                    ("What hydration pack complaints matter most?", "Leaks, plastic taste, tight sizing, bouncing, fragile buckles, and difficult cleaning are the problems buyers mention most often."),
+                ),
+            ),
+        ),
+        (
+            ("hiking backpacks",),
+            SEOTopic(
+                title="Best Hiking Backpacks for Trail Fit and Gear Carry",
+                description="Compare hiking backpacks by fit, hip support, kid or gear carry, pocket layout, ventilation, stability, and buyer comfort complaints.",
+                keywords=("best hiking backpack", "hiking backpack buying guide", "trail backpack", "kid carrier backpack", "day hiking pack"),
+                faqs=(
+                    ("What should I check before buying a hiking backpack?", "Check torso fit, strap comfort, hip support, ventilation, pocket access, and whether the pack is designed for gear, toddlers, or day hiking."),
+                    ("How much backpack capacity do I need?", "Short day hikes often work with smaller packs, while kids, layers, extra water, or bad weather require more capacity and better suspension."),
+                    ("What hiking backpack complaints matter most?", "Poor fit, weak buckles, shoulder pain, high center of gravity, and hard-to-reach pockets are the issues that affect trail comfort."),
+                ),
+            ),
+        ),
+        (
+            ("hands free flashlights",),
+            SEOTopic(
+                title="Best Hands-Free Flashlights for Camping, Fishing, and Repairs",
+                description="Compare hands-free flashlights by beam placement, battery life, fit, weather resistance, brightness modes, and task lighting.",
+                keywords=("best hands free flashlight", "flashlight gloves", "hands free light", "camping task light", "fishing flashlight"),
+                faqs=(
+                    ("What should I check before buying a hands-free flashlight?", "Check beam placement, battery access, fit, switch control, weather resistance, and whether the light works for the tasks you actually do."),
+                    ("Are flashlight gloves better than headlamps?", "They can be useful for close hand work, but headlamps usually provide broader walking and campsite lighting."),
+                    ("What hands-free flashlight complaints matter most?", "Weak brightness, awkward fit, dead batteries, poor switches, and lights that point the wrong direction are the main buyer watch-outs."),
+                ),
+            ),
+        ),
+        (
+            ("handheld flashlights",),
+            SEOTopic(
+                title="Best Handheld Flashlights for Camping and Emergencies",
+                description="Compare handheld flashlights by brightness modes, runtime, battery type, grip, waterproof claims, charging, and failure complaints.",
+                keywords=("best handheld flashlight", "camping flashlight", "emergency flashlight", "rechargeable flashlight", "flashlight buying guide"),
+                faqs=(
+                    ("What should I check before buying a handheld flashlight?", "Check battery type, runtime modes, grip, switch design, water resistance, charging method, and whether replacement batteries are easy to carry."),
+                    ("How many lumens do I need for camping?", "You need enough light for walking and tasks, but low modes and runtime matter more around camp than maximum brightness alone."),
+                    ("What flashlight complaints matter most?", "Dead charging ports, short battery life, sticky switches, false brightness claims, and units that fail after a few uses are the key risks."),
+                ),
+            ),
+        ),
+    )
+
     OVERRIDES: dict[str, SEOTopic] = {
         "tents": SEOTopic(
             title="Best Tents for Camping, Rain, and Family Campsites",
@@ -683,15 +878,19 @@ class SEOTopicCatalog:
 
     @classmethod
     def for_values(cls, section: str, category_name: str, category_path: str = "") -> SEOTopic:
+        path_override = cls._path_override(category_path)
+        if path_override:
+            return cls._with_current_year(path_override)
+
         slug = slugify(category_name)
         if slug in cls.OVERRIDES:
-            return cls.OVERRIDES[slug]
+            return cls._with_current_year(cls.OVERRIDES[slug])
 
         category_label = cls._title_case(category_name)
         lower_category = category_name.strip().lower()
         angle, focus, keyword_bits, group_faqs = cls._profile_for(category_name, category_path)
         section_phrase = cls._section_phrase(section)
-        title = cls._trim_title(f"Best {category_label} for {angle}", category_label)
+        title = cls._trim_title(f"Best {category_label} of {cls._current_year()} for {angle}", category_label)
         description = cls._trim_description(
             f"Compare {lower_category} for {section_phrase} by {focus}."
         )
@@ -702,6 +901,33 @@ class SEOTopicCatalog:
             (f"Who should skip budget {lower_category}?", "Skip the cheapest option when failure would affect sleep, water, cooking, warmth, or safety. Budget gear is safest when the downside is only inconvenience."),
         )
         return SEOTopic(title=title, description=description, keywords=keywords, faqs=faqs[:3])
+
+    @staticmethod
+    def _current_year() -> int:
+        return datetime.now(timezone.utc).year
+
+    @classmethod
+    def _with_current_year(cls, topic: SEOTopic) -> SEOTopic:
+        year = str(cls._current_year())
+        title = topic.title
+        if year in title or not title.startswith("Best "):
+            return topic
+        if " for " in title:
+            title = title.replace(" for ", f" of {year} for ", 1)
+        elif ": " in title:
+            title = title.replace(": ", f" of {year}: ", 1)
+        else:
+            title = f"{title} of {year}"
+        title = cls._trim_title(title, title.removeprefix("Best ").split(" of ", 1)[0].split(":", 1)[0])
+        return SEOTopic(title=title, description=topic.description, keywords=topic.keywords, faqs=topic.faqs)
+
+    @classmethod
+    def _path_override(cls, category_path: str) -> SEOTopic | None:
+        haystack = category_path.lower()
+        for needles, topic in cls.PATH_OVERRIDES:
+            if all(needle in haystack for needle in needles):
+                return topic
+        return None
 
     @classmethod
     def _profile_for(cls, category_name: str, category_path: str) -> tuple[str, str, tuple[str, ...], tuple[tuple[str, str], ...]]:
@@ -725,7 +951,7 @@ class SEOTopicCatalog:
     def _trim_title(title: str, category_label: str) -> str:
         if len(title) <= 70:
             return title
-        fallback = f"Best {category_label}: Buying Guide and Buyer Cautions"
+        fallback = f"Best {category_label} of {SEOTopicCatalog._current_year()}: Buyer Cautions"
         return fallback if len(fallback) <= 70 else f"Best {category_label}: Buying Guide"
 
     @staticmethod
@@ -2806,6 +3032,16 @@ def run_pipeline(args: argparse.Namespace) -> int:
             return 1
         if failed_count:
             LOGGER.warning("Completed %s categories with %s failures", success_count, failed_count)
+        if success_count:
+            content_changed_count = GeneratedArticleEnhancer.refresh_existing_content(OUTPUT_DIR, PRODUCT_CACHE)
+            seo_changed_count = SEOArticleOptimizer.refresh_existing_content(OUTPUT_DIR)
+            link_changed_count = SEOResourceLinker.refresh_existing_content(OUTPUT_DIR)
+            LOGGER.info(
+                "Post-run SEO refresh updated %s content files, %s metadata/FAQ files, and %s resource-link files",
+                content_changed_count,
+                seo_changed_count,
+                link_changed_count,
+            )
         return 0
     finally:
         task_manager.close()

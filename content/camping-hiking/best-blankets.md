@@ -1,5 +1,5 @@
 ---
-title: "Best Blankets for Camping Sleep Comfort and Packability"
+title: "Best Blankets of 2026 for Camping Sleep Comfort and Packability"
 description: "Compare blankets for camping and hiking by warmth, comfort, packed size, support, setup time, cleaning, and likely comfort tradeoffs."
 keywords:
   - "best blankets"
@@ -12,7 +12,7 @@ keywords:
   - "warmth"
 slug: "best-blankets"
 date: "2026-05-17T04:26:09+00:00"
-lastmod: "2026-06-05T14:27:40+00:00"
+lastmod: "2026-06-06T14:25:49+00:00"
 draft: false
 categories:
   - "Camp Sleep"

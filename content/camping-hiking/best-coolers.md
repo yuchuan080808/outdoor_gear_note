@@ -1,5 +1,5 @@
 ---
-title: "Best Coolers for Camping, Road Trips, and Ice Retention"
+title: "Best Coolers of 2026 for Camping, Road Trips, and Ice Retention"
 description: "Compare camping coolers by capacity, ice retention claims, portability, latch quality, drain design, and road-trip usability."
 keywords:
   - "best camping cooler"
@@ -9,7 +9,7 @@ keywords:
   - "cooler buying guide"
 slug: "best-coolers"
 date: "2026-05-17T04:34:05+00:00"
-lastmod: "2026-05-30T03:51:26+00:00"
+lastmod: "2026-06-06T14:25:49+00:00"
 draft: false
 categories:
   - "Camp Kitchen"

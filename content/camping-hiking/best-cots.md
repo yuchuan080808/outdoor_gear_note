@@ -1,5 +1,5 @@
 ---
-title: "Best Cots for Camping Sleep Comfort and Packability"
+title: "Best Cots of 2026 for Camping Sleep Comfort and Packability"
 description: "Compare cots for camping and hiking by warmth, comfort, packed size, support, setup time, cleaning, and likely comfort tradeoffs."
 keywords:
   - "best cots"
@@ -12,7 +12,7 @@ keywords:
   - "warmth"
 slug: "best-cots"
 date: "2026-05-19T23:40:11+00:00"
-lastmod: "2026-06-04T14:21:59+00:00"
+lastmod: "2026-06-06T14:25:49+00:00"
 draft: false
 categories:
   - "Camp Sleep"

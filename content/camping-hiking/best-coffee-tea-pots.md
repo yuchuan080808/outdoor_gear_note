@@ -1,5 +1,5 @@
 ---
-title: "Best Coffee and Tea Pots for Camp Kitchen Setup and Meal Prep"
+title: "Best Coffee and Tea Pots of 2026 for Camp Kitchen Setup and Meal Prep"
 description: "Compare coffee & tea pots for camping and hiking by capacity, fuel or storage needs, cleanup, portability, durability, and campsite meal-prep tradeoffs."
 keywords:
   - "best coffee & tea pots"
@@ -12,7 +12,7 @@ keywords:
   - "meal prep"
 slug: "best-coffee-tea-pots"
 date: "2026-05-29T14:05:25+00:00"
-lastmod: "2026-06-05T14:27:40+00:00"
+lastmod: "2026-06-06T14:25:49+00:00"
 draft: false
 categories:
   - "Camp Kitchen"

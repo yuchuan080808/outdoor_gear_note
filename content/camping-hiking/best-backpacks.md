@@ -1,5 +1,5 @@
 ---
-title: "Best Hiking Backpacks for Day Hikes, Travel, and Gear Fit"
+title: "Best Hiking Backpacks of 2026 for Day Hikes, Travel, and Gear Fit"
 description: "Compare hiking backpacks by capacity, torso fit, pocket layout, hydration support, rain protection, and comfort complaints."
 keywords:
   - "best hiking backpack"
@@ -9,7 +9,7 @@ keywords:
   - "backpack buying guide"
 slug: "best-backpacks"
 date: "2026-05-19T23:35:54+00:00"
-lastmod: "2026-05-24T01:26:19+00:00"
+lastmod: "2026-06-06T14:25:49+00:00"
 draft: false
 categories:
   - "Packs and Bags"

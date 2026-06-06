@@ -1,5 +1,5 @@
 ---
-title: "Best Flatware for Camp Kitchen Setup and Meal Prep"
+title: "Best Flatware of 2026 for Camp Kitchen Setup and Meal Prep"
 description: "Compare flatware for camping and hiking by capacity, fuel or storage needs, cleanup, portability, durability, and campsite meal-prep tradeoffs."
 keywords:
   - "best flatware"
@@ -12,7 +12,7 @@ keywords:
   - "meal prep"
 slug: "best-flatware"
 date: "2026-05-30T03:51:26+00:00"
-lastmod: "2026-06-05T14:27:40+00:00"
+lastmod: "2026-06-06T14:25:49+00:00"
 draft: false
 categories:
   - "Camp Kitchen"
