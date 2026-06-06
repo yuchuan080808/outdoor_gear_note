@@ -230,6 +230,15 @@ CATEGORY_GROUP_RULES: tuple[tuple[str, tuple[str, ...]], ...] = (
             "safety",
         ),
     ),
+    (
+        "Outdoor Accessories",
+        (
+            "accessory & keychain",
+            "carabiner",
+            "keychain",
+            "clip",
+        ),
+    ),
 )
 
 

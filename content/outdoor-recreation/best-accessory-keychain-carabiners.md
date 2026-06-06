@@ -15,7 +15,7 @@ date: "2026-06-04T00:25:33+00:00"
 lastmod: "2026-06-04T00:25:33+00:00"
 draft: false
 categories:
-  - "Accessories"
+  - "Outdoor Accessories"
 tags:
   - "outdoor-recreation"
   - "accessory & keychain carabiners"

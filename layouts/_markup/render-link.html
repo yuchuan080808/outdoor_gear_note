@@ -1,0 +1,6 @@
+{{- $destination := .Destination -}}
+{{- $isExternal := strings.HasPrefix $destination "http" -}}
+{{- $lowerDestination := lower $destination -}}
+{{- $isAmazon := or (strings.HasPrefix $lowerDestination "https://www.amazon.com/") (strings.HasPrefix $lowerDestination "https://amazon.com/") -}}
+<a class="link" href="{{ $destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $isExternal }} target="_blank" rel="{{ if $isAmazon }}sponsored nofollow noopener{{ else }}noopener{{ end }}"{{ end }}>{{ .Text | safeHTML }}</a>
+

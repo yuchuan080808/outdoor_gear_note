@@ -1,4 +1,36 @@
 {{- if .IsPage -}}
+{{- $breadcrumbItems := slice (dict "name" "Home" "url" .Site.BaseURL) -}}
+{{- with .Section -}}
+  {{- with $.Site.GetPage (printf "/%s" .) -}}
+    {{- $breadcrumbItems = $breadcrumbItems | append (dict "name" .Title "url" .Permalink) -}}
+  {{- end -}}
+{{- end -}}
+{{- with .Params.categories -}}
+  {{- $primaryCategory := index . 0 -}}
+  {{- if $primaryCategory -}}
+    {{- $breadcrumbItems = $breadcrumbItems | append (dict "name" $primaryCategory "url" (printf "categories/%s/" ($primaryCategory | urlize) | absURL)) -}}
+  {{- end -}}
+{{- end -}}
+{{- $breadcrumbItems = $breadcrumbItems | append (dict "name" .Title "url" .Permalink) -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {{- range $index, $item := $breadcrumbItems }}
+      {{- if gt $index 0 -}},{{- end }}
+    {
+      "@type": "ListItem",
+      "position": {{ add $index 1 }},
+      "name": {{ index $item "name" | jsonify | safeJS }},
+      "item": {{ index $item "url" | jsonify | safeJS }}
+    }
+    {{- end }}
+  ]
+}
+</script>
+{{- end }}
+{{- if .IsPage -}}
 {{- $raw := .RawContent -}}
 {{- if in $raw "## Common Questions Before Buying" -}}
   {{- $afterFaq := index (split $raw "## Common Questions Before Buying") 1 -}}
@@ -51,6 +83,22 @@
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": {{ $.Title | jsonify | safeJS }},
+  {{- if not $.Date.IsZero }}
+  "datePublished": {{ $.Date.Format "2006-01-02T15:04:05Z07:00" | jsonify | safeJS }},
+  {{- end }}
+  {{- if not $.Lastmod.IsZero }}
+  "dateModified": {{ $.Lastmod.Format "2006-01-02T15:04:05Z07:00" | jsonify | safeJS }},
+  {{- end }}
+  "author": {
+    "@type": "Organization",
+    "name": {{ $.Site.Title | jsonify | safeJS }},
+    "url": {{ $.Site.BaseURL | jsonify | safeJS }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ $.Site.Title | jsonify | safeJS }},
+    "url": {{ $.Site.BaseURL | jsonify | safeJS }}
+  },
   {{- with $.Description }}
   "description": {{ . | jsonify | safeJS }},
   {{- end }}
@@ -75,16 +123,29 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": {{ index $product "rating" | jsonify | safeJS }},
-            "reviewCount": {{ index $product "review_count" | jsonify | safeJS }}
+            "reviewCount": {{ index $product "review_count" | jsonify | safeJS }},
+            "bestRating": 5,
+            "worstRating": 1
           }
           {{- end }}
-          {{- with (index $product "price_tier") }},
+          {{- $properties := slice -}}
+          {{- with (index $product "price_tier") -}}
+            {{- $properties = $properties | append (dict "name" "Price tier" "value" .) -}}
+          {{- end -}}
+          {{- with (index $product "rating_source") -}}
+            {{- $source := cond (eq . "amazon_marketplace") "Amazon marketplace" . -}}
+            {{- $properties = $properties | append (dict "name" "Rating source" "value" $source) -}}
+          {{- end -}}
+          {{- if gt (len $properties) 0 }},
           "additionalProperty": [
+            {{- range $propertyIndex, $property := $properties }}
+              {{- if gt $propertyIndex 0 -}},{{- end }}
             {
               "@type": "PropertyValue",
-              "name": "Price tier",
-              "value": {{ . | jsonify | safeJS }}
+              "name": {{ index $property "name" | jsonify | safeJS }},
+              "value": {{ index $property "value" | jsonify | safeJS }}
             }
+            {{- end }}
           ]
           {{- end }}
         }

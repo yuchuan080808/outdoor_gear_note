@@ -97,3 +97,11 @@ weight = 80
 identifier = 'camp-furniture'
   [menu.main.params]
   icon = 'categories'
+
+[[menu.main]]
+name = 'Outdoor Accessories'
+url = '/categories/outdoor-accessories/'
+weight = 90
+identifier = 'outdoor-accessories'
+  [menu.main.params]
+  icon = 'categories'
