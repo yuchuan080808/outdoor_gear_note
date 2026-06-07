@@ -9,7 +9,7 @@ keywords:
   - "camp stool buying guide"
 slug: "best-stools"
 date: "2026-06-04T00:21:58+00:00"
-lastmod: "2026-06-06T14:25:49+00:00"
+lastmod: "2026-06-07T12:54:25+00:00"
 draft: false
 categories:
   - "Camp Furniture"
@@ -157,9 +157,9 @@ Collapsed locking rings, cracked plastic, wobble, low seat height, and uncomfort
 ## Related Resources
 
 ### Internal Gear Guides
-- [Best Tables for Camping, Hiking, and Outdoor Use](/camping-hiking/best-tables/) - Use this to compare nearby camping furniture tradeoffs before you buy.
-- [Best Chairs for Camping, Hiking, and Outdoor Use](/camping-hiking/best-chairs/) - Use this to compare nearby camping furniture tradeoffs before you buy.
-- [Best Cots for Camping Sleep Comfort and Packability](/camping-hiking/best-cots/) - Use this to compare nearby camping furniture tradeoffs before you buy.
+- [Best Camping Tables of 2026 for Cooking, Picnics, and Small Camps](/camping-hiking/best-tables/) - Use this to compare nearby camping furniture tradeoffs before you buy.
+- [Best Camping Chairs of 2026 for Campsite Comfort and Packed Size](/camping-hiking/best-chairs/) - Use this to compare nearby camping furniture tradeoffs before you buy.
+- [Best Cots of 2026 for Camping Sleep Comfort and Packability](/camping-hiking/best-cots/) - Use this to compare nearby camping furniture tradeoffs before you buy.
 
 ### External References
 - [USDA food safety while hiking, camping, and boating](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-safety-while-hiking-camping) - Cold-food, cooler-packing, and camp-kitchen safety guidance from USDA FSIS.

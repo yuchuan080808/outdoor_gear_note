@@ -12,7 +12,7 @@ keywords:
   - "meal prep"
 slug: "best-mess-kits"
 date: "2026-06-01T14:02:56+00:00"
-lastmod: "2026-06-06T14:25:49+00:00"
+lastmod: "2026-06-07T12:54:26+00:00"
 draft: false
 categories:
   - "Camp Kitchen"
@@ -132,10 +132,10 @@ Buying for an ideal trip instead of your real habits. If you cook simply, compac
 ## Related Resources
 
 ### Internal Gear Guides
-- [Best Flatware for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-flatware/) - Use this to compare nearby dishes & utensils tradeoffs before you buy.
-- [Best Cooking Utensils for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-cooking-utensils/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
-- [Best Cooler Accessories for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-cooler-accessories/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
-- [Best Replacement Fuel for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-replacement-fuel/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
+- [Best Flatware of 2026 for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-flatware/) - Use this to compare nearby dishes & utensils tradeoffs before you buy.
+- [Best Cooking Utensils of 2026 for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-cooking-utensils/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
+- [Best Cooler Accessories of 2026 for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-cooler-accessories/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
+- [Best Empty Fuel Bottles of 2026 for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-empty-fuel-bottles/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
 
 ### External References
 - [USDA food safety while hiking, camping, and boating](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-safety-while-hiking-camping) - Cold-food, cooler-packing, and camp-kitchen safety guidance from USDA FSIS.

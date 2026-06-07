@@ -9,7 +9,7 @@ keywords:
   - "flashlight buying guide"
 slug: "best-handheld-flashlights"
 date: "2026-05-18T14:08:40+00:00"
-lastmod: "2026-06-06T14:26:59+00:00"
+lastmod: "2026-06-07T12:54:26+00:00"
 draft: false
 categories:
   - "Lighting"
@@ -150,7 +150,7 @@ Dead charging ports, short battery life, sticky switches, false brightness claim
 ## Related Resources
 
 ### Internal Gear Guides
-- [Best Hands Free Flashlights: Buying Guide and Buyer Cautions](/camping-hiking/best-hands-free-flashlights/) - Use this to compare nearby flashlights tradeoffs before you buy.
+- [Best Hands-Free Flashlights of 2026 for Camping, Fishing, and Repairs](/camping-hiking/best-hands-free-flashlights/) - Use this to compare nearby flashlights tradeoffs before you buy.
 
 ### External References
 - [Weather.gov outdoor safety guidance](https://www.weather.gov/safety/) - Weather-safety context for storms, heat, cold, wind, and lightning planning.

@@ -9,7 +9,7 @@ keywords:
   - "water bottle for bike cage"
 slug: "best-water-bottles"
 date: "2026-06-03T00:32:35+00:00"
-lastmod: "2026-06-06T14:25:49+00:00"
+lastmod: "2026-06-07T12:54:26+00:00"
 draft: false
 categories:
   - "Cycling Gear"
@@ -144,7 +144,7 @@ Hydration gear is notorious for growing mold. High-flow, self-sealing caps featu
 Standard squeeze bottles measure around 2.9 inches in diameter, originally sized for bike hardware. This makes them universally compatible with standard mesh backpack pockets and cup holders. If you are planning an overland trip, bikepacking route, or using a specialized rig, you will need secure mounting hardware. See our guide on the [Best Water Bottle Cages: Buying Guide and Buyer Cautions](/outdoor-recreation/best-water-bottle-cages/) for safe transport solutions.
 
 <!-- seo-context-links:start -->
-For adjacent buying decisions, compare [Best Hiking Backpacks for Day Hikes, Travel, and Gear Fit](/outdoor-recreation/best-backpacks/) and [Best Hydration Packs](/camping-hiking/best-hydration-packs/) before you finalize your water bottles shortlist.
+For adjacent buying decisions, compare [Best Hydration Packs of 2026 for Running, Hiking, and Cycling](/camping-hiking/best-hydration-packs/) and [Best Mesh Snorkel Backpacks of 2026 for Beach and Dive Gear](/outdoor-recreation/best-backpacks/) before you finalize your water bottles shortlist.
 <!-- seo-context-links:end -->
 
 ## Common Questions Before Buying
@@ -164,9 +164,10 @@ Leaky caps, plastic taste, poor squeeze flow, hard cleaning, and bottles that ej
 ## Related Resources
 
 ### Internal Gear Guides
-- [Best Water Bottle Cages: Buying Guide and Buyer Cautions](/outdoor-recreation/best-water-bottle-cages/) - Use this to compare nearby hydration tradeoffs before you buy.
-- [Best Hiking Backpacks for Day Hikes, Travel, and Gear Fit](/outdoor-recreation/best-backpacks/) - Use this to compare nearby hiking hydration tradeoffs before you buy.
-- [Best Hydration Packs: Buying Guide and Buyer Cautions](/camping-hiking/best-hydration-packs/) - Use this to compare nearby hiking hydration tradeoffs before you buy.
+- [Best Bike Water Bottle Cages of 2026 for Secure Bottle Fit](/outdoor-recreation/best-water-bottle-cages/) - Use this to compare nearby hydration tradeoffs before you buy.
+- [Best Hydration Packs of 2026 for Running, Hiking, and Cycling](/camping-hiking/best-hydration-packs/) - Use this to compare nearby hiking hydration tradeoffs before you buy.
+- [Best Empty Fuel Bottles of 2026 for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-empty-fuel-bottles/) - Use this to compare nearby hiking hydration tradeoffs before you buy.
+- [Best Mesh Snorkel Backpacks of 2026 for Beach and Dive Gear](/outdoor-recreation/best-backpacks/) - Use this to compare nearby hiking hydration tradeoffs before you buy.
 
 ### External References
 - [CDC water treatment for hiking and camping](https://www.cdc.gov/drinking-water/prevention/water-treatment-hiking-camping-traveling.html) - Public-health guidance for filtering, disinfecting, and boiling backcountry water.

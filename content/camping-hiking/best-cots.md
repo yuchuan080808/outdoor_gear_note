@@ -12,7 +12,7 @@ keywords:
   - "warmth"
 slug: "best-cots"
 date: "2026-05-19T23:40:11+00:00"
-lastmod: "2026-06-06T14:25:49+00:00"
+lastmod: "2026-06-07T12:54:25+00:00"
 draft: false
 categories:
   - "Camp Sleep"
@@ -161,10 +161,10 @@ Noise, zipper feel, width, support, inflation or setup effort, and how easily th
 ## Related Resources
 
 ### Internal Gear Guides
-- [Best Chairs for Camping, Hiking, and Outdoor Use](/camping-hiking/best-chairs/) - Use this to compare nearby camping furniture tradeoffs before you buy.
-- [Best Stools for Camping, Hiking, and Outdoor Use](/camping-hiking/best-stools/) - Use this to compare nearby camping furniture tradeoffs before you buy.
-- [Best Tables for Camping, Hiking, and Outdoor Use](/camping-hiking/best-tables/) - Use this to compare nearby camping furniture tradeoffs before you buy.
-- [Best Blankets for Camping Sleep Comfort and Packability](/camping-hiking/best-blankets/) - Use this to compare nearby camp sleep systems tradeoffs before you buy.
+- [Best Camping Chairs of 2026 for Campsite Comfort and Packed Size](/camping-hiking/best-chairs/) - Use this to compare nearby camping furniture tradeoffs before you buy.
+- [Best Camping Stools of 2026 for Quick Seats and Small Campsites](/camping-hiking/best-stools/) - Use this to compare nearby camping furniture tradeoffs before you buy.
+- [Best Camping Tables of 2026 for Cooking, Picnics, and Small Camps](/camping-hiking/best-tables/) - Use this to compare nearby camping furniture tradeoffs before you buy.
+- [Best Blankets of 2026 for Camping Sleep Comfort and Packability](/camping-hiking/best-blankets/) - Use this to compare nearby camp sleep systems tradeoffs before you buy.
 
 ### External References
 - [REI Expert Advice on the Ten Essentials](https://www.rei.com/learn/expert-advice/ten-essentials.html) - Practical checklist context for packing and evaluating outdoor gear systems.

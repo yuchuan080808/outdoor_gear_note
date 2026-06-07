@@ -9,7 +9,7 @@ keywords:
   - "small camping table"
 slug: "best-tables"
 date: "2026-06-04T14:21:38+00:00"
-lastmod: "2026-06-06T14:25:49+00:00"
+lastmod: "2026-06-07T12:54:25+00:00"
 draft: false
 categories:
   - "Camp Furniture"
@@ -157,9 +157,9 @@ Wobbly legs, low height, flimsy tops, hard assembly, and poor carry bags are the
 ## Related Resources
 
 ### Internal Gear Guides
-- [Best Cots for Camping Sleep Comfort and Packability](/camping-hiking/best-cots/) - Use this to compare nearby camping furniture tradeoffs before you buy.
-- [Best Chairs for Camping, Hiking, and Outdoor Use](/camping-hiking/best-chairs/) - Use this to compare nearby camping furniture tradeoffs before you buy.
-- [Best Stools for Camping, Hiking, and Outdoor Use](/camping-hiking/best-stools/) - Use this to compare nearby camping furniture tradeoffs before you buy.
+- [Best Cots of 2026 for Camping Sleep Comfort and Packability](/camping-hiking/best-cots/) - Use this to compare nearby camping furniture tradeoffs before you buy.
+- [Best Camping Chairs of 2026 for Campsite Comfort and Packed Size](/camping-hiking/best-chairs/) - Use this to compare nearby camping furniture tradeoffs before you buy.
+- [Best Camping Stools of 2026 for Quick Seats and Small Campsites](/camping-hiking/best-stools/) - Use this to compare nearby camping furniture tradeoffs before you buy.
 
 ### External References
 - [USDA food safety while hiking, camping, and boating](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-safety-while-hiking-camping) - Cold-food, cooler-packing, and camp-kitchen safety guidance from USDA FSIS.
