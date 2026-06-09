@@ -1,36 +1,15 @@
 {
   "version": 1,
-  "last_synced": "2026-06-07T12:43:09+00:00",
+  "last_synced": "2026-06-09T14:11:29+00:00",
   "categories": [
-    {
-      "node_id": "3401031",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Stove Accessories > Empty Fuel Bottles",
-      "category_name": "Empty Fuel Bottles",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3401031",
-      "section": "camping-hiking",
-      "status": "completed",
-      "last_updated": "2026-06-07T12:48:51+00:00",
-      "article_path": "content\\camping-hiking\\best-empty-fuel-bottles.md",
-      "article_url": "/camping-hiking/best-empty-fuel-bottles/",
-      "article_title": "Best Empty Fuel Bottles of 2026 for Camp Kitchen Setup and Meal Prep"
-    },
-    {
-      "node_id": "3401041",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Stoves & Grills > Camping Grills",
-      "category_name": "Camping Grills",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3401041",
-      "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
     {
       "node_id": "3401281",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Trekking Poles",
       "category_name": "Trekking Poles",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3401281",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "failed",
+      "last_updated": "2026-06-09T14:11:58+00:00"
     },
     {
       "node_id": "3401321",
@@ -678,6 +657,27 @@
       "article_title": "Best Replacement Fuel for Camp Kitchen Setup and Meal Prep"
     },
     {
+      "node_id": "3401031",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Stove Accessories > Empty Fuel Bottles",
+      "category_name": "Empty Fuel Bottles",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3401031",
+      "section": "camping-hiking",
+      "status": "completed",
+      "last_updated": "2026-06-07T12:48:51+00:00",
+      "article_path": "content\\camping-hiking\\best-empty-fuel-bottles.md",
+      "article_url": "/camping-hiking/best-empty-fuel-bottles/",
+      "article_title": "Best Empty Fuel Bottles of 2026 for Camp Kitchen Setup and Meal Prep"
+    },
+    {
+      "node_id": "3401041",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Stoves & Grills > Camping Grills",
+      "category_name": "Camping Grills",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3401041",
+      "section": "camping-hiking",
+      "status": "failed",
+      "last_updated": "2026-06-08T14:04:46+00:00"
+    },
+    {
       "node_id": "10208170011",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Footwear & Accessories > Gaiters",
       "category_name": "Gaiters",
@@ -1146,34 +1146,16 @@
       "article_title": "Best Hiking Backpacks for Day Hikes, Travel, and Gear Fit"
     },
     {
-      "node_id": "10208051011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Cycling > Cycling > Men > Tights, Pants & Shorts > Bib Shorts",
-      "category_name": "Bib Shorts",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208051011",
-      "section": "outdoor-recreation",
-      "status": "completed",
-      "last_updated": "2026-06-07T12:54:25+00:00",
-      "article_path": "content\\outdoor-recreation\\best-bib-shorts.md",
-      "article_url": "/outdoor-recreation/best-bib-shorts/",
-      "article_title": "Best Bib Shorts of 2026 for Camp Kitchen Setup and Meal Prep"
-    },
-    {
-      "node_id": "10208052011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Cycling > Cycling > Women > Tights, Pants & Shorts > Bib Shorts",
-      "category_name": "Bib Shorts",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208052011",
-      "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
-    {
       "node_id": "10208073011",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Winter Sports > Ice Skating > Ice Skating > Women > Dresses",
       "category_name": "Dresses",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208073011",
       "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-06-09T14:17:03+00:00",
+      "article_path": "content\\outdoor-recreation\\best-dresses.md",
+      "article_url": "/outdoor-recreation/best-dresses/",
+      "article_title": "Best Dresses of 2026 for Camping, Hiking, and Outdoor Use"
     },
     {
       "node_id": "10208074011",
@@ -7072,6 +7054,27 @@
       "section": "outdoor-recreation",
       "status": "failed",
       "last_updated": "2026-06-05T14:27:40+00:00"
+    },
+    {
+      "node_id": "10208051011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Cycling > Cycling > Men > Tights, Pants & Shorts > Bib Shorts",
+      "category_name": "Bib Shorts",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208051011",
+      "section": "outdoor-recreation",
+      "status": "completed",
+      "last_updated": "2026-06-07T12:54:25+00:00",
+      "article_path": "content\\outdoor-recreation\\best-bib-shorts.md",
+      "article_url": "/outdoor-recreation/best-bib-shorts/",
+      "article_title": "Best Bib Shorts of 2026 for Camp Kitchen Setup and Meal Prep"
+    },
+    {
+      "node_id": "10208052011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Cycling > Cycling > Women > Tights, Pants & Shorts > Bib Shorts",
+      "category_name": "Bib Shorts",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208052011",
+      "section": "outdoor-recreation",
+      "status": "failed",
+      "last_updated": "2026-06-08T14:05:05+00:00"
     }
   ]
 }
