@@ -1,24 +1,15 @@
 {
   "version": 1,
-  "last_synced": "2026-06-09T14:11:29+00:00",
+  "last_synced": "2026-06-10T13:44:54+00:00",
   "categories": [
-    {
-      "node_id": "3401281",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Trekking Poles",
-      "category_name": "Trekking Poles",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3401281",
-      "section": "camping-hiking",
-      "status": "failed",
-      "last_updated": "2026-06-09T14:11:58+00:00"
-    },
     {
       "node_id": "3401321",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Lights & Lanterns > Candles",
       "category_name": "Candles",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3401321",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "failed",
+      "last_updated": "2026-06-10T13:45:18+00:00"
     },
     {
       "node_id": "3401361",
@@ -678,6 +669,15 @@
       "last_updated": "2026-06-08T14:04:46+00:00"
     },
     {
+      "node_id": "3401281",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Trekking Poles",
+      "category_name": "Trekking Poles",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3401281",
+      "section": "camping-hiking",
+      "status": "failed",
+      "last_updated": "2026-06-09T14:11:58+00:00"
+    },
+    {
       "node_id": "10208170011",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Footwear & Accessories > Gaiters",
       "category_name": "Gaiters",
@@ -1146,25 +1146,16 @@
       "article_title": "Best Hiking Backpacks for Day Hikes, Travel, and Gear Fit"
     },
     {
-      "node_id": "10208073011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Winter Sports > Ice Skating > Ice Skating > Women > Dresses",
-      "category_name": "Dresses",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208073011",
-      "section": "outdoor-recreation",
-      "status": "completed",
-      "last_updated": "2026-06-09T14:17:03+00:00",
-      "article_path": "content\\outdoor-recreation\\best-dresses.md",
-      "article_url": "/outdoor-recreation/best-dresses/",
-      "article_title": "Best Dresses of 2026 for Camping, Hiking, and Outdoor Use"
-    },
-    {
       "node_id": "10208074011",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Winter Sports > Ice Skating > Ice Skating > Girls > Dresses",
       "category_name": "Dresses",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208074011",
       "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-06-10T13:52:52+00:00",
+      "article_path": "content\\outdoor-recreation\\best-dresses.md",
+      "article_url": "/outdoor-recreation/best-dresses/",
+      "article_title": "Best Dresses of 2026 for Camping, Hiking, and Outdoor Use"
     },
     {
       "node_id": "10208076011",
@@ -7075,6 +7066,18 @@
       "section": "outdoor-recreation",
       "status": "failed",
       "last_updated": "2026-06-08T14:05:05+00:00"
+    },
+    {
+      "node_id": "10208073011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Winter Sports > Ice Skating > Ice Skating > Women > Dresses",
+      "category_name": "Dresses",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208073011",
+      "section": "outdoor-recreation",
+      "status": "completed",
+      "last_updated": "2026-06-09T14:17:03+00:00",
+      "article_path": "content\\outdoor-recreation\\best-dresses.md",
+      "article_url": "/outdoor-recreation/best-dresses/",
+      "article_title": "Best Dresses of 2026 for Camping, Hiking, and Outdoor Use"
     }
   ]
 }
