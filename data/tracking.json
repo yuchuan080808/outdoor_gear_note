@@ -1,27 +1,15 @@
 {
   "version": 1,
-  "last_synced": "2026-06-14T01:04:03+00:00",
+  "last_synced": "2026-06-15T00:47:09+00:00",
   "categories": [
-    {
-      "node_id": "3401411",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Lights & Lanterns > Lantern Accessories",
-      "category_name": "Lantern Accessories",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3401411",
-      "section": "camping-hiking",
-      "status": "completed",
-      "last_updated": "2026-06-14T01:08:25+00:00",
-      "article_path": "content\\camping-hiking\\best-lantern-accessories.md",
-      "article_url": "/camping-hiking/best-lantern-accessories/",
-      "article_title": "Best Lantern Accessories of 2026: Buyer Cautions"
-    },
     {
       "node_id": "3401671",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Sleeping Bags & Camp Bedding > Sleeping Bag Accessories > Bag Expanders",
       "category_name": "Bag Expanders",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3401671",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "failed",
+      "last_updated": "2026-06-15T00:47:26+00:00"
     },
     {
       "node_id": "3401681",
@@ -681,6 +669,18 @@
       "last_updated": "2026-06-12T11:53:42+00:00"
     },
     {
+      "node_id": "3401411",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Lights & Lanterns > Lantern Accessories",
+      "category_name": "Lantern Accessories",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3401411",
+      "section": "camping-hiking",
+      "status": "completed",
+      "last_updated": "2026-06-14T01:08:25+00:00",
+      "article_path": "content\\camping-hiking\\best-lantern-accessories.md",
+      "article_url": "/camping-hiking/best-lantern-accessories/",
+      "article_title": "Best Lantern Accessories of 2026: Buyer Cautions"
+    },
+    {
       "node_id": "10208170011",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Footwear & Accessories > Gaiters",
       "category_name": "Gaiters",
@@ -1149,25 +1149,16 @@
       "article_title": "Best Hiking Backpacks for Day Hikes, Travel, and Gear Fit"
     },
     {
-      "node_id": "10208077011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Winter Sports > Ice Skating > Ice Skating > Girls > Jackets",
-      "category_name": "Jackets",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208077011",
-      "section": "outdoor-recreation",
-      "status": "completed",
-      "last_updated": "2026-06-14T01:12:06+00:00",
-      "article_path": "content\\outdoor-recreation\\best-jackets.md",
-      "article_url": "/outdoor-recreation/best-jackets/",
-      "article_title": "Best Jackets of 2026 for Camping, Hiking, and Outdoor Use"
-    },
-    {
       "node_id": "10208079011",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Winter Sports > Ice Skating > Ice Skating > Women > Pants",
       "category_name": "Pants",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208079011",
       "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-06-15T00:52:16+00:00",
+      "article_path": "content\\outdoor-recreation\\best-pants.md",
+      "article_url": "/outdoor-recreation/best-pants/",
+      "article_title": "Best Pants of 2026 for Camp Kitchen Setup and Meal Prep"
     },
     {
       "node_id": "10208080011",
@@ -7084,6 +7075,18 @@
       "section": "outdoor-recreation",
       "status": "completed",
       "last_updated": "2026-06-12T11:59:49+00:00",
+      "article_path": "content\\outdoor-recreation\\best-jackets.md",
+      "article_url": "/outdoor-recreation/best-jackets/",
+      "article_title": "Best Jackets of 2026 for Camping, Hiking, and Outdoor Use"
+    },
+    {
+      "node_id": "10208077011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Winter Sports > Ice Skating > Ice Skating > Girls > Jackets",
+      "category_name": "Jackets",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208077011",
+      "section": "outdoor-recreation",
+      "status": "completed",
+      "last_updated": "2026-06-14T01:12:06+00:00",
       "article_path": "content\\outdoor-recreation\\best-jackets.md",
       "article_url": "/outdoor-recreation/best-jackets/",
       "article_title": "Best Jackets of 2026 for Camping, Hiking, and Outdoor Use"

@@ -12,7 +12,7 @@ keywords:
   - "meal prep"
 slug: "best-mess-kits"
 date: "2026-06-01T14:02:56+00:00"
-lastmod: "2026-06-14T01:12:07+00:00"
+lastmod: "2026-06-15T00:52:17+00:00"
 draft: false
 categories:
   - "Camp Kitchen"

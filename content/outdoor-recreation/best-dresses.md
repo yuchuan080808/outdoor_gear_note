@@ -12,7 +12,7 @@ keywords:
   - "buyer cautions"
 slug: "best-dresses"
 date: "2026-06-10T13:52:52+00:00"
-lastmod: "2026-06-14T01:12:07+00:00"
+lastmod: "2026-06-15T00:52:17+00:00"
 draft: false
 categories:
   - "Winter Sports"
@@ -160,6 +160,7 @@ No. Bestseller signals help surface popular products, but the better choice depe
 
 ### Internal Gear Guides
 - [Best Jackets of 2026 for Camping, Hiking, and Outdoor Use](/outdoor-recreation/best-jackets/) - Use this to compare nearby girls tradeoffs before you buy.
+- [Best Pants of 2026 for Camp Kitchen Setup and Meal Prep](/outdoor-recreation/best-pants/) - Use this to compare nearby ice skating tradeoffs before you buy.
 - [Best Coolers of 2026 for Camping, Road Trips, and Ice Retention](/camping-hiking/best-coolers/) - Use this to compare nearby outdoor gear tradeoffs before you buy.
 
 ### External References

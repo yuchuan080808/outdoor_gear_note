@@ -12,7 +12,7 @@ keywords:
   - "meal prep"
 slug: "best-bib-shorts"
 date: "2026-06-07T12:54:25+00:00"
-lastmod: "2026-06-07T12:54:26+00:00"
+lastmod: "2026-06-15T00:52:17+00:00"
 draft: false
 categories:
   - "Cycling Gear"
@@ -161,6 +161,7 @@ Buying for an ideal trip instead of your real habits. If you cook simply, compac
 ### Internal Gear Guides
 - [Best Bike Water Bottle Cages of 2026 for Secure Bottle Fit](/outdoor-recreation/best-water-bottle-cages/) - Use this to compare nearby cycling tradeoffs before you buy.
 - [Best Bike Water Bottles of 2026 for Cycling Hydration and Cage Fit](/outdoor-recreation/best-water-bottles/) - Use this to compare nearby cycling tradeoffs before you buy.
+- [Best Pants of 2026 for Camp Kitchen Setup and Meal Prep](/outdoor-recreation/best-pants/) - Use this to compare nearby outdoor gear tradeoffs before you buy.
 - [Best Hydration Packs of 2026 for Running, Hiking, and Cycling](/camping-hiking/best-hydration-packs/) - Use this to compare nearby outdoor gear tradeoffs before you buy.
 
 ### External References
