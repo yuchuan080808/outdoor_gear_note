@@ -12,7 +12,7 @@ keywords:
   - "meal prep"
 slug: "best-pants"
 date: "2026-06-15T00:52:16+00:00"
-lastmod: "2026-06-15T00:52:17+00:00"
+lastmod: "2026-06-16T14:07:13+00:00"
 draft: false
 categories:
   - "Winter Sports"
@@ -152,10 +152,10 @@ Buying for an ideal trip instead of your real habits. If you cook simply, compac
 ## Related Resources
 
 ### Internal Gear Guides
+- [Best Tights of 2026 for Camping, Hiking, and Outdoor Use](/outdoor-recreation/best-tights/) - Use this to compare nearby ice skating tradeoffs before you buy.
 - [Best Dresses of 2026 for Camping, Hiking, and Outdoor Use](/outdoor-recreation/best-dresses/) - Use this to compare nearby ice skating tradeoffs before you buy.
 - [Best Jackets of 2026 for Camping, Hiking, and Outdoor Use](/outdoor-recreation/best-jackets/) - Use this to compare nearby ice skating tradeoffs before you buy.
 - [Best Bib Shorts of 2026 for Camp Kitchen Setup and Meal Prep](/outdoor-recreation/best-bib-shorts/) - Use this to compare nearby outdoor gear tradeoffs before you buy.
-- [Best Coolers of 2026 for Camping, Road Trips, and Ice Retention](/camping-hiking/best-coolers/) - Use this to compare nearby outdoor gear tradeoffs before you buy.
 
 ### External References
 - [USDA food safety while hiking, camping, and boating](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-safety-while-hiking-camping) - Cold-food, cooler-packing, and camp-kitchen safety guidance from USDA FSIS.

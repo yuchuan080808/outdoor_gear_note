@@ -1,24 +1,15 @@
 {
   "version": 1,
-  "last_synced": "2026-06-15T00:47:09+00:00",
+  "last_synced": "2026-06-16T13:59:23+00:00",
   "categories": [
-    {
-      "node_id": "3401671",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Sleeping Bags & Camp Bedding > Sleeping Bag Accessories > Bag Expanders",
-      "category_name": "Bag Expanders",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3401671",
-      "section": "camping-hiking",
-      "status": "failed",
-      "last_updated": "2026-06-15T00:47:26+00:00"
-    },
     {
       "node_id": "3401681",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Sleeping Bags & Camp Bedding > Camping Pillows",
       "category_name": "Camping Pillows",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3401681",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "failed",
+      "last_updated": "2026-06-16T13:59:56+00:00"
     },
     {
       "node_id": "3401701",
@@ -681,6 +672,15 @@
       "article_title": "Best Lantern Accessories of 2026: Buyer Cautions"
     },
     {
+      "node_id": "3401671",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Sleeping Bags & Camp Bedding > Sleeping Bag Accessories > Bag Expanders",
+      "category_name": "Bag Expanders",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3401671",
+      "section": "camping-hiking",
+      "status": "failed",
+      "last_updated": "2026-06-15T00:47:26+00:00"
+    },
+    {
       "node_id": "10208170011",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Footwear & Accessories > Gaiters",
       "category_name": "Gaiters",
@@ -1149,25 +1149,16 @@
       "article_title": "Best Hiking Backpacks for Day Hikes, Travel, and Gear Fit"
     },
     {
-      "node_id": "10208079011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Winter Sports > Ice Skating > Ice Skating > Women > Pants",
-      "category_name": "Pants",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208079011",
-      "section": "outdoor-recreation",
-      "status": "completed",
-      "last_updated": "2026-06-15T00:52:16+00:00",
-      "article_path": "content\\outdoor-recreation\\best-pants.md",
-      "article_url": "/outdoor-recreation/best-pants/",
-      "article_title": "Best Pants of 2026 for Camp Kitchen Setup and Meal Prep"
-    },
-    {
       "node_id": "10208080011",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Winter Sports > Ice Skating > Ice Skating > Girls > Tights",
       "category_name": "Tights",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208080011",
       "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-06-16T14:07:13+00:00",
+      "article_path": "content\\outdoor-recreation\\best-tights.md",
+      "article_url": "/outdoor-recreation/best-tights/",
+      "article_title": "Best Tights of 2026 for Camping, Hiking, and Outdoor Use"
     },
     {
       "node_id": "10208090011",
@@ -7090,6 +7081,18 @@
       "article_path": "content\\outdoor-recreation\\best-jackets.md",
       "article_url": "/outdoor-recreation/best-jackets/",
       "article_title": "Best Jackets of 2026 for Camping, Hiking, and Outdoor Use"
+    },
+    {
+      "node_id": "10208079011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Winter Sports > Ice Skating > Ice Skating > Women > Pants",
+      "category_name": "Pants",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208079011",
+      "section": "outdoor-recreation",
+      "status": "completed",
+      "last_updated": "2026-06-15T00:52:16+00:00",
+      "article_path": "content\\outdoor-recreation\\best-pants.md",
+      "article_url": "/outdoor-recreation/best-pants/",
+      "article_title": "Best Pants of 2026 for Camp Kitchen Setup and Meal Prep"
     }
   ]
 }
