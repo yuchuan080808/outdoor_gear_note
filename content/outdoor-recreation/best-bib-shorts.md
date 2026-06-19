@@ -12,7 +12,7 @@ keywords:
   - "meal prep"
 slug: "best-bib-shorts"
 date: "2026-06-07T12:54:25+00:00"
-lastmod: "2026-06-16T14:07:13+00:00"
+lastmod: "2026-06-19T04:51:12+00:00"
 draft: false
 categories:
   - "Cycling Gear"
@@ -159,10 +159,10 @@ Buying for an ideal trip instead of your real habits. If you cook simply, compac
 ## Related Resources
 
 ### Internal Gear Guides
+- [Best Rim Strips of 2026 for Camping, Hiking, and Outdoor Use](/outdoor-recreation/best-rim-strips/) - Use this to compare nearby cycling tradeoffs before you buy.
 - [Best Bike Water Bottle Cages of 2026 for Secure Bottle Fit](/outdoor-recreation/best-water-bottle-cages/) - Use this to compare nearby cycling tradeoffs before you buy.
 - [Best Bike Water Bottles of 2026 for Cycling Hydration and Cage Fit](/outdoor-recreation/best-water-bottles/) - Use this to compare nearby cycling tradeoffs before you buy.
 - [Best Pants of 2026 for Camp Kitchen Setup and Meal Prep](/outdoor-recreation/best-pants/) - Use this to compare nearby outdoor gear tradeoffs before you buy.
-- [Best Tights of 2026 for Camping, Hiking, and Outdoor Use](/outdoor-recreation/best-tights/) - Use this to compare nearby outdoor gear tradeoffs before you buy.
 
 ### External References
 - [USDA food safety while hiking, camping, and boating](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-safety-while-hiking-camping) - Cold-food, cooler-packing, and camp-kitchen safety guidance from USDA FSIS.

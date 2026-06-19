@@ -12,7 +12,7 @@ keywords:
   - "buyer cautions"
 slug: "best-jackets"
 date: "2026-06-14T01:12:06+00:00"
-lastmod: "2026-06-16T14:07:13+00:00"
+lastmod: "2026-06-19T04:51:12+00:00"
 draft: false
 categories:
   - "Winter Sports"

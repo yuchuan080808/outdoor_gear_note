@@ -9,7 +9,7 @@ keywords:
   - "flashlight buying guide"
 slug: "best-handheld-flashlights"
 date: "2026-05-18T14:08:40+00:00"
-lastmod: "2026-06-16T14:07:13+00:00"
+lastmod: "2026-06-19T04:51:12+00:00"
 draft: false
 categories:
   - "Lighting"
