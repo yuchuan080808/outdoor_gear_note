@@ -9,7 +9,7 @@ keywords:
   - "dive backpack buying guide"
 slug: "best-backpacks"
 date: "2026-06-03T14:34:26+00:00"
-lastmod: "2026-06-07T12:54:26+00:00"
+lastmod: "2026-06-19T05:04:01+00:00"
 draft: false
 categories:
   - "Water Sports"
@@ -108,7 +108,11 @@ Choosing a mesh pack requires shifting your priorities. Instead of looking at ra
 
 ## How We Read This List
 
-We evaluate these backpacks based on product specifications, materials, and aggregate buyer feedback provided in the data. We did not conduct hands-on field testing for the bags on this list. Instead, we analyzed customer complaint patterns, strap designs, pocket layouts, and hardware durability to determine which packs are most likely to survive repeated exposure to salt water, sand, and heavy, wet equipment. 
+We evaluate these backpacks based on product specifications, materials, and aggregate buyer feedback provided in the data. We did not conduct hands-on field testing for the bags on this list. Instead, we analyzed customer complaint patterns, strap designs, pocket layouts, and hardware durability to determine which packs are most likely to survive repeated exposure to salt water, sand, and heavy, wet equipment.
+
+## Buying Scope and Fit Notes
+
+This guide is intentionally narrow: it covers **Backpacks** inside **Water Sports > Diving & Snorkeling**. The comparison uses a marketplace best-seller snapshot, product listing details, price-tier signals, and repeated buyer-feedback patterns rather than brand copy alone. It is most useful when you are comparing best snorkel backpack, mesh dive bag backpack, snorkeling gear bag, beach gear backpack; if you need a broader setup, start from the nearest category hub before picking a single product.
 
 ## Quick Picks
 

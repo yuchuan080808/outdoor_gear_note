@@ -2,7 +2,9 @@
 {{- $skin := . | minify | fingerprint "sha256" -}}
 <link rel="stylesheet" href="{{ $skin.RelPermalink }}">
 {{- end }}
-{{- if .Params.robotsNoIndex }}
+{{- $isTaxonomyPage := or (eq .Kind "taxonomy") (eq .Kind "term") -}}
+{{- $isUncuratedTaxonomyPage := and $isTaxonomyPage (ne .Params.indexable true) -}}
+{{- if or .Params.robotsNoIndex $isUncuratedTaxonomyPage }}
 <meta name="robots" content="noindex,follow">
 {{- else }}
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">

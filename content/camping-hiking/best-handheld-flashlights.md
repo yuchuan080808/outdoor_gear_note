@@ -9,7 +9,7 @@ keywords:
   - "flashlight buying guide"
 slug: "best-handheld-flashlights"
 date: "2026-05-18T14:08:40+00:00"
-lastmod: "2026-06-19T04:51:12+00:00"
+lastmod: "2026-06-19T05:04:01+00:00"
 draft: false
 categories:
   - "Lighting"
@@ -109,7 +109,11 @@ This handheld flashlights buying guide focuses on the practical tradeoffs of bri
 
 ## How We Read This List
 
-To build this guide, we analyzed the provided product specifications, battery configurations, and aggregated customer sentiment. We explicitly did not conduct hands-on field testing. Instead, we evaluated these products by comparing manufacturer claims against known marketplace patterns—looking closely at common failure points like faulty charging ports, exaggerated lumen ratings, and fragile housings. Our recommendations are based on matching the right light to the appropriate outdoor scenario and failure risk. 
+To build this guide, we analyzed the provided product specifications, battery configurations, and aggregated customer sentiment. We explicitly did not conduct hands-on field testing. Instead, we evaluated these products by comparing manufacturer claims against known marketplace patterns—looking closely at common failure points like faulty charging ports, exaggerated lumen ratings, and fragile housings. Our recommendations are based on matching the right light to the appropriate outdoor scenario and failure risk.
+
+## Buying Scope and Fit Notes
+
+This guide is intentionally narrow: it covers **Handheld Flashlights** inside **Lights & Lanterns > Flashlights**. The comparison uses a marketplace best-seller snapshot, product listing details, price-tier signals, and repeated buyer-feedback patterns rather than brand copy alone. It is most useful when you are comparing best handheld flashlight, camping flashlight, emergency flashlight, rechargeable flashlight; if you need a broader setup, start from the nearest category hub before picking a single product.
 
 ## Quick Picks
 
@@ -151,11 +155,11 @@ Dead charging ports, short battery life, sticky switches, false brightness claim
 
 ### Internal Gear Guides
 - [Best Hands-Free Flashlights of 2026 for Camping, Fishing, and Repairs](/camping-hiking/best-hands-free-flashlights/) - Use this to compare nearby flashlights tradeoffs before you buy.
-- [Best Lantern Accessories of 2026: Buyer Cautions](/camping-hiking/best-lantern-accessories/) - Use this to compare nearby lights & lanterns tradeoffs before you buy.
+- [Best Lantern Mantles and Adapters of 2026 for Camp Light](/camping-hiking/best-lantern-accessories/) - Use this to compare nearby lights & lanterns tradeoffs before you buy.
 
 ### External References
 - [Weather.gov outdoor safety guidance](https://www.weather.gov/safety/) - Weather-safety context for storms, heat, cold, wind, and lightning planning.
-- [REI Expert Advice on the Ten Essentials](https://www.rei.com/learn/expert-advice/ten-essentials.html) - Practical checklist context for packing and evaluating outdoor gear systems.
+- [USDA food safety while hiking, camping, and boating](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-safety-while-hiking-camping) - Cold-food, cooler-packing, and camp-kitchen safety guidance from USDA FSIS.
 
 ## Comparison Table
 

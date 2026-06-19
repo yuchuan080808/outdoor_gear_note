@@ -12,7 +12,7 @@ keywords:
   - "meal prep"
 slug: "best-coffee-tea-pots"
 date: "2026-05-29T14:05:25+00:00"
-lastmod: "2026-06-07T12:54:25+00:00"
+lastmod: "2026-06-19T05:04:01+00:00"
 draft: false
 categories:
   - "Camp Kitchen"
@@ -104,6 +104,10 @@ Before adding another piece to your chuck box, evaluate how you actually camp. A
 
 We built this guide to help you sort through capacity, fuel compatibility, and durability tradeoffs. No hands-on field testing was conducted for this specific roundup. Instead, we analyzed product-page specifications, material constraints, and aggregated customer-review patterns to identify consistent failure points and standout features. We look past the marketing claims to see how these pots actually perform over campfires, on propane stoves, and in crowded gear bins so you can avoid a bad-fit purchase.
 
+## Buying Scope and Fit Notes
+
+This guide is intentionally narrow: it covers **Coffee and Tea Pots** inside **Camping & Hiking > Camp Kitchen**. The comparison uses a marketplace best-seller snapshot, product listing details, price-tier signals, and repeated buyer-feedback patterns rather than brand copy alone. It is most useful when you are comparing best coffee & tea pots, coffee & tea pots buying guide, coffee & tea pots reviews, coffee & tea pots for camping and hiking; if you need a broader setup, start from the nearest category hub before picking a single product.
+
 ## Quick Picks
 
 *   **Best for Open Fire & Bushcraft**: Fire-Maple Antarcti 1L Lightweight Stainless Steel Kettle
@@ -147,9 +151,9 @@ Buying for an ideal trip instead of your real habits. If you cook simply, compac
 ## Related Resources
 
 ### Internal Gear Guides
-- [Best Empty Fuel Bottles of 2026 for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-empty-fuel-bottles/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
 - [Best Flatware of 2026 for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-flatware/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
 - [Best Mess Kits of 2026 for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-mess-kits/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
+- [Best Refillable Camping Fuel Bottles and Cylinders of 2026](/camping-hiking/best-empty-fuel-bottles/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
 - [Best Replacement Fuel of 2026 for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-replacement-fuel/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
 
 ### External References

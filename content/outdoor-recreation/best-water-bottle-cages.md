@@ -9,7 +9,7 @@ keywords:
   - "cycling hydration cage"
 slug: "best-water-bottle-cages"
 date: "2026-06-01T14:10:31+00:00"
-lastmod: "2026-06-07T12:54:26+00:00"
+lastmod: "2026-06-19T05:04:01+00:00"
 draft: false
 categories:
   - "Cycling Gear"
@@ -116,7 +116,11 @@ Finding the best water bottle cages for outdoor recreation means matching the ca
 
 ## How We Read This List
 
-We compiled this guide by analyzing product-page specifications, manufacturer fitment limits, and aggregated customer-feedback patterns. No hands-on field testing was conducted for this review. Instead, we evaluated buyer signals regarding installation difficulty, long-term durability, and how well each cage holds up against trail vibrations. We specifically looked for buyer regret surrounding snapped plastic, slipped clamps, and incompatible bolt spacing so you can avoid bad-fit purchases. 
+We compiled this guide by analyzing product-page specifications, manufacturer fitment limits, and aggregated customer-feedback patterns. No hands-on field testing was conducted for this review. Instead, we evaluated buyer signals regarding installation difficulty, long-term durability, and how well each cage holds up against trail vibrations. We specifically looked for buyer regret surrounding snapped plastic, slipped clamps, and incompatible bolt spacing so you can avoid bad-fit purchases.
+
+## Buying Scope and Fit Notes
+
+This guide is intentionally narrow: it covers **Water Bottle Cages** inside **Cycling > Hydration**. The comparison uses a marketplace best-seller snapshot, product listing details, price-tier signals, and repeated buyer-feedback patterns rather than brand copy alone. It is most useful when you are comparing best bike water bottle cage, water bottle cage for cycling, bike bottle holder, mtb bottle cage; if you need a broader setup, start from the nearest category hub before picking a single product.
 
 ## Quick Picks
 
@@ -161,7 +165,7 @@ Bottles rattling loose, weak bolts, sharp edges, and cages that crack or bend ar
 - [Best Bike Water Bottles of 2026 for Cycling Hydration and Cage Fit](/outdoor-recreation/best-water-bottles/) - Use this to compare nearby hydration tradeoffs before you buy.
 - [Best Hydration Packs of 2026 for Running, Hiking, and Cycling](/camping-hiking/best-hydration-packs/) - Use this to compare nearby hiking hydration tradeoffs before you buy.
 - [Best Mesh Snorkel Backpacks of 2026 for Beach and Dive Gear](/outdoor-recreation/best-backpacks/) - Use this to compare nearby hiking hydration tradeoffs before you buy.
-- [Best Empty Fuel Bottles of 2026 for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-empty-fuel-bottles/) - Use this to compare nearby hiking hydration tradeoffs before you buy.
+- [Best Refillable Camping Fuel Bottles and Cylinders of 2026](/camping-hiking/best-empty-fuel-bottles/) - Use this to compare nearby hiking hydration tradeoffs before you buy.
 
 ### External References
 - [CDC water treatment for hiking and camping](https://www.cdc.gov/drinking-water/prevention/water-treatment-hiking-camping-traveling.html) - Public-health guidance for filtering, disinfecting, and boiling backcountry water.

@@ -12,7 +12,7 @@ keywords:
   - "warmth"
 slug: "best-cots"
 date: "2026-05-19T23:40:11+00:00"
-lastmod: "2026-06-07T12:54:25+00:00"
+lastmod: "2026-06-19T05:04:01+00:00"
 draft: false
 categories:
   - "Camp Sleep"
@@ -122,6 +122,10 @@ Choosing the right cot requires matching the frame style to your transportation 
 
 As a buyer advocate, our priority is helping you avoid a bad fit. We did not conduct hands-on field testing for the cots on this list. Instead, we analyzed manufacturer specifications alongside large-volume customer feedback patterns to identify consistent strengths and recurring flaws. By separating marketing claims from actual buyer experiences—particularly regarding mattress thickness, assembly tension, and long-term joint durability—we highlight the practical realities of owning and sleeping on these cots.
 
+## Buying Scope and Fit Notes
+
+This guide is intentionally narrow: it covers **Cots** inside **Camping Furniture > Cots & Hammocks**. The comparison uses a marketplace best-seller snapshot, product listing details, price-tier signals, and repeated buyer-feedback patterns rather than brand copy alone. It is most useful when you are comparing best cots, cots buying guide, cots reviews, cots for camping and hiking; if you need a broader setup, start from the nearest category hub before picking a single product.
+
 ## Quick Picks
 
 *   **Best for maximum basecamp comfort:** Coleman ComfortSmart Big & Tall Cot
@@ -167,8 +171,8 @@ Noise, zipper feel, width, support, inflation or setup effort, and how easily th
 - [Best Blankets of 2026 for Camping Sleep Comfort and Packability](/camping-hiking/best-blankets/) - Use this to compare nearby camp sleep systems tradeoffs before you buy.
 
 ### External References
-- [REI Expert Advice on the Ten Essentials](https://www.rei.com/learn/expert-advice/ten-essentials.html) - Practical checklist context for packing and evaluating outdoor gear systems.
 - [USDA food safety while hiking, camping, and boating](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-safety-while-hiking-camping) - Cold-food, cooler-packing, and camp-kitchen safety guidance from USDA FSIS.
+- [REI Expert Advice on the Ten Essentials](https://www.rei.com/learn/expert-advice/ten-essentials.html) - Practical checklist context for packing and evaluating outdoor gear systems.
 
 ## Comparison Table
 

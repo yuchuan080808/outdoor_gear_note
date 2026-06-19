@@ -10,7 +10,9 @@
         {{ with .Site.Taxonomies.categories }}
         <nav class="home-category-links" aria-label="Outdoor gear categories">
             {{ range .ByCount }}
+                {{ if eq .Page.Params.indexable true }}
                 <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+                {{ end }}
             {{ end }}
         </nav>
         {{ end }}
@@ -30,4 +32,3 @@
 {{ define "right-sidebar" }}
     {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
 {{ end }}
-

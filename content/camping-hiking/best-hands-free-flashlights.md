@@ -9,7 +9,7 @@ keywords:
   - "fishing flashlight"
 slug: "best-hands-free-flashlights"
 date: "2026-05-17T04:41:46+00:00"
-lastmod: "2026-06-14T01:12:06+00:00"
+lastmod: "2026-06-19T05:04:01+00:00"
 draft: false
 categories:
   - "Lighting"
@@ -62,6 +62,10 @@ Finding the right model requires ignoring inflated marketing claims. Many budget
 
 We have not conducted hands-on field testing for these flashlights unless specifically noted. Instead, we analyzed product-page details, manufacturer specifications, and patterns in customer feedback to identify what works and what fails. We look past the raw lumen numbers to evaluate structural durability, battery reliability, and the practical tradeoffs of different mounting systems. Our goal is to flag potential buyer regrets before you spend your money.
 
+## Buying Scope and Fit Notes
+
+This guide is intentionally narrow: it covers **Hands Free Flashlights** inside **Lights & Lanterns > Flashlights**. The comparison uses a marketplace best-seller snapshot, product listing details, price-tier signals, and repeated buyer-feedback patterns rather than brand copy alone. It is most useful when you are comparing best hands free flashlight, flashlight gloves, hands free light, camping task light; if you need a broader setup, start from the nearest category hub before picking a single product.
+
 ## Quick Picks
 
 *   **Best for Versatile EDC and Clipping:** OLIGHT Oclip Pro EDC Flashlight
@@ -100,7 +104,7 @@ Weak brightness, awkward fit, dead batteries, poor switches, and lights that poi
 
 ### Internal Gear Guides
 - [Best Handheld Flashlights of 2026 for Camping and Emergencies](/camping-hiking/best-handheld-flashlights/) - Use this to compare nearby flashlights tradeoffs before you buy.
-- [Best Lantern Accessories of 2026: Buyer Cautions](/camping-hiking/best-lantern-accessories/) - Use this to compare nearby lights & lanterns tradeoffs before you buy.
+- [Best Lantern Mantles and Adapters of 2026 for Camp Light](/camping-hiking/best-lantern-accessories/) - Use this to compare nearby lights & lanterns tradeoffs before you buy.
 
 ### External References
 - [USDA food safety while hiking, camping, and boating](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-safety-while-hiking-camping) - Cold-food, cooler-packing, and camp-kitchen safety guidance from USDA FSIS.

@@ -155,6 +155,15 @@ CATEGORY_GROUP_RULES: tuple[tuple[str, tuple[str, ...]], ...] = (
         ),
     ),
     (
+        "Winter Sports",
+        (
+            "winter sports",
+            "ice skating",
+            "figure skating",
+            "skating",
+        ),
+    ),
+    (
         "Camp Kitchen",
         (
             "camp kitchen",
@@ -265,6 +274,19 @@ CATEGORY_GROUP_RULES: tuple[tuple[str, tuple[str, ...]], ...] = (
 )
 
 
+def keyword_matches(haystack: str, needle: str) -> bool:
+    needle = needle.strip().lower()
+    if not needle:
+        return False
+    normalized = re.sub(r"\s+", " ", haystack.lower())
+    escaped = re.escape(needle).replace(r"\ ", r"\s+")
+    if re.fullmatch(r"[a-z0-9]+", needle):
+        pattern = rf"(?<![a-z0-9]){escaped}s?(?![a-z0-9])"
+    else:
+        pattern = rf"(?<![a-z0-9]){escaped}(?![a-z0-9])"
+    return re.search(pattern, normalized) is not None
+
+
 def category_path_parts(category_path: str) -> list[str]:
     return [part.strip() for part in category_path.split(">") if part.strip()]
 
@@ -273,7 +295,7 @@ def article_categories(section: str, category_path: str, category_name: str = ""
     haystack = f"{category_path} {category_name}".lower()
     labels: list[str] = []
     for label, needles in CATEGORY_GROUP_RULES:
-        if any(needle in haystack for needle in needles):
+        if any(keyword_matches(haystack, needle) for needle in needles):
             labels.append(label)
 
     if not labels:
@@ -551,6 +573,110 @@ class SEOTopicCatalog:
                     ("What should I check before buying a bike water bottle?", "Check cage fit, squeeze flow, cap cleaning, leak resistance, insulation needs, and whether the bottle is easy to grab while riding."),
                     ("Are insulated bike bottles worth it?", "They help in hot weather, but they add bulk and may hold less water. For short cool rides, a standard squeeze bottle may be simpler."),
                     ("What bike bottle complaints matter most?", "Leaky caps, plastic taste, poor squeeze flow, hard cleaning, and bottles that eject from cages are the issues most likely to frustrate riders."),
+                ),
+            ),
+        ),
+        (
+            ("cycling", "tights, pants & shorts", "bib shorts"),
+            SEOTopic(
+                title="Best Cycling Bib Shorts for Long Rides and Saddle Comfort",
+                description="Compare cycling bib shorts by chamois comfort, strap fit, compression, leg grippers, pocket layout, fabric feel, and ride length.",
+                keywords=("best cycling bib shorts", "bike bib shorts", "padded cycling bibs", "men's cycling bib shorts", "road bike bib shorts"),
+                faqs=(
+                    ("What should I check before buying cycling bib shorts?", "Check chamois thickness, strap stretch, leg gripper comfort, inseam length, pocket needs, and whether the bibs suit short spins or long rides."),
+                    ("Are bike bib shorts better than regular cycling shorts?", "Bib shorts stay in place better because there is no waistband, but straps can feel awkward if sizing, torso length, or bathroom access matters."),
+                    ("What bib short complaints matter most?", "Chafing, see-through fabric, loose grippers, straps that pull, and padding that feels bulky or misplaced are the complaints most likely to ruin rides."),
+                ),
+            ),
+        ),
+        (
+            ("cycling", "rims & parts", "rim strips"),
+            SEOTopic(
+                title="Best Bike Rim Strips of 2026 for Tube Protection",
+                description="Compare bike rim strips by wheel size, rim width, spoke-hole coverage, adhesive fit, tubed or tubeless setup, and install complaints.",
+                keywords=("best bike rim strips", "bicycle rim tape", "bike rim liner", "rim strip for inner tube", "cycling wheel rim tape"),
+                faqs=(
+                    ("What should I check before buying bike rim strips?", "Match rim diameter, inner width, valve hole size, and whether the strip is for tubed wheels, tubeless tape, or a simple replacement liner."),
+                    ("Can the wrong rim strip cause flats?", "Yes. Poor width, shifted tape, rough spoke holes, or a bad valve-hole fit can expose the tube to sharp edges and cause repeat punctures."),
+                    ("What rim strip complaints matter most?", "Incorrect sizing, tape that lifts, valve holes that do not line up, and strips that slide during installation are the issues to watch."),
+                ),
+            ),
+        ),
+        (
+            ("winter sports", "ice skating", "dresses"),
+            SEOTopic(
+                title="Best Girls Figure Skating Dresses for Practice and Recitals",
+                description="Compare girls figure skating dresses by stretch, warmth, skirt movement, sleeve comfort, decoration durability, sizing, and practice use.",
+                keywords=("best figure skating dress girls", "girls ice skating dress", "figure skating practice dress", "ice skating outfit girls", "skating dress buying guide"),
+                faqs=(
+                    ("What should I check before buying a girls figure skating dress?", "Check stretch, torso length, sleeve comfort, skirt movement, decoration security, and whether the fabric works for practice or performance."),
+                    ("Should skating dresses fit tight or loose?", "They should fit close enough to move cleanly without twisting, but not so tight that sleeves, neckline, or leotard seams distract the skater."),
+                    ("What skating dress complaints matter most?", "Scratchy seams, missing rhinestones, short torsos, thin fabric, and inaccurate sizing are the most common fit and durability risks."),
+                ),
+            ),
+        ),
+        (
+            ("winter sports", "ice skating", "jackets"),
+            SEOTopic(
+                title="Best Girls Figure Skating Jackets for Warm Practice Layers",
+                description="Compare girls figure skating jackets by warmth, stretch, sleeve fit, rhinestone durability, zipper comfort, layering, and rink practice use.",
+                keywords=("best figure skating jacket girls", "girls ice skating jacket", "skating practice jacket", "warm skating jacket", "figure skating training jacket"),
+                faqs=(
+                    ("What should I check before buying a figure skating jacket?", "Check warmth, stretch, sleeve length, zipper comfort, decoration durability, and whether the jacket layers over skating dresses or practice tops."),
+                    ("Are fleece skating jackets good for practice?", "They can be useful in cold rinks, but the fit must allow arm movement and should not bunch under gloves or over a leotard."),
+                    ("What skating jacket complaints matter most?", "Short sleeves, stiff fabric, weak zippers, decorations falling off, and sizing that runs small are the main buyer watch-outs."),
+                ),
+            ),
+        ),
+        (
+            ("winter sports", "ice skating", "pants"),
+            SEOTopic(
+                title="Best Women's Figure Skating Pants for Practice Warmth",
+                description="Compare women's figure skating pants by stretch, waistband comfort, over-boot fit, warmth, fabric thickness, and rink-practice complaints.",
+                keywords=("best figure skating pants women", "women's ice skating pants", "over boot skating pants", "skating practice pants", "figure skating leggings"),
+                faqs=(
+                    ("What should I check before buying figure skating pants?", "Check stretch, waistband rise, over-boot shape, fabric warmth, seam comfort, and whether the pants stay put during spins and practice drills."),
+                    ("Are over-boot skating pants worth it?", "They create a clean boot line and extra coverage, but they must fit your skate size and should not drag, twist, or catch on blades."),
+                    ("What skating pant complaints matter most?", "Waistbands rolling, thin fabric, poor over-boot fit, short inseams, and rhinestones or seams irritating skin are the main risks."),
+                ),
+            ),
+        ),
+        (
+            ("winter sports", "ice skating", "tights"),
+            SEOTopic(
+                title="Best Girls Figure Skating Tights for Practice and Shows",
+                description="Compare girls figure skating tights by warmth, stretch, over-boot fit, waistband comfort, opacity, snag resistance, and sizing complaints.",
+                keywords=("best figure skating tights girls", "girls ice skating tights", "over boot skating tights", "skating practice tights", "warm skating leggings"),
+                faqs=(
+                    ("What should I check before buying figure skating tights?", "Check stretch, waistband comfort, opacity, over-boot fit, warmth, and whether the tights are made for practice, recital, or competition use."),
+                    ("Are over-boot tights better than footed tights?", "Over-boot tights create a longer line and cover scuffed boots, while footed tights can be simpler for practice and quick changes."),
+                    ("What skating tights complaints matter most?", "Snags, rolling waistbands, see-through fabric, inaccurate sizing, and tight ankle or boot coverage are the key watch-outs."),
+                ),
+            ),
+        ),
+        (
+            ("lantern accessories",),
+            SEOTopic(
+                title="Best Lantern Mantles and Adapters of 2026 for Camp Light",
+                description="Compare lantern accessories by mantle fit, propane adapter compatibility, pack quantity, install ease, breakage risk, and campsite use.",
+                keywords=("best lantern accessories", "camping lantern mantles", "Coleman lantern mantles", "propane lantern adapter", "camp lantern replacement parts"),
+                faqs=(
+                    ("What should I check before buying lantern accessories?", "Check your lantern model, mantle size, fuel-post compatibility, thread type, pack quantity, and whether replacement parts are easy to install at camp."),
+                    ("Are lantern mantles universal?", "No. Mantle shape, tie style, clip style, and lantern model matter. Buy by model compatibility rather than package photo alone."),
+                    ("What lantern accessory complaints matter most?", "Wrong fit, fragile mantles, bent adapters, poor threads, and unclear compatibility wording are the issues most likely to waste money."),
+                ),
+            ),
+        ),
+        (
+            ("stove accessories", "empty fuel bottles"),
+            SEOTopic(
+                title="Best Refillable Camping Fuel Bottles and Cylinders of 2026",
+                description="Compare refillable camping fuel bottles by fuel type, valve safety, DOT wording, leak resistance, capacity, weight, and stove compatibility.",
+                keywords=("best camping fuel bottle", "refillable propane cylinder", "camping fuel container", "empty fuel bottle camping", "stove fuel bottle"),
+                faqs=(
+                    ("What should I check before buying a refillable fuel bottle?", "Check fuel type, capacity, valve design, DOT or safety wording, stove compatibility, cap seal, and whether refilling is legal and practical where you live."),
+                    ("Can every empty fuel bottle hold propane?", "No. Propane cylinders, liquid-fuel bottles, and generic storage cans are different products. Match the container to the fuel and appliance instructions."),
+                    ("What fuel bottle complaints matter most?", "Valve leaks, unclear compatibility, dents, bad caps, and confusing refill instructions are the risks that matter most for camp fuel storage."),
                 ),
             ),
         ),
@@ -933,7 +1059,7 @@ class SEOTopicCatalog:
     def _profile_for(cls, category_name: str, category_path: str) -> tuple[str, str, tuple[str, ...], tuple[tuple[str, str], ...]]:
         haystack = f"{category_name} {category_path}".lower()
         for needles, angle, focus, keyword_bits, faqs in cls.GROUP_PROFILES:
-            if any(needle in haystack for needle in needles):
+            if any(keyword_matches(haystack, needle) for needle in needles):
                 return angle, focus, keyword_bits, faqs
         return (
             "Camping, Hiking, and Outdoor Use",
@@ -1474,6 +1600,10 @@ class SEOArticleOptimizer:
         r"\n*## Common Questions Before Buying\n.*?(?=\n#{2,3}\s+(?:Related Resources|Comparison Table|Deep Reviews|Final Summary)\b|\Z)",
         re.DOTALL,
     )
+    SCOPE_SECTION_RE = re.compile(
+        r"\n*## Buying Scope and Fit Notes\n.*?(?=\n#{2,3}\s+(?:How We Read This List|Quick Picks|Buying Guide|Common Questions Before Buying|Related Resources|Comparison Table|Deep Reviews|Final Summary)\b|\Z)",
+        re.DOTALL,
+    )
     INSERT_TARGETS = (
         re.compile(r"(?m)^#{2,3}\s+Related Resources\b"),
         re.compile(r"(?m)^#{2,3}\s+Comparison Table\b"),
@@ -1483,7 +1613,9 @@ class SEOArticleOptimizer:
 
     @classmethod
     def enrich_body(cls, markdown_body: str, task: CategoryTask) -> str:
-        return cls._insert_faq_section(markdown_body, SEOTopicCatalog.for_task(task))
+        topic = SEOTopicCatalog.for_task(task)
+        body = cls._insert_scope_section(markdown_body, task.category_name, task.category_path, task.section, topic)
+        return cls._insert_faq_section(body, topic)
 
     @classmethod
     def refresh_existing_content(cls, content_dir: Path = OUTPUT_DIR) -> int:
@@ -1505,12 +1637,51 @@ class SEOArticleOptimizer:
         if not frontmatter:
             return document
         topic = SEOTopicCatalog.for_article(article)
-        updated_frontmatter = cls._update_frontmatter(frontmatter, topic)
-        updated_body = cls._insert_faq_section(body, topic).strip()
+        updated_frontmatter = cls._update_frontmatter(frontmatter, topic, article)
+        updated_body = cls._insert_scope_section(body, article.category_name, article.category_path, article.section, topic)
+        updated_body = cls._insert_faq_section(updated_body, topic).strip()
         if updated_frontmatter == frontmatter and updated_body == body.strip():
             return document
         updated_frontmatter = SEOResourceLinker._touch_lastmod(updated_frontmatter)
         return f"{updated_frontmatter}\n\n{updated_body}\n"
+
+    @classmethod
+    def _insert_scope_section(
+        cls,
+        markdown_body: str,
+        category_name: str,
+        category_path: str,
+        section: str,
+        topic: SEOTopic,
+    ) -> str:
+        body = cls._remove_leading_h1(markdown_body)
+        body = cls.SCOPE_SECTION_RE.sub("\n\n", body).strip()
+        scope_section = cls._scope_section(category_name, category_path, section, topic)
+        for pattern in (
+            re.compile(r"(?m)^#{2,3}\s+Quick Picks\b"),
+            re.compile(r"(?m)^#{2,3}\s+Buying Guide\b"),
+            re.compile(r"(?m)^#{2,3}\s+Comparison Table\b"),
+            re.compile(r"(?m)^#{2,3}\s+Deep Reviews\b"),
+        ):
+            match = pattern.search(body)
+            if match:
+                prefix = body[: match.start()].rstrip()
+                suffix = body[match.start() :].lstrip()
+                return f"{prefix}\n\n{scope_section}\n\n{suffix}".strip()
+        return f"{body}\n\n{scope_section}".strip()
+
+    @staticmethod
+    def _scope_section(category_name: str, category_path: str, section: str, topic: SEOTopic) -> str:
+        leaf = SEOTopicCatalog._title_case(category_name)
+        parts = category_path_parts(category_path)
+        parent = " > ".join(parts[-3:-1]) if len(parts) >= 3 else section_label(section)
+        focus = ", ".join(topic.keywords[:4])
+        return (
+            "## Buying Scope and Fit Notes\n\n"
+            f"This guide is intentionally narrow: it covers **{leaf}** inside **{parent}**. "
+            "The comparison uses a marketplace best-seller snapshot, product listing details, price-tier signals, and repeated buyer-feedback patterns rather than brand copy alone. "
+            f"It is most useful when you are comparing {focus}; if you need a broader setup, start from the nearest category hub before picking a single product."
+        )
 
     @classmethod
     def _insert_faq_section(cls, markdown_body: str, topic: SEOTopic) -> str:
@@ -1537,11 +1708,13 @@ class SEOArticleOptimizer:
         return "\n\n".join(blocks)
 
     @classmethod
-    def _update_frontmatter(cls, frontmatter: str, topic: SEOTopic) -> str:
+    def _update_frontmatter(cls, frontmatter: str, topic: SEOTopic, article: PublishedArticle) -> str:
         lines = frontmatter.splitlines()
         lines = cls._remove_yaml_block(lines, "keywords")
         lines = cls._set_scalar(lines, "title", topic.title)
         lines = cls._set_scalar(lines, "description", topic.description)
+        if article.section and article.category_path:
+            lines = cls._set_yaml_list(lines, "categories", article_categories(article.section, article.category_path, article.category_name), before_key="tags")
         insert_at = cls._line_index(lines, "description")
         keyword_lines = ["keywords:", *[f"  - {MarkdownExporter._yaml_quote(keyword)}" for keyword in topic.keywords]]
         if insert_at is None:
@@ -1564,6 +1737,19 @@ class SEOArticleOptimizer:
             lines.insert(1, f"{key}: {quoted_value}")
         else:
             lines[index] = f"{key}: {quoted_value}"
+        return lines
+
+    @classmethod
+    def _set_yaml_list(cls, lines: list[str], key: str, values: Iterable[str], before_key: str | None = None) -> list[str]:
+        clean_values = [str(value).strip() for value in values if str(value).strip()]
+        if not clean_values:
+            return lines
+        lines = cls._remove_yaml_block(lines, key)
+        block = [f"{key}:", *[f"  - {MarkdownExporter._yaml_quote(value)}" for value in clean_values]]
+        insert_at = cls._line_index(lines, before_key) if before_key else None
+        if insert_at is None:
+            insert_at = len(lines) - 1 if lines and lines[-1] == "---" else len(lines)
+        lines[insert_at:insert_at] = block
         return lines
 
     @staticmethod

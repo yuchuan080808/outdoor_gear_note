@@ -105,3 +105,27 @@ weight = 90
 identifier = 'outdoor-accessories'
   [menu.main.params]
   icon = 'categories'
+
+[[menu.main]]
+name = 'Cycling Gear'
+url = '/categories/cycling-gear/'
+weight = 100
+identifier = 'cycling-gear'
+  [menu.main.params]
+  icon = 'categories'
+
+[[menu.main]]
+name = 'Water Sports'
+url = '/categories/water-sports/'
+weight = 110
+identifier = 'water-sports'
+  [menu.main.params]
+  icon = 'categories'
+
+[[menu.main]]
+name = 'Winter Sports'
+url = '/categories/winter-sports/'
+weight = 120
+identifier = 'winter-sports'
+  [menu.main.params]
+  icon = 'categories'
