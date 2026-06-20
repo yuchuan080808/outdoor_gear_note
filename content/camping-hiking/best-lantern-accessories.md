@@ -9,7 +9,7 @@ keywords:
   - "camp lantern replacement parts"
 slug: "best-lantern-accessories"
 date: "2026-06-14T01:08:25+00:00"
-lastmod: "2026-06-19T05:04:01+00:00"
+lastmod: "2026-06-20T02:00:01+00:00"
 draft: false
 categories:
   - "Lighting"

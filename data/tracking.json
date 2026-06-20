@@ -1,24 +1,15 @@
 {
   "version": 1,
-  "last_synced": "2026-06-19T04:45:49+00:00",
+  "last_synced": "2026-06-20T01:55:22+00:00",
   "categories": [
-    {
-      "node_id": "3401721",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Sleeping Bags & Camp Bedding > Sleeping Bag Accessories > Stuff Sacks",
-      "category_name": "Stuff Sacks",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3401721",
-      "section": "camping-hiking",
-      "status": "failed",
-      "last_updated": "2026-06-19T04:46:19+00:00"
-    },
     {
       "node_id": "3401791",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Sleeping Bags & Camp Bedding > Air Mattresses",
       "category_name": "Air Mattresses",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3401791",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "failed",
+      "last_updated": "2026-06-20T01:55:51+00:00"
     },
     {
       "node_id": "3401801",
@@ -681,6 +672,15 @@
       "last_updated": "2026-06-17T13:46:46+00:00"
     },
     {
+      "node_id": "3401721",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Sleeping Bags & Camp Bedding > Sleeping Bag Accessories > Stuff Sacks",
+      "category_name": "Stuff Sacks",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3401721",
+      "section": "camping-hiking",
+      "status": "failed",
+      "last_updated": "2026-06-19T04:46:19+00:00"
+    },
+    {
       "node_id": "10208170011",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Footwear & Accessories > Gaiters",
       "category_name": "Gaiters",
@@ -1149,25 +1149,16 @@
       "article_title": "Best Hiking Backpacks for Day Hikes, Travel, and Gear Fit"
     },
     {
-      "node_id": "10208093011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Cycling > Wheels & Accessories > Rims & Parts > Rim Strips",
-      "category_name": "Rim Strips",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208093011",
-      "section": "outdoor-recreation",
-      "status": "completed",
-      "last_updated": "2026-06-19T04:51:09+00:00",
-      "article_path": "content\\outdoor-recreation\\best-rim-strips.md",
-      "article_url": "/outdoor-recreation/best-rim-strips/",
-      "article_title": "Best Rim Strips of 2026 for Camping, Hiking, and Outdoor Use"
-    },
-    {
       "node_id": "10208095011",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Cycling > Wheels & Accessories > Spokes & Parts > Spoke Decorations",
       "category_name": "Spoke Decorations",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208095011",
       "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-06-20T02:00:01+00:00",
+      "article_path": "content\\outdoor-recreation\\best-spoke-decorations.md",
+      "article_url": "/outdoor-recreation/best-spoke-decorations/",
+      "article_title": "Best Spoke Decorations of 2026 for Camping, Hiking, and Outdoor Use"
     },
     {
       "node_id": "10208097011",
@@ -7096,6 +7087,18 @@
       "section": "outdoor-recreation",
       "status": "failed",
       "last_updated": "2026-06-17T13:50:44+00:00"
+    },
+    {
+      "node_id": "10208093011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Cycling > Wheels & Accessories > Rims & Parts > Rim Strips",
+      "category_name": "Rim Strips",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208093011",
+      "section": "outdoor-recreation",
+      "status": "completed",
+      "last_updated": "2026-06-19T04:51:09+00:00",
+      "article_path": "content\\outdoor-recreation\\best-rim-strips.md",
+      "article_url": "/outdoor-recreation/best-rim-strips/",
+      "article_title": "Best Rim Strips of 2026 for Camping, Hiking, and Outdoor Use"
     }
   ]
 }
