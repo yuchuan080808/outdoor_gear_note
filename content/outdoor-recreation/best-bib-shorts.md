@@ -9,7 +9,7 @@ keywords:
   - "road bike bib shorts"
 slug: "best-bib-shorts"
 date: "2026-06-07T12:54:25+00:00"
-lastmod: "2026-06-20T02:00:01+00:00"
+lastmod: "2026-06-28T03:32:12+00:00"
 draft: false
 categories:
   - "Cycling Gear"
@@ -160,10 +160,10 @@ Chafing, see-through fabric, loose grippers, straps that pull, and padding that 
 ## Related Resources
 
 ### Internal Gear Guides
+- [Best Shorts of 2026 for Camping, Hiking, and Outdoor Use](/outdoor-recreation/best-shorts/) - Use this to compare nearby cycling tradeoffs before you buy.
 - [Best Bike Rim Strips of 2026 for Tube Protection](/outdoor-recreation/best-rim-strips/) - Use this to compare nearby cycling tradeoffs before you buy.
 - [Best Spoke Decorations of 2026 for Camping, Hiking, and Outdoor Use](/outdoor-recreation/best-spoke-decorations/) - Use this to compare nearby cycling tradeoffs before you buy.
 - [Best Bike Water Bottle Cages of 2026 for Secure Bottle Fit](/outdoor-recreation/best-water-bottle-cages/) - Use this to compare nearby cycling tradeoffs before you buy.
-- [Best Bike Water Bottles of 2026 for Cycling Hydration and Cage Fit](/outdoor-recreation/best-water-bottles/) - Use this to compare nearby cycling tradeoffs before you buy.
 
 ### External References
 - [USDA food safety while hiking, camping, and boating](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-safety-while-hiking-camping) - Cold-food, cooler-packing, and camp-kitchen safety guidance from USDA FSIS.

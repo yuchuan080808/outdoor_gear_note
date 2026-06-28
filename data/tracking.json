@@ -1,27 +1,15 @@
 {
   "version": 1,
-  "last_synced": "2026-06-21T23:40:08+00:00",
+  "last_synced": "2026-06-28T03:11:03+00:00",
   "categories": [
-    {
-      "node_id": "3401811",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Sleeping Bags & Camp Bedding > Self-Inflating Sleeping Mats",
-      "category_name": "Self-Inflating Sleeping Mats",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3401811",
-      "section": "camping-hiking",
-      "status": "completed",
-      "last_updated": "2026-06-21T23:44:47+00:00",
-      "article_path": "content\\camping-hiking\\best-self-inflating-sleeping-mats.md",
-      "article_url": "/camping-hiking/best-self-inflating-sleeping-mats/",
-      "article_title": "Best Self-Inflating Sleeping Mats of 2026: Buyer Cautions"
-    },
     {
       "node_id": "3401881",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Tents & Shelters > Camping Shelters > Screen Houses & Rooms > Screen Rooms",
       "category_name": "Screen Rooms",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3401881",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "failed",
+      "last_updated": "2026-06-28T03:11:34+00:00"
     },
     {
       "node_id": "3401921",
@@ -29,8 +17,11 @@
       "category_name": "Bivy Sacks",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3401921",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-06-28T03:25:57+00:00",
+      "article_path": "content\\camping-hiking\\best-bivy-sacks.md",
+      "article_url": "/camping-hiking/best-bivy-sacks/",
+      "article_title": "Best Bivy Sacks of 2026 for Camping Weather Protection and Easy Setup"
     },
     {
       "node_id": "3401971",
@@ -684,6 +675,18 @@
       "last_updated": "2026-06-21T23:40:08+00:00"
     },
     {
+      "node_id": "3401811",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Sleeping Bags & Camp Bedding > Self-Inflating Sleeping Mats",
+      "category_name": "Self-Inflating Sleeping Mats",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3401811",
+      "section": "camping-hiking",
+      "status": "completed",
+      "last_updated": "2026-06-21T23:44:47+00:00",
+      "article_path": "content\\camping-hiking\\best-self-inflating-sleeping-mats.md",
+      "article_url": "/camping-hiking/best-self-inflating-sleeping-mats/",
+      "article_title": "Best Self-Inflating Sleeping Mats of 2026: Buyer Cautions"
+    },
+    {
       "node_id": "10208170011",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Footwear & Accessories > Gaiters",
       "category_name": "Gaiters",
@@ -1152,22 +1155,13 @@
       "article_title": "Best Hiking Backpacks for Day Hikes, Travel, and Gear Fit"
     },
     {
-      "node_id": "10208099011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Cycling > Wheels & Accessories > Spokes & Parts > Spoke Tools",
-      "category_name": "Spoke Tools",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208099011",
-      "section": "outdoor-recreation",
-      "status": "failed",
-      "last_updated": "2026-06-21T23:48:04+00:00"
-    },
-    {
       "node_id": "10208101011",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Cycling > Cycling > Boys > Tights, Pants & Shorts > Shorts",
       "category_name": "Shorts",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208101011",
       "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "failed",
+      "last_updated": "2026-06-28T03:18:16+00:00"
     },
     {
       "node_id": "10208102011",
@@ -1175,8 +1169,11 @@
       "category_name": "Shorts",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208102011",
       "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-06-28T03:32:09+00:00",
+      "article_path": "content\\outdoor-recreation\\best-shorts.md",
+      "article_url": "/outdoor-recreation/best-shorts/",
+      "article_title": "Best Shorts of 2026 for Camping, Hiking, and Outdoor Use"
     },
     {
       "node_id": "10208103011",
@@ -7102,6 +7099,15 @@
       "section": "outdoor-recreation",
       "status": "pending",
       "last_updated": "2026-06-21T23:40:08+00:00"
+    },
+    {
+      "node_id": "10208099011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Cycling > Wheels & Accessories > Spokes & Parts > Spoke Tools",
+      "category_name": "Spoke Tools",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208099011",
+      "section": "outdoor-recreation",
+      "status": "failed",
+      "last_updated": "2026-06-21T23:48:04+00:00"
     }
   ]
 }
