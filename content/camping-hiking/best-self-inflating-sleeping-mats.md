@@ -12,7 +12,7 @@ keywords:
   - "warmth"
 slug: "best-self-inflating-sleeping-mats"
 date: "2026-06-21T23:44:47+00:00"
-lastmod: "2026-06-28T03:32:12+00:00"
+lastmod: "2026-06-30T14:26:38+00:00"
 draft: false
 categories:
   - "Camp Sleep"

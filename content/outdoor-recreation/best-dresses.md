@@ -9,7 +9,7 @@ keywords:
   - "skating dress buying guide"
 slug: "best-dresses"
 date: "2026-06-10T13:52:52+00:00"
-lastmod: "2026-06-28T03:32:12+00:00"
+lastmod: "2026-06-30T14:26:38+00:00"
 draft: false
 categories:
   - "Winter Sports"
@@ -163,7 +163,7 @@ Scratchy seams, missing rhinestones, short torsos, thin fabric, and inaccurate s
 - [Best Girls Figure Skating Jackets of 2026 for Warm Practice Layers](/outdoor-recreation/best-jackets/) - Use this to compare nearby girls tradeoffs before you buy.
 - [Best Girls Figure Skating Tights of 2026 for Practice and Shows](/outdoor-recreation/best-tights/) - Use this to compare nearby girls tradeoffs before you buy.
 - [Best Women's Figure Skating Pants of 2026 for Practice Warmth](/outdoor-recreation/best-pants/) - Use this to compare nearby ice skating tradeoffs before you buy.
-- [Best Shorts of 2026 for Camping, Hiking, and Outdoor Use](/outdoor-recreation/best-shorts/) - Use this to compare nearby girls tradeoffs before you buy.
+- [Best Coolers of 2026 for Camping, Road Trips, and Ice Retention](/camping-hiking/best-coolers/) - Use this to compare nearby outdoor gear tradeoffs before you buy.
 
 ### External References
 - [Weather.gov outdoor safety guidance](https://www.weather.gov/safety/) - Weather-safety context for storms, heat, cold, wind, and lightning planning.

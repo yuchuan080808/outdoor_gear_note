@@ -9,7 +9,7 @@ keywords:
   - "figure skating training jacket"
 slug: "best-jackets"
 date: "2026-06-14T01:12:06+00:00"
-lastmod: "2026-06-28T03:32:13+00:00"
+lastmod: "2026-06-30T14:26:38+00:00"
 draft: false
 categories:
   - "Winter Sports"
@@ -158,7 +158,7 @@ Short sleeves, stiff fabric, weak zippers, decorations falling off, and sizing t
 - [Best Girls Figure Skating Tights of 2026 for Practice and Shows](/outdoor-recreation/best-tights/) - Use this to compare nearby girls tradeoffs before you buy.
 - [Best Girls Figure Skating Dresses of 2026 for Practice and Recitals](/outdoor-recreation/best-dresses/) - Use this to compare nearby girls tradeoffs before you buy.
 - [Best Women's Figure Skating Pants of 2026 for Practice Warmth](/outdoor-recreation/best-pants/) - Use this to compare nearby ice skating tradeoffs before you buy.
-- [Best Shorts of 2026 for Camping, Hiking, and Outdoor Use](/outdoor-recreation/best-shorts/) - Use this to compare nearby girls tradeoffs before you buy.
+- [Best Coolers of 2026 for Camping, Road Trips, and Ice Retention](/camping-hiking/best-coolers/) - Use this to compare nearby outdoor gear tradeoffs before you buy.
 
 ### External References
 - [USDA food safety while hiking, camping, and boating](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-safety-while-hiking-camping) - Cold-food, cooler-packing, and camp-kitchen safety guidance from USDA FSIS.
