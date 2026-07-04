@@ -9,7 +9,7 @@ keywords:
   - "warm skating leggings"
 slug: "best-tights"
 date: "2026-06-16T14:07:13+00:00"
-lastmod: "2026-06-19T05:04:01+00:00"
+lastmod: "2026-07-04T03:11:42+00:00"
 draft: false
 categories:
   - "Winter Sports"
@@ -166,7 +166,7 @@ Snags, rolling waistbands, see-through fabric, inaccurate sizing, and tight ankl
 - [Best Girls Figure Skating Dresses of 2026 for Practice and Recitals](/outdoor-recreation/best-dresses/) - Use this to compare nearby girls tradeoffs before you buy.
 - [Best Girls Figure Skating Jackets of 2026 for Warm Practice Layers](/outdoor-recreation/best-jackets/) - Use this to compare nearby girls tradeoffs before you buy.
 - [Best Women's Figure Skating Pants of 2026 for Practice Warmth](/outdoor-recreation/best-pants/) - Use this to compare nearby ice skating tradeoffs before you buy.
-- [Best Cycling Bib Shorts of 2026 for Long Rides and Saddle Comfort](/outdoor-recreation/best-bib-shorts/) - Use this to compare nearby outdoor gear tradeoffs before you buy.
+- [Best Bib Pants of 2026 for Camping, Hiking, and Outdoor Use](/outdoor-recreation/best-bib-pants/) - Use this to compare nearby outdoor gear tradeoffs before you buy.
 
 ### External References
 - [Weather.gov outdoor safety guidance](https://www.weather.gov/safety/) - Weather-safety context for storms, heat, cold, wind, and lightning planning.

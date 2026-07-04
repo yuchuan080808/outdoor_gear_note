@@ -12,7 +12,7 @@ keywords:
   - "meal prep"
 slug: "best-open-fire-cookware"
 date: "2026-05-24T11:36:23+00:00"
-lastmod: "2026-06-30T14:26:38+00:00"
+lastmod: "2026-07-04T03:11:43+00:00"
 draft: false
 categories:
   - "Camp Kitchen"

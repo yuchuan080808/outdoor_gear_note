@@ -12,7 +12,7 @@ keywords:
   - "buyer cautions"
 slug: "best-shorts"
 date: "2026-06-30T14:26:00+00:00"
-lastmod: "2026-06-30T14:26:38+00:00"
+lastmod: "2026-07-04T03:11:43+00:00"
 draft: false
 categories:
   - "Cycling Gear"
@@ -162,10 +162,10 @@ No. Bestseller signals help surface popular products, but the better choice depe
 ## Related Resources
 
 ### Internal Gear Guides
+- [Best Bib Pants of 2026 for Camping, Hiking, and Outdoor Use](/outdoor-recreation/best-bib-pants/) - Use this to compare nearby tights, pants & shorts tradeoffs before you buy.
 - [Best Cycling Bib Shorts of 2026 for Long Rides and Saddle Comfort](/outdoor-recreation/best-bib-shorts/) - Use this to compare nearby tights, pants & shorts tradeoffs before you buy.
+- [Best Bib Tights and Pants of 2026 for Camping, Hiking, and Outdoor Use](/outdoor-recreation/best-bib-tights-pants/) - Use this to compare nearby tights, pants & shorts tradeoffs before you buy.
 - [Best Bike Water Bottle Cages of 2026 for Secure Bottle Fit](/outdoor-recreation/best-water-bottle-cages/) - Use this to compare nearby cycling tradeoffs before you buy.
-- [Best Bike Water Bottles of 2026 for Cycling Hydration and Cage Fit](/outdoor-recreation/best-water-bottles/) - Use this to compare nearby cycling tradeoffs before you buy.
-- [Best Bike Rim Strips of 2026 for Tube Protection](/outdoor-recreation/best-rim-strips/) - Use this to compare nearby cycling tradeoffs before you buy.
 
 ### External References
 - [Weather.gov outdoor safety guidance](https://www.weather.gov/safety/) - Weather-safety context for storms, heat, cold, wind, and lightning planning.

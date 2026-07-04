@@ -1,51 +1,18 @@
 {
   "version": 1,
-  "last_synced": "2026-06-30T14:17:13+00:00",
+  "last_synced": "2026-07-04T02:53:49+00:00",
   "categories": [
-    {
-      "node_id": "3401971",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Tents & Shelters > Tent Accessories > Footprints",
-      "category_name": "Footprints",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3401971",
-      "section": "camping-hiking",
-      "status": "failed",
-      "last_updated": "2026-06-30T14:17:34+00:00"
-    },
-    {
-      "node_id": "3402011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Tents & Shelters > Tent Accessories > Tent Stakes",
-      "category_name": "Tent Stakes",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3402011",
-      "section": "camping-hiking",
-      "status": "failed",
-      "last_updated": "2026-06-30T14:26:19+00:00"
-    },
-    {
-      "node_id": "3402031",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Tents & Shelters > Tent Accessories > Tent Tarps",
-      "category_name": "Tent Tarps",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3402031",
-      "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
-    {
-      "node_id": "3402071",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Hydration & Filtration > Flasks",
-      "category_name": "Flasks",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3402071",
-      "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
     {
       "node_id": "3402131",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Hydration & Filtration > Chemical Water Treaters",
       "category_name": "Chemical Water Treaters",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3402131",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-07-04T02:58:21+00:00",
+      "article_path": "content\\camping-hiking\\best-chemical-water-treaters.md",
+      "article_url": "/camping-hiking/best-chemical-water-treaters/",
+      "article_title": "Best Chemical Water Treaters of 2026: Buyer Cautions"
     },
     {
       "node_id": "3402141",
@@ -53,8 +20,11 @@
       "category_name": "Water Filters",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3402141",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-07-04T03:06:48+00:00",
+      "article_path": "content\\camping-hiking\\best-water-filters.md",
+      "article_url": "/camping-hiking/best-water-filters/",
+      "article_title": "Best Water Filters of 2026 for Backpacking, Camping, and Emergencies"
     },
     {
       "node_id": "3402151",
@@ -687,6 +657,42 @@
       "article_title": "Best Bivy Sacks of 2026 for Camping Weather Protection and Easy Setup"
     },
     {
+      "node_id": "3401971",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Tents & Shelters > Tent Accessories > Footprints",
+      "category_name": "Footprints",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3401971",
+      "section": "camping-hiking",
+      "status": "failed",
+      "last_updated": "2026-06-30T14:17:34+00:00"
+    },
+    {
+      "node_id": "3402011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Tents & Shelters > Tent Accessories > Tent Stakes",
+      "category_name": "Tent Stakes",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3402011",
+      "section": "camping-hiking",
+      "status": "failed",
+      "last_updated": "2026-06-30T14:26:19+00:00"
+    },
+    {
+      "node_id": "3402031",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Tents & Shelters > Tent Accessories > Tent Tarps",
+      "category_name": "Tent Tarps",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3402031",
+      "section": "camping-hiking",
+      "status": "failed",
+      "last_updated": "2026-07-03T13:46:20+00:00"
+    },
+    {
+      "node_id": "3402071",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Hydration & Filtration > Flasks",
+      "category_name": "Flasks",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3402071",
+      "section": "camping-hiking",
+      "status": "failed",
+      "last_updated": "2026-07-03T13:50:14+00:00"
+    },
+    {
       "node_id": "10208170011",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Footwear & Accessories > Gaiters",
       "category_name": "Gaiters",
@@ -1155,52 +1161,16 @@
       "article_title": "Best Hiking Backpacks for Day Hikes, Travel, and Gear Fit"
     },
     {
-      "node_id": "10208103011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Cycling > Cycling > Men > Tights, Pants & Shorts > Shorts",
-      "category_name": "Shorts",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208103011",
-      "section": "outdoor-recreation",
-      "status": "completed",
-      "last_updated": "2026-06-30T14:26:00+00:00",
-      "article_path": "content\\outdoor-recreation\\best-shorts.md",
-      "article_url": "/outdoor-recreation/best-shorts/",
-      "article_title": "Best Shorts of 2026 for Camping, Hiking, and Outdoor Use"
-    },
-    {
-      "node_id": "10208104011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Cycling > Cycling > Women > Tights, Pants & Shorts > Shorts",
-      "category_name": "Shorts",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208104011",
-      "section": "outdoor-recreation",
-      "status": "failed",
-      "last_updated": "2026-06-30T14:26:37+00:00"
-    },
-    {
-      "node_id": "10208106011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Cycling > Cycling > Boys > Tights, Pants & Shorts > Bib Pants",
-      "category_name": "Bib Pants",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208106011",
-      "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
-    {
-      "node_id": "10208107011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Cycling > Cycling > Girls > Cycling Bottoms > Bib Pants",
-      "category_name": "Bib Pants",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208107011",
-      "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
-    {
       "node_id": "10208108011",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Cycling > Cycling > Men > Tights, Pants & Shorts > Bib Pants",
       "category_name": "Bib Pants",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208108011",
       "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-07-04T03:02:18+00:00",
+      "article_path": "content\\outdoor-recreation\\best-bib-pants.md",
+      "article_url": "/outdoor-recreation/best-bib-pants/",
+      "article_title": "Best Bib Pants of 2026 for Camping, Hiking, and Outdoor Use"
     },
     {
       "node_id": "10208109011",
@@ -1208,8 +1178,11 @@
       "category_name": "Bib Tights & Pants",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208109011",
       "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-07-04T03:11:38+00:00",
+      "article_path": "content\\outdoor-recreation\\best-bib-tights-pants.md",
+      "article_url": "/outdoor-recreation/best-bib-tights-pants/",
+      "article_title": "Best Bib Tights and Pants of 2026 for Camping, Hiking, and Outdoor Use"
     },
     {
       "node_id": "10208111011",
@@ -7111,6 +7084,45 @@
       "article_path": "content\\outdoor-recreation\\best-shorts.md",
       "article_url": "/outdoor-recreation/best-shorts/",
       "article_title": "Best Shorts of 2026 for Camping, Hiking, and Outdoor Use"
+    },
+    {
+      "node_id": "10208103011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Cycling > Cycling > Men > Tights, Pants & Shorts > Shorts",
+      "category_name": "Shorts",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208103011",
+      "section": "outdoor-recreation",
+      "status": "completed",
+      "last_updated": "2026-06-30T14:26:00+00:00",
+      "article_path": "content\\outdoor-recreation\\best-shorts.md",
+      "article_url": "/outdoor-recreation/best-shorts/",
+      "article_title": "Best Shorts of 2026 for Camping, Hiking, and Outdoor Use"
+    },
+    {
+      "node_id": "10208104011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Cycling > Cycling > Women > Tights, Pants & Shorts > Shorts",
+      "category_name": "Shorts",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208104011",
+      "section": "outdoor-recreation",
+      "status": "failed",
+      "last_updated": "2026-06-30T14:26:37+00:00"
+    },
+    {
+      "node_id": "10208106011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Cycling > Cycling > Boys > Tights, Pants & Shorts > Bib Pants",
+      "category_name": "Bib Pants",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208106011",
+      "section": "outdoor-recreation",
+      "status": "failed",
+      "last_updated": "2026-07-03T13:46:25+00:00"
+    },
+    {
+      "node_id": "10208107011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Cycling > Cycling > Girls > Cycling Bottoms > Bib Pants",
+      "category_name": "Bib Pants",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208107011",
+      "section": "outdoor-recreation",
+      "status": "failed",
+      "last_updated": "2026-07-03T13:50:21+00:00"
     }
   ]
 }
