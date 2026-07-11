@@ -12,7 +12,7 @@ keywords:
   - "buyer cautions"
 slug: "best-bib-tights-pants"
 date: "2026-07-04T03:11:38+00:00"
-lastmod: "2026-07-11T04:12:59+00:00"
+lastmod: "2026-07-11T12:15:41+00:00"
 draft: false
 categories:
   - "Cycling Gear"

@@ -12,7 +12,7 @@ keywords:
   - "leak prevention"
 slug: "best-chemical-water-treaters"
 date: "2026-07-04T02:58:21+00:00"
-lastmod: "2026-07-11T04:12:58+00:00"
+lastmod: "2026-07-11T12:15:41+00:00"
 draft: false
 categories:
   - "Water and Hydration"
@@ -147,9 +147,9 @@ Leaks, hard cleaning, poor flow, plastic taste, and poor pack fit are the proble
 
 ### Internal Gear Guides
 - [Best Water Filters of 2026 for Backpacking, Camping, and Emergencies](/camping-hiking/best-water-filters/) - Use this to compare nearby hydration & filtration tradeoffs before you buy.
+- [Best Canteens of 2026: Buyer Cautions](/camping-hiking/best-canteens/) - Use this to compare nearby hydration & filtration tradeoffs before you buy.
 - [Best Bike Water Bottle Cages of 2026 for Secure Bottle Fit](/outdoor-recreation/best-water-bottle-cages/) - Use this to compare nearby hiking hydration tradeoffs before you buy.
 - [Best Bike Water Bottles of 2026 for Cycling Hydration and Cage Fit](/outdoor-recreation/best-water-bottles/) - Use this to compare nearby hiking hydration tradeoffs before you buy.
-- [Best Diving Electronics of 2026: Buyer Cautions](/outdoor-recreation/best-diving-electronics/) - Use this to compare nearby hiking hydration tradeoffs before you buy.
 
 ### External References
 - [CDC water treatment for hiking and camping](https://www.cdc.gov/drinking-water/prevention/water-treatment-hiking-camping-traveling.html) - Public-health guidance for filtering, disinfecting, and boiling backcountry water.

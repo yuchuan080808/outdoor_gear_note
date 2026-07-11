@@ -9,7 +9,7 @@ keywords:
   - "backcountry water treatment"
 slug: "best-water-filters"
 date: "2026-07-04T03:06:48+00:00"
-lastmod: "2026-07-11T04:12:58+00:00"
+lastmod: "2026-07-11T12:15:40+00:00"
 draft: false
 categories:
   - "Water and Hydration"
@@ -166,9 +166,9 @@ Pre-filter silty water when possible, backflush as instructed, avoid freezing we
 
 ### Internal Gear Guides
 - [Best Chemical Water Treaters of 2026: Buyer Cautions](/camping-hiking/best-chemical-water-treaters/) - Use this to compare nearby hydration & filtration tradeoffs before you buy.
+- [Best Canteens of 2026: Buyer Cautions](/camping-hiking/best-canteens/) - Use this to compare nearby hydration & filtration tradeoffs before you buy.
 - [Best Bike Water Bottle Cages of 2026 for Secure Bottle Fit](/outdoor-recreation/best-water-bottle-cages/) - Use this to compare nearby hiking hydration tradeoffs before you buy.
 - [Best Bike Water Bottles of 2026 for Cycling Hydration and Cage Fit](/outdoor-recreation/best-water-bottles/) - Use this to compare nearby hiking hydration tradeoffs before you buy.
-- [Best Diving Electronics of 2026: Buyer Cautions](/outdoor-recreation/best-diving-electronics/) - Use this to compare nearby hiking hydration tradeoffs before you buy.
 
 ### External References
 - [CDC water treatment for hiking and camping](https://www.cdc.gov/drinking-water/prevention/water-treatment-hiking-camping-traveling.html) - Public-health guidance for filtering, disinfecting, and boiling backcountry water.

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_synced": "2026-07-11T03:57:01+00:00",
+  "last_synced": "2026-07-11T11:55:35+00:00",
   "categories": [
     {
       "node_id": "10208168011",
@@ -114,37 +114,16 @@
       "last_updated": "2026-05-18T01:59:55+00:00"
     },
     {
-      "node_id": "2204498011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Sleeping Bags & Camp Bedding > Sleeping Bags",
-      "category_name": "Sleeping Bags",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/2204498011",
-      "section": "camping-hiking",
-      "status": "completed",
-      "last_updated": "2026-07-11T03:58:51+00:00",
-      "article_path": "content\\camping-hiking\\best-sleeping-bags.md",
-      "article_url": "/camping-hiking/best-sleeping-bags/",
-      "article_title": "Best Sleeping Bags of 2026 for Camping Comfort and Cold Nights"
-    },
-    {
-      "node_id": "2204647011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Stove Accessories > Fire Starters",
-      "category_name": "Fire Starters",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/2204647011",
-      "section": "camping-hiking",
-      "status": "completed",
-      "last_updated": "2026-07-11T04:08:30+00:00",
-      "article_path": "content\\camping-hiking\\best-fire-starters.md",
-      "article_url": "/camping-hiking/best-fire-starters/",
-      "article_title": "Best Fire Starters of 2026 for Camp Kitchen Setup and Meal Prep"
-    },
-    {
       "node_id": "2204650011",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Sleeping Bags & Camp Bedding > Sleeping Bag Accessories > Compression Sacks",
       "category_name": "Compression Sacks",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/2204650011",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-18T13:53:47+00:00"
+      "status": "completed",
+      "last_updated": "2026-07-11T12:00:03+00:00",
+      "article_path": "content\\camping-hiking\\best-compression-sacks.md",
+      "article_url": "/camping-hiking/best-compression-sacks/",
+      "article_title": "Best Compression Sacks of 2026: Buyer Cautions"
     },
     {
       "node_id": "2204654011",
@@ -152,8 +131,11 @@
       "category_name": "Canteens",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/2204654011",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-18T13:53:47+00:00"
+      "status": "completed",
+      "last_updated": "2026-07-11T12:10:04+00:00",
+      "article_path": "content\\camping-hiking\\best-canteens.md",
+      "article_url": "/camping-hiking/best-canteens/",
+      "article_title": "Best Canteens of 2026: Buyer Cautions"
     },
     {
       "node_id": "2404179011",
@@ -702,6 +684,30 @@
       "article_title": "Best Freeze-Dried Food of 2026 for Camp Kitchen Setup and Meal Prep"
     },
     {
+      "node_id": "2204498011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Sleeping Bags & Camp Bedding > Sleeping Bags",
+      "category_name": "Sleeping Bags",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/2204498011",
+      "section": "camping-hiking",
+      "status": "completed",
+      "last_updated": "2026-07-11T03:58:51+00:00",
+      "article_path": "content\\camping-hiking\\best-sleeping-bags.md",
+      "article_url": "/camping-hiking/best-sleeping-bags/",
+      "article_title": "Best Sleeping Bags of 2026 for Camping Comfort and Cold Nights"
+    },
+    {
+      "node_id": "2204647011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Stove Accessories > Fire Starters",
+      "category_name": "Fire Starters",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/2204647011",
+      "section": "camping-hiking",
+      "status": "completed",
+      "last_updated": "2026-07-11T04:08:30+00:00",
+      "article_path": "content\\camping-hiking\\best-fire-starters.md",
+      "article_url": "/camping-hiking/best-fire-starters/",
+      "article_title": "Best Fire Starters of 2026 for Camp Kitchen Setup and Meal Prep"
+    },
+    {
       "node_id": "10208170011",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Footwear & Accessories > Gaiters",
       "category_name": "Gaiters",
@@ -1170,37 +1176,16 @@
       "article_title": "Best Hiking Backpacks for Day Hikes, Travel, and Gear Fit"
     },
     {
-      "node_id": "10208118011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Cycling > Glasses & Goggles",
-      "category_name": "Glasses & Goggles",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208118011",
-      "section": "outdoor-recreation",
-      "status": "completed",
-      "last_updated": "2026-07-11T04:03:57+00:00",
-      "article_path": "content\\outdoor-recreation\\best-glasses-goggles.md",
-      "article_url": "/outdoor-recreation/best-glasses-goggles/",
-      "article_title": "Best Glasses and Goggles of 2026 for Camping, Hiking, and Outdoor Use"
-    },
-    {
-      "node_id": "10208120011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Water Sports > Diving & Snorkeling > Diving Electronics",
-      "category_name": "Diving Electronics",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208120011",
-      "section": "outdoor-recreation",
-      "status": "completed",
-      "last_updated": "2026-07-11T04:12:54+00:00",
-      "article_path": "content\\outdoor-recreation\\best-diving-electronics.md",
-      "article_url": "/outdoor-recreation/best-diving-electronics/",
-      "article_title": "Best Diving Electronics of 2026: Buyer Cautions"
-    },
-    {
       "node_id": "10208122011",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Water Sports > Diving & Snorkeling > Diving Suits > Wetsuits > Full Suits",
       "category_name": "Full Suits",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208122011",
       "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-07-11T12:05:07+00:00",
+      "article_path": "content\\outdoor-recreation\\best-full-suits.md",
+      "article_url": "/outdoor-recreation/best-full-suits/",
+      "article_title": "Best Full Suits of 2026: Buyer Cautions"
     },
     {
       "node_id": "10208124011",
@@ -1208,8 +1193,11 @@
       "category_name": "Shorty Suits",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208124011",
       "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-07-11T12:15:39+00:00",
+      "article_path": "content\\outdoor-recreation\\best-shorty-suits.md",
+      "article_url": "/outdoor-recreation/best-shorty-suits/",
+      "article_title": "Best Shorty Suits of 2026: Buyer Cautions"
     },
     {
       "node_id": "10208126011",
@@ -7141,6 +7129,30 @@
       "article_path": "content\\outdoor-recreation\\best-shoe-covers.md",
       "article_url": "/outdoor-recreation/best-shoe-covers/",
       "article_title": "Best Shoe Covers of 2026: Buyer Cautions"
+    },
+    {
+      "node_id": "10208118011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Cycling > Glasses & Goggles",
+      "category_name": "Glasses & Goggles",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208118011",
+      "section": "outdoor-recreation",
+      "status": "completed",
+      "last_updated": "2026-07-11T04:03:57+00:00",
+      "article_path": "content\\outdoor-recreation\\best-glasses-goggles.md",
+      "article_url": "/outdoor-recreation/best-glasses-goggles/",
+      "article_title": "Best Glasses and Goggles of 2026 for Camping, Hiking, and Outdoor Use"
+    },
+    {
+      "node_id": "10208120011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Water Sports > Diving & Snorkeling > Diving Electronics",
+      "category_name": "Diving Electronics",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208120011",
+      "section": "outdoor-recreation",
+      "status": "completed",
+      "last_updated": "2026-07-11T04:12:54+00:00",
+      "article_path": "content\\outdoor-recreation\\best-diving-electronics.md",
+      "article_url": "/outdoor-recreation/best-diving-electronics/",
+      "article_title": "Best Diving Electronics of 2026: Buyer Cautions"
     }
   ]
 }

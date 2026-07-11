@@ -12,7 +12,7 @@ keywords:
   - "rain and wind"
 slug: "best-bivy-sacks"
 date: "2026-06-28T03:25:57+00:00"
-lastmod: "2026-07-11T04:12:58+00:00"
+lastmod: "2026-07-11T12:15:41+00:00"
 draft: false
 categories:
   - "Shelter and Weather"
@@ -161,10 +161,10 @@ Peak height, capacity labels, and waterproof wording can be misleading without p
 ## Related Resources
 
 ### Internal Gear Guides
+- [Best Compression Sacks of 2026: Buyer Cautions](/camping-hiking/best-compression-sacks/) - Use this to compare nearby packs and storage tradeoffs before you buy.
 - [Best Blankets of 2026 for Camping Sleep Comfort and Packability](/camping-hiking/best-blankets/) - Use this to compare nearby packs and storage tradeoffs before you buy.
 - [Best Casual Daypacks of 2026 for Hiking, Travel, and Daily Gear](/camping-hiking/best-casual-daypacks/) - Use this to compare nearby packs and storage tradeoffs before you buy.
 - [Best Hiking Backpacks of 2026 for Day Hikes, Travel, and Gear Fit](/camping-hiking/best-backpacks/) - Use this to compare nearby packs and storage tradeoffs before you buy.
-- [Best Hiking Backpacks of 2026 for Trail Fit and Gear Carry](/camping-hiking/best-hiking-backpacks/) - Use this to compare nearby packs and storage tradeoffs before you buy.
 
 ### External References
 - [Weather.gov outdoor safety guidance](https://www.weather.gov/safety/) - Weather-safety context for storms, heat, cold, wind, and lightning planning.

@@ -9,7 +9,7 @@ keywords:
   - "camp lantern replacement parts"
 slug: "best-lantern-accessories"
 date: "2026-06-14T01:08:25+00:00"
-lastmod: "2026-07-11T04:12:59+00:00"
+lastmod: "2026-07-11T12:15:41+00:00"
 draft: false
 categories:
   - "Lighting"
@@ -152,7 +152,7 @@ Wrong fit, fragile mantles, bent adapters, poor threads, and unclear compatibili
 - [Best Handheld Flashlights of 2026 for Camping and Emergencies](/camping-hiking/best-handheld-flashlights/) - Use this to compare nearby lights & lanterns tradeoffs before you buy.
 - [Best Hands-Free Flashlights of 2026 for Camping, Fishing, and Repairs](/camping-hiking/best-hands-free-flashlights/) - Use this to compare nearby lights & lanterns tradeoffs before you buy.
 - [Best Casual Daypacks of 2026 for Hiking, Travel, and Daily Gear](/camping-hiking/best-casual-daypacks/) - Use this to compare nearby outdoor gear tradeoffs before you buy.
-- [Best Cooler Accessories of 2026 for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-cooler-accessories/) - Use this to compare nearby outdoor gear tradeoffs before you buy.
+- [Best Compression Sacks of 2026: Buyer Cautions](/camping-hiking/best-compression-sacks/) - Use this to compare nearby outdoor gear tradeoffs before you buy.
 
 ### External References
 - [Weather.gov outdoor safety guidance](https://www.weather.gov/safety/) - Weather-safety context for storms, heat, cold, wind, and lightning planning.
