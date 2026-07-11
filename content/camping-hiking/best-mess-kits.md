@@ -12,7 +12,7 @@ keywords:
   - "meal prep"
 slug: "best-mess-kits"
 date: "2026-06-01T14:02:56+00:00"
-lastmod: "2026-07-09T14:54:47+00:00"
+lastmod: "2026-07-11T04:12:59+00:00"
 draft: false
 categories:
   - "Camp Kitchen"
@@ -139,7 +139,7 @@ Buying for an ideal trip instead of your real habits. If you cook simply, compac
 - [Best Flatware of 2026 for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-flatware/) - Use this to compare nearby dishes & utensils tradeoffs before you buy.
 - [Best Cooking Utensils of 2026 for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-cooking-utensils/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
 - [Best Cooler Accessories of 2026 for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-cooler-accessories/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
-- [Best Freeze-Dried Food of 2026 for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-freeze-dried-food/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
+- [Best Fire Starters of 2026 for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-fire-starters/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
 
 ### External References
 - [USDA food safety while hiking, camping, and boating](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-safety-while-hiking-camping) - Cold-food, cooler-packing, and camp-kitchen safety guidance from USDA FSIS.

@@ -9,7 +9,7 @@ keywords:
   - "day hiking pack"
 slug: "best-hiking-backpacks"
 date: "2026-05-20T14:53:39+00:00"
-lastmod: "2026-07-09T14:54:47+00:00"
+lastmod: "2026-07-11T04:12:58+00:00"
 draft: false
 categories:
   - "Packs and Bags"

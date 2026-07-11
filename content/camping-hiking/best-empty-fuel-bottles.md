@@ -9,7 +9,7 @@ keywords:
   - "stove fuel bottle"
 slug: "best-empty-fuel-bottles"
 date: "2026-06-07T12:48:51+00:00"
-lastmod: "2026-06-19T05:04:01+00:00"
+lastmod: "2026-07-11T04:12:58+00:00"
 draft: false
 categories:
   - "Camp Kitchen"
@@ -163,9 +163,9 @@ Valve leaks, unclear compatibility, dents, bad caps, and confusing refill instru
 
 ### Internal Gear Guides
 - [Best Replacement Fuel of 2026 for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-replacement-fuel/) - Use this to compare nearby stove accessories tradeoffs before you buy.
+- [Best Fire Starters of 2026 for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-fire-starters/) - Use this to compare nearby stove accessories tradeoffs before you buy.
 - [Best Cooler Accessories of 2026 for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-cooler-accessories/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
 - [Best Coffee and Tea Pots of 2026 for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-coffee-tea-pots/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
-- [Best Cooking Utensils of 2026 for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-cooking-utensils/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
 
 ### External References
 - [USDA food safety while hiking, camping, and boating](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-safety-while-hiking-camping) - Cold-food, cooler-packing, and camp-kitchen safety guidance from USDA FSIS.

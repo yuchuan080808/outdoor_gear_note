@@ -12,7 +12,7 @@ keywords:
   - "warmth"
 slug: "best-self-inflating-sleeping-mats"
 date: "2026-06-21T23:44:47+00:00"
-lastmod: "2026-07-09T14:54:47+00:00"
+lastmod: "2026-07-11T04:12:59+00:00"
 draft: false
 categories:
   - "Camp Sleep"
@@ -142,10 +142,10 @@ Noise, zipper feel, width, support, inflation or setup effort, and how easily th
 ## Related Resources
 
 ### Internal Gear Guides
+- [Best Sleeping Bags of 2026 for Camping Comfort and Cold Nights](/camping-hiking/best-sleeping-bags/) - Use this to compare nearby sleeping bags & camp bedding tradeoffs before you buy.
 - [Best Blankets of 2026 for Camping Sleep Comfort and Packability](/camping-hiking/best-blankets/) - Use this to compare nearby sleeping bags & camp bedding tradeoffs before you buy.
 - [Best Casual Daypacks of 2026 for Hiking, Travel, and Daily Gear](/camping-hiking/best-casual-daypacks/) - Use this to compare nearby packs and storage tradeoffs before you buy.
 - [Best Hiking Backpacks of 2026 for Day Hikes, Travel, and Gear Fit](/camping-hiking/best-backpacks/) - Use this to compare nearby packs and storage tradeoffs before you buy.
-- [Best Hiking Backpacks of 2026 for Trail Fit and Gear Carry](/camping-hiking/best-hiking-backpacks/) - Use this to compare nearby packs and storage tradeoffs before you buy.
 
 ### External References
 - [REI Expert Advice on the Ten Essentials](https://www.rei.com/learn/expert-advice/ten-essentials.html) - Practical checklist context for packing and evaluating outdoor gear systems.
