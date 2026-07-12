@@ -9,7 +9,7 @@ keywords:
   - "dive backpack buying guide"
 slug: "best-backpacks"
 date: "2026-06-03T14:34:26+00:00"
-lastmod: "2026-07-11T12:15:40+00:00"
+lastmod: "2026-07-12T02:49:11+00:00"
 draft: false
 categories:
   - "Water Sports"
@@ -153,7 +153,7 @@ Weak zippers, rough straps, torn mesh, undersized fin storage, and sand trapped 
 - [Best Diving Electronics of 2026: Buyer Cautions](/outdoor-recreation/best-diving-electronics/) - Use this to compare nearby diving & snorkeling tradeoffs before you buy.
 - [Best Full Suits of 2026: Buyer Cautions](/outdoor-recreation/best-full-suits/) - Use this to compare nearby diving & snorkeling tradeoffs before you buy.
 - [Best Shorty Suits of 2026: Buyer Cautions](/outdoor-recreation/best-shorty-suits/) - Use this to compare nearby diving & snorkeling tradeoffs before you buy.
-- [Best Hydration Packs of 2026 for Running, Hiking, and Cycling](/camping-hiking/best-hydration-packs/) - Use this to compare nearby hiking hydration tradeoffs before you buy.
+- [Best Sleeveless Suits of 2026: Buyer Cautions](/outdoor-recreation/best-sleeveless-suits/) - Use this to compare nearby diving & snorkeling tradeoffs before you buy.
 
 ### External References
 - [REI Expert Advice on the Ten Essentials](https://www.rei.com/learn/expert-advice/ten-essentials.html) - Practical checklist context for packing and evaluating outdoor gear systems.

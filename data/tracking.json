@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_synced": "2026-07-11T11:55:35+00:00",
+  "last_synced": "2026-07-12T02:33:19+00:00",
   "categories": [
     {
       "node_id": "10208168011",
@@ -114,30 +114,6 @@
       "last_updated": "2026-05-18T01:59:55+00:00"
     },
     {
-      "node_id": "2204650011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Sleeping Bags & Camp Bedding > Sleeping Bag Accessories > Compression Sacks",
-      "category_name": "Compression Sacks",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/2204650011",
-      "section": "camping-hiking",
-      "status": "completed",
-      "last_updated": "2026-07-11T12:00:03+00:00",
-      "article_path": "content\\camping-hiking\\best-compression-sacks.md",
-      "article_url": "/camping-hiking/best-compression-sacks/",
-      "article_title": "Best Compression Sacks of 2026: Buyer Cautions"
-    },
-    {
-      "node_id": "2204654011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Hydration & Filtration > Canteens",
-      "category_name": "Canteens",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/2204654011",
-      "section": "camping-hiking",
-      "status": "completed",
-      "last_updated": "2026-07-11T12:10:04+00:00",
-      "article_path": "content\\camping-hiking\\best-canteens.md",
-      "article_url": "/camping-hiking/best-canteens/",
-      "article_title": "Best Canteens of 2026: Buyer Cautions"
-    },
-    {
       "node_id": "2404179011",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Backpacks, Bags & Accessories > Daypacks & Casual Bags > Casual Daypacks",
       "category_name": "Casual Daypacks",
@@ -191,8 +167,11 @@
       "category_name": "Hammocks",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3143614011",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-20T14:06:01+00:00"
+      "status": "completed",
+      "last_updated": "2026-07-12T02:37:48+00:00",
+      "article_path": "content\\camping-hiking\\best-hammocks.md",
+      "article_url": "/camping-hiking/best-hammocks/",
+      "article_title": "Best Hammocks of 2026 for Camping Sleep Comfort and Packability"
     },
     {
       "node_id": "3258961011",
@@ -200,8 +179,11 @@
       "category_name": "Pots, Pans & Griddles",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3258961011",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-20T14:06:01+00:00"
+      "status": "completed",
+      "last_updated": "2026-07-12T02:45:14+00:00",
+      "article_path": "content\\camping-hiking\\best-pots-pans-griddles.md",
+      "article_url": "/camping-hiking/best-pots-pans-griddles/",
+      "article_title": "Best Pots, Pans and Griddles of 2026: Buyer Cautions"
     },
     {
       "node_id": "3258963011",
@@ -708,6 +690,30 @@
       "article_title": "Best Fire Starters of 2026 for Camp Kitchen Setup and Meal Prep"
     },
     {
+      "node_id": "2204650011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Sleeping Bags & Camp Bedding > Sleeping Bag Accessories > Compression Sacks",
+      "category_name": "Compression Sacks",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/2204650011",
+      "section": "camping-hiking",
+      "status": "completed",
+      "last_updated": "2026-07-11T12:00:03+00:00",
+      "article_path": "content\\camping-hiking\\best-compression-sacks.md",
+      "article_url": "/camping-hiking/best-compression-sacks/",
+      "article_title": "Best Compression Sacks of 2026: Buyer Cautions"
+    },
+    {
+      "node_id": "2204654011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Hydration & Filtration > Canteens",
+      "category_name": "Canteens",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/2204654011",
+      "section": "camping-hiking",
+      "status": "completed",
+      "last_updated": "2026-07-11T12:10:04+00:00",
+      "article_path": "content\\camping-hiking\\best-canteens.md",
+      "article_url": "/camping-hiking/best-canteens/",
+      "article_title": "Best Canteens of 2026: Buyer Cautions"
+    },
+    {
       "node_id": "10208170011",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Footwear & Accessories > Gaiters",
       "category_name": "Gaiters",
@@ -1176,37 +1182,16 @@
       "article_title": "Best Hiking Backpacks for Day Hikes, Travel, and Gear Fit"
     },
     {
-      "node_id": "10208122011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Water Sports > Diving & Snorkeling > Diving Suits > Wetsuits > Full Suits",
-      "category_name": "Full Suits",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208122011",
-      "section": "outdoor-recreation",
-      "status": "completed",
-      "last_updated": "2026-07-11T12:05:07+00:00",
-      "article_path": "content\\outdoor-recreation\\best-full-suits.md",
-      "article_url": "/outdoor-recreation/best-full-suits/",
-      "article_title": "Best Full Suits of 2026: Buyer Cautions"
-    },
-    {
-      "node_id": "10208124011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Water Sports > Diving & Snorkeling > Diving Suits > Wetsuits > Shorty Suits",
-      "category_name": "Shorty Suits",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208124011",
-      "section": "outdoor-recreation",
-      "status": "completed",
-      "last_updated": "2026-07-11T12:15:39+00:00",
-      "article_path": "content\\outdoor-recreation\\best-shorty-suits.md",
-      "article_url": "/outdoor-recreation/best-shorty-suits/",
-      "article_title": "Best Shorty Suits of 2026: Buyer Cautions"
-    },
-    {
       "node_id": "10208126011",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Water Sports > Diving & Snorkeling > Diving Suits > Wetsuits > Sleeveless Suits",
       "category_name": "Sleeveless Suits",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208126011",
       "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-07-12T02:41:24+00:00",
+      "article_path": "content\\outdoor-recreation\\best-sleeveless-suits.md",
+      "article_url": "/outdoor-recreation/best-sleeveless-suits/",
+      "article_title": "Best Sleeveless Suits of 2026: Buyer Cautions"
     },
     {
       "node_id": "10208128011",
@@ -1214,8 +1199,11 @@
       "category_name": "Tops",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208128011",
       "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-07-12T02:49:10+00:00",
+      "article_path": "content\\outdoor-recreation\\best-tops.md",
+      "article_url": "/outdoor-recreation/best-tops/",
+      "article_title": "Best Tops of 2026 for Hiking Hydration and Backcountry Water Planning"
     },
     {
       "node_id": "10208130011",
@@ -7153,6 +7141,30 @@
       "article_path": "content\\outdoor-recreation\\best-diving-electronics.md",
       "article_url": "/outdoor-recreation/best-diving-electronics/",
       "article_title": "Best Diving Electronics of 2026: Buyer Cautions"
+    },
+    {
+      "node_id": "10208122011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Water Sports > Diving & Snorkeling > Diving Suits > Wetsuits > Full Suits",
+      "category_name": "Full Suits",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208122011",
+      "section": "outdoor-recreation",
+      "status": "completed",
+      "last_updated": "2026-07-11T12:05:07+00:00",
+      "article_path": "content\\outdoor-recreation\\best-full-suits.md",
+      "article_url": "/outdoor-recreation/best-full-suits/",
+      "article_title": "Best Full Suits of 2026: Buyer Cautions"
+    },
+    {
+      "node_id": "10208124011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Water Sports > Diving & Snorkeling > Diving Suits > Wetsuits > Shorty Suits",
+      "category_name": "Shorty Suits",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208124011",
+      "section": "outdoor-recreation",
+      "status": "completed",
+      "last_updated": "2026-07-11T12:15:39+00:00",
+      "article_path": "content\\outdoor-recreation\\best-shorty-suits.md",
+      "article_url": "/outdoor-recreation/best-shorty-suits/",
+      "article_title": "Best Shorty Suits of 2026: Buyer Cautions"
     }
   ]
 }

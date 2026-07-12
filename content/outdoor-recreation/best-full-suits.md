@@ -12,7 +12,7 @@ keywords:
   - "leak prevention"
 slug: "best-full-suits"
 date: "2026-07-11T12:05:07+00:00"
-lastmod: "2026-07-11T12:15:40+00:00"
+lastmod: "2026-07-12T02:49:11+00:00"
 draft: false
 categories:
   - "Water Sports"
@@ -160,9 +160,9 @@ Leaks, hard cleaning, poor flow, plastic taste, and poor pack fit are the proble
 
 ### Internal Gear Guides
 - [Best Shorty Suits of 2026: Buyer Cautions](/outdoor-recreation/best-shorty-suits/) - Use this to compare nearby wetsuits tradeoffs before you buy.
+- [Best Sleeveless Suits of 2026: Buyer Cautions](/outdoor-recreation/best-sleeveless-suits/) - Use this to compare nearby wetsuits tradeoffs before you buy.
+- [Best Tops of 2026 for Hiking Hydration and Backcountry Water Planning](/outdoor-recreation/best-tops/) - Use this to compare nearby wetsuits tradeoffs before you buy.
 - [Best Diving Electronics of 2026: Buyer Cautions](/outdoor-recreation/best-diving-electronics/) - Use this to compare nearby diving & snorkeling tradeoffs before you buy.
-- [Best Mesh Snorkel Backpacks of 2026 for Beach and Dive Gear](/outdoor-recreation/best-backpacks/) - Use this to compare nearby diving & snorkeling tradeoffs before you buy.
-- [Best Bike Water Bottle Cages of 2026 for Secure Bottle Fit](/outdoor-recreation/best-water-bottle-cages/) - Use this to compare nearby hiking hydration tradeoffs before you buy.
 
 ### External References
 - [Weather.gov outdoor safety guidance](https://www.weather.gov/safety/) - Weather-safety context for storms, heat, cold, wind, and lightning planning.

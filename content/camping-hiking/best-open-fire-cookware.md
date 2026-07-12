@@ -12,7 +12,7 @@ keywords:
   - "meal prep"
 slug: "best-open-fire-cookware"
 date: "2026-05-24T11:36:23+00:00"
-lastmod: "2026-07-11T12:15:41+00:00"
+lastmod: "2026-07-12T02:49:11+00:00"
 draft: false
 categories:
   - "Camp Kitchen"
@@ -99,9 +99,9 @@ Buying for an ideal trip instead of your real habits. If you cook simply, compac
 
 ### Internal Gear Guides
 - [Best Fire Starters of 2026 for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-fire-starters/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
+- [Best Pots, Pans and Griddles of 2026: Buyer Cautions](/camping-hiking/best-pots-pans-griddles/) - Use this to compare nearby camping cookware tradeoffs before you buy.
 - [Best Coffee and Tea Pots of 2026 for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-coffee-tea-pots/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
 - [Best Cooking Utensils of 2026 for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-cooking-utensils/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
-- [Best Flatware of 2026 for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-flatware/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
 
 ### External References
 - [USDA food safety while hiking, camping, and boating](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-safety-while-hiking-camping) - Cold-food, cooler-packing, and camp-kitchen safety guidance from USDA FSIS.

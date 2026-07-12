@@ -12,7 +12,7 @@ keywords:
   - "warmth"
 slug: "best-cots"
 date: "2026-05-19T23:40:11+00:00"
-lastmod: "2026-06-19T05:04:01+00:00"
+lastmod: "2026-07-12T02:49:10+00:00"
 draft: false
 categories:
   - "Camp Sleep"
@@ -165,10 +165,10 @@ Noise, zipper feel, width, support, inflation or setup effort, and how easily th
 ## Related Resources
 
 ### Internal Gear Guides
+- [Best Hammocks of 2026 for Camping Sleep Comfort and Packability](/camping-hiking/best-hammocks/) - Use this to compare nearby cots & hammocks tradeoffs before you buy.
 - [Best Camping Chairs of 2026 for Campsite Comfort and Packed Size](/camping-hiking/best-chairs/) - Use this to compare nearby camping furniture tradeoffs before you buy.
 - [Best Camping Stools of 2026 for Quick Seats and Small Campsites](/camping-hiking/best-stools/) - Use this to compare nearby camping furniture tradeoffs before you buy.
 - [Best Camping Tables of 2026 for Cooking, Picnics, and Small Camps](/camping-hiking/best-tables/) - Use this to compare nearby camping furniture tradeoffs before you buy.
-- [Best Blankets of 2026 for Camping Sleep Comfort and Packability](/camping-hiking/best-blankets/) - Use this to compare nearby camp sleep systems tradeoffs before you buy.
 
 ### External References
 - [USDA food safety while hiking, camping, and boating](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-safety-while-hiking-camping) - Cold-food, cooler-packing, and camp-kitchen safety guidance from USDA FSIS.

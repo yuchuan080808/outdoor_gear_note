@@ -9,7 +9,7 @@ keywords:
   - "comfortable camping chair"
 slug: "best-chairs"
 date: "2026-06-03T14:26:44+00:00"
-lastmod: "2026-06-19T05:04:01+00:00"
+lastmod: "2026-07-12T02:49:10+00:00"
 draft: false
 categories:
   - "Camp Furniture"
@@ -159,6 +159,7 @@ Sinking feet, torn fabric, bent frames, flimsy cup holders, and awkward carry ba
 ### Internal Gear Guides
 - [Best Camping Stools of 2026 for Quick Seats and Small Campsites](/camping-hiking/best-stools/) - Use this to compare nearby camping furniture tradeoffs before you buy.
 - [Best Camping Tables of 2026 for Cooking, Picnics, and Small Camps](/camping-hiking/best-tables/) - Use this to compare nearby camping furniture tradeoffs before you buy.
+- [Best Hammocks of 2026 for Camping Sleep Comfort and Packability](/camping-hiking/best-hammocks/) - Use this to compare nearby camping furniture tradeoffs before you buy.
 - [Best Cots of 2026 for Camping Sleep Comfort and Packability](/camping-hiking/best-cots/) - Use this to compare nearby camping furniture tradeoffs before you buy.
 
 ### External References

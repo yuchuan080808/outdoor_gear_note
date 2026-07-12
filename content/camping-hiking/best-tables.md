@@ -9,7 +9,7 @@ keywords:
   - "small camping table"
 slug: "best-tables"
 date: "2026-06-04T14:21:38+00:00"
-lastmod: "2026-06-19T05:04:01+00:00"
+lastmod: "2026-07-12T02:49:10+00:00"
 draft: false
 categories:
   - "Camp Furniture"
@@ -162,6 +162,7 @@ Wobbly legs, low height, flimsy tops, hard assembly, and poor carry bags are the
 
 ### Internal Gear Guides
 - [Best Cots of 2026 for Camping Sleep Comfort and Packability](/camping-hiking/best-cots/) - Use this to compare nearby camping furniture tradeoffs before you buy.
+- [Best Hammocks of 2026 for Camping Sleep Comfort and Packability](/camping-hiking/best-hammocks/) - Use this to compare nearby camping furniture tradeoffs before you buy.
 - [Best Camping Chairs of 2026 for Campsite Comfort and Packed Size](/camping-hiking/best-chairs/) - Use this to compare nearby camping furniture tradeoffs before you buy.
 - [Best Camping Stools of 2026 for Quick Seats and Small Campsites](/camping-hiking/best-stools/) - Use this to compare nearby camping furniture tradeoffs before you buy.
 

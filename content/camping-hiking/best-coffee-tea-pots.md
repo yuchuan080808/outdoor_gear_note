@@ -12,7 +12,7 @@ keywords:
   - "meal prep"
 slug: "best-coffee-tea-pots"
 date: "2026-05-29T14:05:25+00:00"
-lastmod: "2026-07-11T04:12:58+00:00"
+lastmod: "2026-07-12T02:49:10+00:00"
 draft: false
 categories:
   - "Camp Kitchen"
@@ -151,10 +151,10 @@ Buying for an ideal trip instead of your real habits. If you cook simply, compac
 ## Related Resources
 
 ### Internal Gear Guides
+- [Best Pots, Pans and Griddles of 2026: Buyer Cautions](/camping-hiking/best-pots-pans-griddles/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
 - [Best Fire Starters of 2026 for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-fire-starters/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
 - [Best Flatware of 2026 for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-flatware/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
 - [Best Freeze-Dried Food of 2026 for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-freeze-dried-food/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
-- [Best Mess Kits of 2026 for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-mess-kits/) - Use this to compare nearby camp kitchen tradeoffs before you buy.
 
 ### External References
 - [USDA food safety while hiking, camping, and boating](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-safety-while-hiking-camping) - Cold-food, cooler-packing, and camp-kitchen safety guidance from USDA FSIS.
