@@ -108,9 +108,9 @@ products:
     price_tier: "$ / Budget-friendly"
 ---
 
-A flat tire miles from your campsite or deep into a bikepacking route ruins the day. If you ride mountain bikes, gravel grinders, e-bikes, or pit bikes around camp, your inner tubes sit directly against metal spoke holes inside the wheel rim. Without a protective barrier, tire pressure forces the rubber tube into those sharp edges, resulting in a sudden, frustrating blowout. 
+A flat tire miles from your campsite or deep into a bikepacking route ruins the day. If you ride mountain bikes, gravel grinders, e-bikes, or pit bikes around camp, your inner tubes sit directly against metal spoke holes inside the wheel rim. Without a protective barrier, tire pressure forces the rubber tube into those sharp edges, resulting in a sudden, frustrating blowout.
 
-Rim strips (or rim tape) solve this problem by lining the inside of the wheel. However, picking the right strip isn't just about matching wheel diameter. The material you choose dictates how well it handles the high PSI of a touring bike or the aggressive impacts of an off-road dirt bike. 
+Rim strips (or rim tape) solve this problem by lining the inside of the wheel. However, picking the right strip isn't just about matching wheel diameter. The material you choose dictates how well it handles the high PSI of a touring bike or the aggressive impacts of an off-road dirt bike.
 
 Many riders overlook this basic maintenance part until they are patching their third tube on the side of a trail. Whether you are prepping a family fleet of camp cruisers, tuning a heavy e-bike for a hunting trip, or outfitting an overlanding motorcycle, swapping old, brittle rim strips for fresh material is an inexpensive insurance policy.
 
@@ -143,11 +143,11 @@ Rim strips come in three primary materials, and matching the material to your ti
 
 ### Sizing and Width Mistakes
 
-Buying a rim strip that is too narrow leaves spoke holes exposed. Buying one that is too wide prevents the tire bead from seating correctly in the rim channel. Always measure the internal width of your wheel rim, not the outside. If your rim channel is 18mm, buy an 18mm strip. 
+Buying a rim strip that is too narrow leaves spoke holes exposed. Buying one that is too wide prevents the tire bead from seating correctly in the rim channel. Always measure the internal width of your wheel rim, not the outside. If your rim channel is 18mm, buy an 18mm strip.
 
 ### Does it Have a Valve Hole?
 
-Most loop-style rim strips come with a pre-punched valve hole. A common buyer mistake is installing the strip tightly around the rim only to realize the hole is off-center. Always insert a screwdriver or a spare valve stem through the rim hole and the strip hole before stretching the rest of the band into place. 
+Most loop-style rim strips come with a pre-punched valve hole. A common buyer mistake is installing the strip tightly around the rim only to realize the hole is off-center. Always insert a screwdriver or a spare valve stem through the rim hole and the strip hole before stretching the rest of the band into place.
 
 ### Preparing the Bike for a Trip
 
@@ -362,7 +362,7 @@ Incorrect sizing, tape that lifts, valve holes that do not line up, and strips t
 **Short Verdict:** A specialized, small-diameter rubber rim strip built for the high-abuse environment of 10-inch pit bike and scooter wheels.
 **Best For:** Outfitting pit bikes, Razor scooters, and small motorized trail bikes used around the campsite or off-road park.
 **Skip It If:** You need anything for a standard bicycle or full-sized motorcycle.
-**What Buyers May Regret:** The 3/4-inch width might be slightly too narrow if your 10-inch wheel has unusually wide spoke lacing. 
+**What Buyers May Regret:** The 3/4-inch width might be slightly too narrow if your 10-inch wheel has unusually wide spoke lacing.
 
 **Complaint/Watch-Out Pattern:** Customers are generally highly satisfied with the fit for 10-inch Razor rims and small pit bikes. The only minor complaint pattern involves riders who wished the strip was a full 1-inch wide to offer a larger margin of error over the spoke nipples.
 

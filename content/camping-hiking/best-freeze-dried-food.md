@@ -110,11 +110,11 @@ products:
     price_tier: "$$ / Mid-range"
 ---
 
-After a long day on the trail or a bumpy off-road drive to camp, your motivation to chop, sauté, and scrub is usually gone. Attempting complex campsite meal prep when you are tired, hungry, and losing daylight often leads to undercooked food or burned pans. Freeze-dried meals bypass the chore completely, letting you pour boiling water directly into a pouch and eat 10 minutes later with zero dishwashing required. 
+After a long day on the trail or a bumpy off-road drive to camp, your motivation to chop, sauté, and scrub is usually gone. Attempting complex campsite meal prep when you are tired, hungry, and losing daylight often leads to undercooked food or burned pans. Freeze-dried meals bypass the chore completely, letting you pour boiling water directly into a pouch and eat 10 minutes later with zero dishwashing required.
 
-Choosing the best freeze-dried food requires matching the meal to your specific trip parameters. Car campers have the payload capacity to bring bulky cans and complex ingredients, but backpackers need dense calories packed into lightweight, flat pouches. Water access also dictates your choices; if you are camping in a dry environment where you must pack in every drop of water, meals that demand heavy rehydration can drain your drinking supply quickly. 
+Choosing the best freeze-dried food requires matching the meal to your specific trip parameters. Car campers have the payload capacity to bring bulky cans and complex ingredients, but backpackers need dense calories packed into lightweight, flat pouches. Water access also dictates your choices; if you are camping in a dry environment where you must pack in every drop of water, meals that demand heavy rehydration can drain your drinking supply quickly.
 
-Portion sizes are notorious for setting unrealistic expectations. What a manufacturer calls a "two-serving" pouch is frequently just enough calories to re-fuel one adult hiker after an intense day. You must look past the serving count and check the actual calorie and protein weight. Flavor profiles, hydration times, and texture realities also shift wildly between brands, meaning the wrong purchase can leave you chewing crunchy pasta or drinking watery gravy. 
+Portion sizes are notorious for setting unrealistic expectations. What a manufacturer calls a "two-serving" pouch is frequently just enough calories to re-fuel one adult hiker after an intense day. You must look past the serving count and check the actual calorie and protein weight. Flavor profiles, hydration times, and texture realities also shift wildly between brands, meaning the wrong purchase can leave you chewing crunchy pasta or drinking watery gravy.
 
 ## How We Read This List
 
@@ -128,7 +128,7 @@ This guide is intentionally narrow: it covers **Freeze-Dried Food** inside **Cam
 
 *   **Best High-Protein Recovery Meal:** Peak Refuel Beef Stroganoff
 *   **Best Base Ingredient for Group Cooking:** Mountain House Diced Chicken #10 Can
-*   **Best Morning Comfort Food:** Peak Refuel Biscuits & Sausage Gravy 
+*   **Best Morning Comfort Food:** Peak Refuel Biscuits & Sausage Gravy
 *   **Best Emergency Storage Value:** ReadyWise Emergency Food Supply 120 Servings
 *   **Best Trail Snack Add-In:** Augason Farms Freeze Dried Sliced Strawberries Can
 *   **Best Gluten-Free Dinner:** Mountain House Yellow Curry with Chicken & Rice
@@ -197,7 +197,7 @@ Buying for an ideal trip instead of your real habits. If you cook simply, compac
 **Best For:** Backpackers and hunters who need maximum protein without carrying raw meat.
 **Skip It If:** You hate waiting for your food to cook; this demands a longer soak.
 
-Buyers consistently point to the flavor profile as a massive step up from traditional trail food, explicitly praising the real beef chunks. The high protein count keeps hikers full through the night. However, the beef requires careful hydration to avoid a tough chew. 
+Buyers consistently point to the flavor profile as a massive step up from traditional trail food, explicitly praising the real beef chunks. The high protein count keeps hikers full through the night. However, the beef requires careful hydration to avoid a tough chew.
 
 **What buyers may regret:** Following the package instructions exactly. Customer-summary signals indicate that the suggested water volume and wait time leave the beef grainy and tough.
 
@@ -232,7 +232,7 @@ Buyers consistently point to the flavor profile as a massive step up from tradit
 **Best For:** Picky eaters, family camping, and late-night arrivals at the campsite.
 **Skip It If:** You are expecting a gourmet Italian dinner or feeding two hungry adults with one pouch.
 
-This is a staple in the outdoor community for a reason. The noodles rehydrate quickly and uniformly, avoiding the crunchy-center problem that plagues many freeze-dried pasta dishes. It sits well on the stomach and provides a quick rush of carbohydrates. 
+This is a staple in the outdoor community for a reason. The noodles rehydrate quickly and uniformly, avoiding the crunchy-center problem that plagues many freeze-dried pasta dishes. It sits well on the stomach and provides a quick rush of carbohydrates.
 
 **What buyers may regret:** Splitting this pouch. Product-page details call this two servings, but buyer feedback heavily implies that one hungry camper will easily finish the entire bag.
 
@@ -304,7 +304,7 @@ Creating biscuits via freeze-drying is difficult, but Peak Refuel handles it wel
 
 When the power grid fails or your overland rig gets stranded for days, this bucket does exactly what it advertises: it keeps you fed. The stackable container features a convenient split lid, and the 25-year shelf life means you can buy it and forget it until a storm hits.
 
-**What buyers may regret:** Relying on this for high-energy camping trips. The meals are basic survival rations designed to keep you alive, not to provide peak athletic nutrition. 
+**What buyers may regret:** Relying on this for high-energy camping trips. The meals are basic survival rations designed to keep you alive, not to provide peak athletic nutrition.
 
 **User Feedback Summary:**
 
@@ -372,7 +372,7 @@ Buying in a 6-pack removes the headache of picking individual meals for a long t
 **Best For:** Gluten-sensitive campers and anyone tired of standard red-sauce pasta meals.
 **Skip It If:** You want aggressive, spicy, authentic Thai heat.
 
-When you spend days eating brown and red trail food, the visual pop of zucchini, peas, and red peppers in this curry is highly welcome. The rice hydrates smoothly, and the pouch design makes it easy to handle with boiling water inside. 
+When you spend days eating brown and red trail food, the visual pop of zucchini, peas, and red peppers in this curry is highly welcome. The rice hydrates smoothly, and the pouch design makes it easy to handle with boiling water inside.
 
 **What buyers may regret:** Expecting a high spice level. This is formulated for mass appeal, so the curry flavor is present but very mild.
 

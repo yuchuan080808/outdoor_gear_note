@@ -114,7 +114,7 @@ products:
 
 Waking up with a stiff back is the fastest way to ruin a weekend outdoors. While air mattresses inevitably find a way to leak and foam pads leave you feeling every root and rock, a good camping cot offers a structural, off-the-ground solution for outdoor sleep. They keep you elevated from cold tent floors, provide storage space underneath, and make getting dressed in the morning significantly easier.
 
-However, moving from ground-sleeping to a cot introduces a new set of tradeoffs. Traditional steel-frame models are heavy, bulky, and often require serious muscle to assemble. Modern folding models are faster to deploy but frequently rely on thin, unsupportive joint mechanisms. Then there is the ultralight category—cots that pack down small enough to carry on the trail but sit barely inches off the dirt. 
+However, moving from ground-sleeping to a cot introduces a new set of tradeoffs. Traditional steel-frame models are heavy, bulky, and often require serious muscle to assemble. Modern folding models are faster to deploy but frequently rely on thin, unsupportive joint mechanisms. Then there is the ultralight category—cots that pack down small enough to carry on the trail but sit barely inches off the dirt.
 
 Choosing the right cot requires matching the frame style to your transportation limits. A massive padded lounger is perfect for a week-long family basecamp, but a liability if you have limited trunk space. This guide breaks down the physical tradeoffs, realistic packability, and common failure points of popular camping cots so you can build a sleep system that actually works for your itinerary.
 
@@ -140,7 +140,7 @@ This guide is intentionally narrow: it covers **Cots** inside **Camping Furnitur
 Your vehicle and storage space dictate your cot choice. Heavy-duty steel cots often weigh 20 pounds or more and fold into bulky rectangles. They are incredibly stable but demand significant cargo room. If you are packing a smaller vehicle or carrying gear to a walk-in site, look for folding designs that collapse into a cylindrical carry bag. If you are hiking in with a [fitted gear backpack](/camping-hiking/best-backpacks/), you need a shock-cord aluminum cot that weighs under 5 pounds.
 
 ### The "Included Mattress" Trap
-Many budget-friendly cots advertise an included sleeping pad or mattress. Customer feedback across multiple brands consistently indicates these pads ship vacuum-sealed and rarely fluff up to a supportive thickness. Treat "included pads" as a thin fabric cover rather than a true mattress. For genuine comfort, expect to supply your own foam topper, sleeping pad, or thick blanket. 
+Many budget-friendly cots advertise an included sleeping pad or mattress. Customer feedback across multiple brands consistently indicates these pads ship vacuum-sealed and rarely fluff up to a supportive thickness. Treat "included pads" as a thin fabric cover rather than a true mattress. For genuine comfort, expect to supply your own foam topper, sleeping pad, or thick blanket.
 
 ### Assembly Tension and Leverage
 Cots require tension to support your body weight without sagging. On traditional military-style cots and ultralight shock-cord models, securing the final crossbar or leg often requires significant hand strength and leverage. If you have mobility limitations or arthritis, prioritize "instant-open" folding cots that deploy like a lawn chair over tension-bar designs.
@@ -385,7 +385,7 @@ Noise, zipper feel, width, support, inflation or setup effort, and how easily th
 * Heavy to carry from the vehicle to the tent
 * Takes up a large footprint inside the shelter
 
-**Expert Tip:** If you sleep on your side, the spring coil suspension on this model prevents the painful hip pressure that normally occurs on drum-tight canvas cots. 
+**Expert Tip:** If you sleep on your side, the spring coil suspension on this model prevents the painful hip pressure that normally occurs on drum-tight canvas cots.
 
 [Check Price on Amazon](https://www.amazon.com/dp/B0073WJACW)
 

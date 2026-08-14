@@ -28,4 +28,3 @@ Amazon prices, coupons, availability, and product pages can change frequently. W
 ## Affiliate Disclosure
 
 As an Amazon Associate, Outdoor Gear Notes may earn from qualifying purchases. Amazon links are treated as sponsored links, and our editorial descriptions should still include meaningful cautions, skip-if guidance, and buyer-fit tradeoffs.
-

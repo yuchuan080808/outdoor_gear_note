@@ -9,3 +9,7 @@ output/*.md
 auto_update.bat
 themes/
 logs/
+chrome_history_copy
+desktop_*.png
+repair_*.png
+test_open.*

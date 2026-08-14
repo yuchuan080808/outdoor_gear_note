@@ -14,4 +14,3 @@ Our guides focus on buyer-fit decisions: who a product is likely to suit, what t
 We use Amazon marketplace data, product-page details, bestseller category signals, and summarized buyer-feedback patterns to build each guide. When we have not conducted hands-on field testing, we say so plainly in the article and avoid claims that require lab testing or personal use.
 
 As an Amazon Associate, Outdoor Gear Notes may earn from qualifying purchases. Affiliate relationships do not change the way we describe product cautions, complaint patterns, or buyer-fit tradeoffs.
-

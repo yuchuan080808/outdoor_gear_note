@@ -111,7 +111,7 @@ products:
     price_tier: "$ / Budget-friendly"
 ---
 
-Nothing stops a campsite dinner faster than a dying flame. You have your ingredients prepped, the water is just starting to simmer, and suddenly your stove sputters out. Finding the best replacement fuel for camping and hiking is entirely about matching the right chemical blend and canister valve to your specific stove, weather conditions, and trip style. 
+Nothing stops a campsite dinner faster than a dying flame. You have your ingredients prepped, the water is just starting to simmer, and suddenly your stove sputters out. Finding the best replacement fuel for camping and hiking is entirely about matching the right chemical blend and canister valve to your specific stove, weather conditions, and trip style.
 
 Grabbing the wrong fuel type is a common mistake that leaves buyers with useless canisters at the trailhead. Butane bottles with notched collars will not thread onto your backpacking stove, and a threaded isobutane mix is useless if you brought a classic liquid-fuel burner. Furthermore, fuel performance drops dramatically as temperatures plummet. What boils water in five minutes on a warm summer evening might refuse to light during a frosty autumn morning.
 
@@ -136,8 +136,8 @@ This guide is intentionally narrow: it covers **Replacement Fuel** inside **Camp
 ## Buying Guide
 
 ### Match the Fuel to the Valve Type
-The most common buying mistake is purchasing a fuel canister that simply doesn't attach to your stove. 
-*   **Isobutane/Propane Blends (Backpacking):** These use a threaded Lindal valve. You screw your small, lightweight stove directly onto the top. 
+The most common buying mistake is purchasing a fuel canister that simply doesn't attach to your stove.
+*   **Isobutane/Propane Blends (Backpacking):** These use a threaded Lindal valve. You screw your small, lightweight stove directly onto the top.
 *   **Butane (Tabletop Stoves):** These look like hairspray cans and feature a notched collar that clicks and locks horizontally into cassette-style camp stoves.
 *   **Propane (Car Camping):** These heavy green 1-pound steel cylinders have a standardized threaded top for two-burner camp stoves and portable grills.
 *   **Liquid White Gas:** Sold in pourable metal cans, this requires a specific liquid-fuel stove with a refillable, pressurized pump tank.
@@ -272,7 +272,7 @@ Buying for an ideal trip instead of your real habits. If you cook simply, compac
 | Complaint pressure | Very low complaint pressure - No clear recurring complaint theme surfaced in the customer-summary data. |
 | Price tier | $ / Budget-friendly; exact Amazon prices change frequently. |
 
-**Complaint & Watch-Out Pattern:** The primary watch-out from customer reviews revolves around the cost. While the fuel performs flawlessly and the compact size is highly praised, several users note that it feels overpriced compared to identical 100g isobutane blends from competitor brands. 
+**Complaint & Watch-Out Pattern:** The primary watch-out from customer reviews revolves around the cost. While the fuel performs flawlessly and the compact size is highly praised, several users note that it feels overpriced compared to identical 100g isobutane blends from competitor brands.
 
 **Pros:**
 *   Nests perfectly inside Jetboil Flash and Zip cups.
@@ -336,7 +336,7 @@ Buying for an ideal trip instead of your real habits. If you cook simply, compac
 | Complaint pressure | Very low complaint pressure - No clear recurring complaint theme surfaced in the customer-summary data. |
 | Price tier | $ / Budget-friendly; exact Amazon prices change frequently. |
 
-**Complaint & Watch-Out Pattern:** While customers love the compact size and value, there are mixed reports regarding how long a single canister lasts. Some users report the fuel burning out quicker than comparable name-brand 100g canisters, suggesting potential inconsistencies in the fill volume or burn efficiency. 
+**Complaint & Watch-Out Pattern:** While customers love the compact size and value, there are mixed reports regarding how long a single canister lasts. Some users report the fuel burning out quicker than comparable name-brand 100g canisters, suggesting potential inconsistencies in the fill volume or burn efficiency.
 
 **Pros:**
 *   Cost-effective alternative to major brands.

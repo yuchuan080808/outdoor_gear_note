@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_synced": "2026-07-12T02:33:19+00:00",
+  "last_synced": "2026-08-14T13:40:26+00:00",
   "categories": [
     {
       "node_id": "10208168011",
@@ -160,84 +160,6 @@
       "article_path": "content\\camping-hiking\\best-cots.md",
       "article_url": "/camping-hiking/best-cots/",
       "article_title": "Best Cots for Camping Sleep Comfort and Packability"
-    },
-    {
-      "node_id": "3143614011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camping Furniture > Cots & Hammocks > Hammocks",
-      "category_name": "Hammocks",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3143614011",
-      "section": "camping-hiking",
-      "status": "completed",
-      "last_updated": "2026-07-12T02:37:48+00:00",
-      "article_path": "content\\camping-hiking\\best-hammocks.md",
-      "article_url": "/camping-hiking/best-hammocks/",
-      "article_title": "Best Hammocks of 2026 for Camping Sleep Comfort and Packability"
-    },
-    {
-      "node_id": "3258961011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Camping Cookware > Pots, Pans & Griddles",
-      "category_name": "Pots, Pans & Griddles",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3258961011",
-      "section": "camping-hiking",
-      "status": "completed",
-      "last_updated": "2026-07-12T02:45:14+00:00",
-      "article_path": "content\\camping-hiking\\best-pots-pans-griddles.md",
-      "article_url": "/camping-hiking/best-pots-pans-griddles/",
-      "article_title": "Best Pots, Pans and Griddles of 2026: Buyer Cautions"
-    },
-    {
-      "node_id": "3258963011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Tents & Shelters > Camping Shelters > Sun Shelters",
-      "category_name": "Sun Shelters",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3258963011",
-      "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-20T14:16:24+00:00"
-    },
-    {
-      "node_id": "3400441",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Backpacks, Bags & Accessories > Backpack Accessories > Pack Covers",
-      "category_name": "Pack Covers",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400441",
-      "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-20T14:16:24+00:00"
-    },
-    {
-      "node_id": "3400451",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Backpacks, Bags & Accessories > Backpack Accessories > Pack Pockets",
-      "category_name": "Pack Pockets",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400451",
-      "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-20T14:23:49+00:00"
-    },
-    {
-      "node_id": "3400461",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Backpacks, Bags & Accessories > Backpack Accessories > Reservoirs",
-      "category_name": "Reservoirs",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400461",
-      "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-20T14:23:49+00:00"
-    },
-    {
-      "node_id": "3400471",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Backpacks, Bags & Accessories > Backpacking Packs > Hiking Daypacks",
-      "category_name": "Hiking Daypacks",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400471",
-      "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-20T14:45:15+00:00"
-    },
-    {
-      "node_id": "3400481",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Backpacks, Bags & Accessories > Backpacking Packs > External Frame Backpacks",
-      "category_name": "External Frame Backpacks",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400481",
-      "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-20T14:45:15+00:00"
     },
     {
       "node_id": "3400491",
@@ -530,8 +452,8 @@
       "category_name": "Foam Sleeping Mats",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3401801",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-06-21T23:40:08+00:00"
+      "status": "failed",
+      "last_updated": "2026-08-14T13:40:49+00:00"
     },
     {
       "node_id": "3401811",
@@ -714,13 +636,103 @@
       "article_title": "Best Canteens of 2026: Buyer Cautions"
     },
     {
+      "node_id": "3143614011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camping Furniture > Cots & Hammocks > Hammocks",
+      "category_name": "Hammocks",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3143614011",
+      "section": "camping-hiking",
+      "status": "completed",
+      "last_updated": "2026-07-12T02:37:48+00:00",
+      "article_path": "content\\camping-hiking\\best-hammocks.md",
+      "article_url": "/camping-hiking/best-hammocks/",
+      "article_title": "Best Hammocks of 2026 for Camping Sleep Comfort and Packability"
+    },
+    {
+      "node_id": "3258961011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camp Kitchen > Camping Cookware > Pots, Pans & Griddles",
+      "category_name": "Pots, Pans & Griddles",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3258961011",
+      "section": "camping-hiking",
+      "status": "completed",
+      "last_updated": "2026-07-12T02:45:14+00:00",
+      "article_path": "content\\camping-hiking\\best-pots-pans-griddles.md",
+      "article_url": "/camping-hiking/best-pots-pans-griddles/",
+      "article_title": "Best Pots, Pans and Griddles of 2026: Buyer Cautions"
+    },
+    {
+      "node_id": "3258963011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Tents & Shelters > Camping Shelters > Sun Shelters",
+      "category_name": "Sun Shelters",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3258963011",
+      "section": "camping-hiking",
+      "status": "failed",
+      "last_updated": "2026-07-18T00:02:12+00:00"
+    },
+    {
+      "node_id": "3400441",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Backpacks, Bags & Accessories > Backpack Accessories > Pack Covers",
+      "category_name": "Pack Covers",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400441",
+      "section": "camping-hiking",
+      "status": "completed",
+      "last_updated": "2026-07-18T00:11:16+00:00",
+      "article_path": "content\\camping-hiking\\best-pack-covers.md",
+      "article_url": "/camping-hiking/best-pack-covers/",
+      "article_title": "Best Backpack Rain Covers of 2026 for Hiking and Wet Weather"
+    },
+    {
+      "node_id": "3400451",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Backpacks, Bags & Accessories > Backpack Accessories > Pack Pockets",
+      "category_name": "Pack Pockets",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400451",
+      "section": "camping-hiking",
+      "status": "failed",
+      "last_updated": "2026-08-01T00:29:56+00:00"
+    },
+    {
+      "node_id": "3400461",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Backpacks, Bags & Accessories > Backpack Accessories > Reservoirs",
+      "category_name": "Reservoirs",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400461",
+      "section": "camping-hiking",
+      "status": "completed",
+      "last_updated": "2026-08-01T00:43:38+00:00",
+      "article_path": "content\\camping-hiking\\best-reservoirs.md",
+      "article_url": "/camping-hiking/best-reservoirs/",
+      "article_title": "Best Reservoirs of 2026: Buyer Cautions"
+    },
+    {
+      "node_id": "3400471",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Backpacks, Bags & Accessories > Backpacking Packs > Hiking Daypacks",
+      "category_name": "Hiking Daypacks",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400471",
+      "section": "camping-hiking",
+      "status": "failed",
+      "last_updated": "2026-08-07T13:13:34+00:00"
+    },
+    {
+      "node_id": "3400481",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Backpacks, Bags & Accessories > Backpacking Packs > External Frame Backpacks",
+      "category_name": "External Frame Backpacks",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/3400481",
+      "section": "camping-hiking",
+      "status": "completed",
+      "last_updated": "2026-08-07T13:30:20+00:00",
+      "article_path": "content\\camping-hiking\\best-external-frame-backpacks.md",
+      "article_url": "/camping-hiking/best-external-frame-backpacks/",
+      "article_title": "Best External Frame Backpacks of 2026: Buyer Cautions"
+    },
+    {
       "node_id": "10208170011",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Footwear & Accessories > Gaiters",
       "category_name": "Gaiters",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208170011",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-08-14T13:57:31+00:00",
+      "article_path": "content\\camping-hiking\\best-gaiters.md",
+      "article_url": "/camping-hiking/best-gaiters/",
+      "article_title": "Best Gaiters of 2026 for Camping, Hiking, and Outdoor Use"
     },
     {
       "node_id": "10208174011",
@@ -1182,91 +1194,16 @@
       "article_title": "Best Hiking Backpacks for Day Hikes, Travel, and Gear Fit"
     },
     {
-      "node_id": "10208126011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Water Sports > Diving & Snorkeling > Diving Suits > Wetsuits > Sleeveless Suits",
-      "category_name": "Sleeveless Suits",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208126011",
-      "section": "outdoor-recreation",
-      "status": "completed",
-      "last_updated": "2026-07-12T02:41:24+00:00",
-      "article_path": "content\\outdoor-recreation\\best-sleeveless-suits.md",
-      "article_url": "/outdoor-recreation/best-sleeveless-suits/",
-      "article_title": "Best Sleeveless Suits of 2026: Buyer Cautions"
-    },
-    {
-      "node_id": "10208128011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Water Sports > Diving & Snorkeling > Diving Suits > Wetsuits > Tops",
-      "category_name": "Tops",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208128011",
-      "section": "outdoor-recreation",
-      "status": "completed",
-      "last_updated": "2026-07-12T02:49:10+00:00",
-      "article_path": "content\\outdoor-recreation\\best-tops.md",
-      "article_url": "/outdoor-recreation/best-tops/",
-      "article_title": "Best Tops of 2026 for Hiking Hydration and Backcountry Water Planning"
-    },
-    {
-      "node_id": "10208130011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Water Sports > Diving & Snorkeling > Diving Suits > Wetsuits > Pants",
-      "category_name": "Pants",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208130011",
-      "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
-    {
-      "node_id": "10208132011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Water Sports > Kayaking > Kayaks > Touring Kayaks",
-      "category_name": "Touring Kayaks",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208132011",
-      "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
-    {
-      "node_id": "10208136011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Water Sports > Kayaking > Kayak Accessories",
-      "category_name": "Kayak Accessories",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208136011",
-      "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
-    {
-      "node_id": "10208138011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Water Sports > Kayaking > Kayak Carts",
-      "category_name": "Kayak Carts",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208138011",
-      "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
-    {
-      "node_id": "10208148011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Water Sports > Canoeing > Paddling Clothing > Men > Jackets",
-      "category_name": "Jackets",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208148011",
-      "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
-    {
-      "node_id": "10208149011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Water Sports > Canoeing > Paddling Clothing > Women > Jackets",
-      "category_name": "Jackets",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208149011",
-      "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
-    {
       "node_id": "10208153011",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Water Sports > Canoeing > Paddling Clothing > Men > Pants",
       "category_name": "Pants",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208153011",
       "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-08-14T13:48:58+00:00",
+      "article_path": "content\\outdoor-recreation\\best-pants.md",
+      "article_url": "/outdoor-recreation/best-pants/",
+      "article_title": "Best Pants of 2026 for Hiking Hydration and Backcountry Water Planning"
     },
     {
       "node_id": "10208154011",
@@ -1274,8 +1211,11 @@
       "category_name": "Pants",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208154011",
       "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-08-14T14:05:46+00:00",
+      "article_path": "content\\outdoor-recreation\\best-pants.md",
+      "article_url": "/outdoor-recreation/best-pants/",
+      "article_title": "Best Pants of 2026 for Hiking Hydration and Backcountry Water Planning"
     },
     {
       "node_id": "10208156011",
@@ -7165,6 +7105,102 @@
       "article_path": "content\\outdoor-recreation\\best-shorty-suits.md",
       "article_url": "/outdoor-recreation/best-shorty-suits/",
       "article_title": "Best Shorty Suits of 2026: Buyer Cautions"
+    },
+    {
+      "node_id": "10208126011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Water Sports > Diving & Snorkeling > Diving Suits > Wetsuits > Sleeveless Suits",
+      "category_name": "Sleeveless Suits",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208126011",
+      "section": "outdoor-recreation",
+      "status": "completed",
+      "last_updated": "2026-07-12T02:41:24+00:00",
+      "article_path": "content\\outdoor-recreation\\best-sleeveless-suits.md",
+      "article_url": "/outdoor-recreation/best-sleeveless-suits/",
+      "article_title": "Best Sleeveless Suits of 2026: Buyer Cautions"
+    },
+    {
+      "node_id": "10208128011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Water Sports > Diving & Snorkeling > Diving Suits > Wetsuits > Tops",
+      "category_name": "Tops",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208128011",
+      "section": "outdoor-recreation",
+      "status": "completed",
+      "last_updated": "2026-07-12T02:49:10+00:00",
+      "article_path": "content\\outdoor-recreation\\best-tops.md",
+      "article_url": "/outdoor-recreation/best-tops/",
+      "article_title": "Best Tops of 2026 for Hiking Hydration and Backcountry Water Planning"
+    },
+    {
+      "node_id": "10208130011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Water Sports > Diving & Snorkeling > Diving Suits > Wetsuits > Pants",
+      "category_name": "Pants",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208130011",
+      "section": "outdoor-recreation",
+      "status": "completed",
+      "last_updated": "2026-07-18T00:06:58+00:00",
+      "article_path": "content\\outdoor-recreation\\best-pants.md",
+      "article_url": "/outdoor-recreation/best-pants/",
+      "article_title": "Best Pants of 2026 for Hiking Hydration and Backcountry Water Planning"
+    },
+    {
+      "node_id": "10208132011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Water Sports > Kayaking > Kayaks > Touring Kayaks",
+      "category_name": "Touring Kayaks",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208132011",
+      "section": "outdoor-recreation",
+      "status": "completed",
+      "last_updated": "2026-07-18T00:16:03+00:00",
+      "article_path": "content\\outdoor-recreation\\best-touring-kayaks.md",
+      "article_url": "/outdoor-recreation/best-touring-kayaks/",
+      "article_title": "Best Touring Kayaks of 2026: Buyer Cautions"
+    },
+    {
+      "node_id": "10208136011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Water Sports > Kayaking > Kayak Accessories",
+      "category_name": "Kayak Accessories",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208136011",
+      "section": "outdoor-recreation",
+      "status": "completed",
+      "last_updated": "2026-08-01T00:37:04+00:00",
+      "article_path": "content\\outdoor-recreation\\best-kayak-accessories.md",
+      "article_url": "/outdoor-recreation/best-kayak-accessories/",
+      "article_title": "Best Kayak Accessories of 2026: Buyer Cautions"
+    },
+    {
+      "node_id": "10208138011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Water Sports > Kayaking > Kayak Carts",
+      "category_name": "Kayak Carts",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208138011",
+      "section": "outdoor-recreation",
+      "status": "completed",
+      "last_updated": "2026-08-01T00:49:50+00:00",
+      "article_path": "content\\outdoor-recreation\\best-kayak-carts.md",
+      "article_url": "/outdoor-recreation/best-kayak-carts/",
+      "article_title": "Best Kayak Carts of 2026: Buyer Cautions"
+    },
+    {
+      "node_id": "10208148011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Water Sports > Canoeing > Paddling Clothing > Men > Jackets",
+      "category_name": "Jackets",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208148011",
+      "section": "outdoor-recreation",
+      "status": "completed",
+      "last_updated": "2026-08-07T13:21:50+00:00",
+      "article_path": "content\\outdoor-recreation\\best-jackets.md",
+      "article_url": "/outdoor-recreation/best-jackets/",
+      "article_title": "Best Jackets of 2026: Buyer Cautions"
+    },
+    {
+      "node_id": "10208149011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Water Sports > Canoeing > Paddling Clothing > Women > Jackets",
+      "category_name": "Jackets",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208149011",
+      "section": "outdoor-recreation",
+      "status": "completed",
+      "last_updated": "2026-08-07T13:37:44+00:00",
+      "article_path": "content\\outdoor-recreation\\best-jackets.md",
+      "article_url": "/outdoor-recreation/best-jackets/",
+      "article_title": "Best Jackets of 2026: Buyer Cautions"
     }
   ]
 }

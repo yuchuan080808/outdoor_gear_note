@@ -110,9 +110,9 @@ products:
     price_tier: "$$ / Mid-range"
 ---
 
-Water is the heaviest, most critical, and most frustrating item you will pack for any outdoor trip. At 8.3 pounds per gallon, carrying it efficiently is a logistical headache. Storing it poorly is a quick way to ruin a weekend. A cracked basecamp jug will flood your trunk, and a leaking trail bottle will soak your spare layers before you even reach the trailhead. 
+Water is the heaviest, most critical, and most frustrating item you will pack for any outdoor trip. At 8.3 pounds per gallon, carrying it efficiently is a logistical headache. Storing it poorly is a quick way to ruin a weekend. A cracked basecamp jug will flood your trunk, and a leaking trail bottle will soak your spare layers before you even reach the trailhead.
 
-The word "canteen" used to mean a metal disc slung over a shoulder. Today, outdoor hydration storage is deeply specialized. Your needs dictate the vessel: rigid high-capacity jugs for basecamp cooking, insulated stainless steel for day hikes, collapsible soft flasks for ultralight mileage, and integrated purifier presses for backcountry water sources. 
+The word "canteen" used to mean a metal disc slung over a shoulder. Today, outdoor hydration storage is deeply specialized. Your needs dictate the vessel: rigid high-capacity jugs for basecamp cooking, insulated stainless steel for day hikes, collapsible soft flasks for ultralight mileage, and integrated purifier presses for backcountry water sources.
 
 Buying the wrong vessel usually results in one of three failures: chemical plastic tastes that make the water undrinkable, fragile spigots that snap off in transit, or collapsible seams that blow out under pressure. Navigating the current market requires looking past the marketing claims of "indestructible" materials and focusing heavily on lid threading, valve construction, and user reviews regarding long-term leakage.
 
@@ -127,7 +127,7 @@ This guide is intentionally narrow: it covers **Canteens** inside **Camping & Hi
 ## Quick Picks
 
 *   **Best for Basecamp Kitchens:** Hanaoyo 5 Gallon Camping Water Jug
-*   **Best for Backcountry Pathogen Protection:** GRAYL GeoPress 24 oz Purifier 
+*   **Best for Backcountry Pathogen Protection:** GRAYL GeoPress 24 oz Purifier
 *   **Best Insulated Day Hiker:** IRON °FLASK 24 oz Sports Water Bottle
 *   **Best Compact Emergency Storage:** WaterStorageCube Collapsible Container
 *   **Best for International Travel:** LifeStraw Go Series Filter Bottle
@@ -199,7 +199,7 @@ Leaks, hard cleaning, poor flow, plastic taste, and poor pack fit are the proble
 **Skip It If:** You plan to transport it on its side inside a vehicle, as the risk of valve leakage is high.
 **What Buyers May Regret:** Discovering a slow drip from the spigot threading that requires constant readjustment.
 
-**Complaint/Watch-Out Pattern:** While the container itself is widely praised as thick and ergonomic, the dispensing valve is a major point of friction. A distinct pattern of user feedback points to significant leakage issues around the spigot assembly, suggesting the included silicone seals may be insufficient or easily misaligned during tightening. 
+**Complaint/Watch-Out Pattern:** While the container itself is widely praised as thick and ergonomic, the dispensing valve is a major point of friction. A distinct pattern of user feedback points to significant leakage issues around the spigot assembly, suggesting the included silicone seals may be insufficient or easily misaligned during tightening.
 
 **User Feedback Summary:**
 
@@ -391,7 +391,7 @@ Leaks, hard cleaning, poor flow, plastic taste, and poor pack fit are the proble
 **Skip It If:** You need a highly compressible system for a small vehicle.
 **What Buyers May Regret:** Managing the bulk of the rigid container once the trip is over.
 
-**Complaint/Watch-Out Pattern:** Feedback on this model is overwhelmingly positive regarding leak prevention and utility. The few frustrations generally stem from the inherent footprint of a rigid 5-gallon cube, which takes up substantial space in a packed trunk. 
+**Complaint/Watch-Out Pattern:** Feedback on this model is overwhelmingly positive regarding leak prevention and utility. The few frustrations generally stem from the inherent footprint of a rigid 5-gallon cube, which takes up substantial space in a packed trunk.
 
 **User Feedback Summary:**
 
@@ -453,7 +453,7 @@ Leaks, hard cleaning, poor flow, plastic taste, and poor pack fit are the proble
 **Skip It If:** You plan to thread a water filter onto it and squeeze the bag to push water through.
 **What Buyers May Regret:** Having the bag rupture in their hands while trying to filter water on the trail.
 
-**Complaint/Watch-Out Pattern:** The standard 28mm thread size makes buyers think this is a direct replacement for Sawyer or Survivor squeeze bags, but user feedback heavily contradicts this. When high pressure is applied to force water through a filter, the side seams of these bags frequently fail and leak. 
+**Complaint/Watch-Out Pattern:** The standard 28mm thread size makes buyers think this is a direct replacement for Sawyer or Survivor squeeze bags, but user feedback heavily contradicts this. When high pressure is applied to force water through a filter, the side seams of these bags frequently fail and leak.
 
 **User Feedback Summary:**
 
@@ -505,7 +505,7 @@ Leaks, hard cleaning, poor flow, plastic taste, and poor pack fit are the proble
 * Requires heavy physical exertion to press.
 * Expensive replacement cartridges.
 
-**Expert Tip:** When pressing, do not use your arm muscles alone. Place the bottle on the ground, lock your elbows, and lean your upper body weight directly over the top to let gravity do the work. 
+**Expert Tip:** When pressing, do not use your arm muscles alone. Place the bottle on the ground, lock your elbows, and lean your upper body weight directly over the top to let gravity do the work.
 
 [Check Price on Amazon](https://www.amazon.com/dp/B08TTXBHRW)
 

@@ -110,7 +110,7 @@ products:
 
 Fuel leaks are the fastest way to ruin a weekend outdoors. A poorly sealed bottle will soak your sleeping bag in white gas, contaminate your food supply, and leave you eating cold beans for three days. On the other side of the spectrum, lugging an armful of disposable green propane tanks into the woods takes up precious cargo space and creates unnecessary landfill waste. Choosing the right empty fuel container solves both of these problems before you leave the driveway.
 
-If you are upgrading your camp kitchen, your fuel storage needs to match your stove type and trip length. Car campers running double-burner stoves have entirely different constraints than backpackers trying to save ounces with an alcohol stove. A heavy steel refillable propane cylinder makes sense in a truck bed, while a lightweight unpressurized aluminum bottle is the standard for liquid fuels like white gas or kerosene. 
+If you are upgrading your camp kitchen, your fuel storage needs to match your stove type and trip length. Car campers running double-burner stoves have entirely different constraints than backpackers trying to save ounces with an alcohol stove. A heavy steel refillable propane cylinder makes sense in a truck bed, while a lightweight unpressurized aluminum bottle is the standard for liquid fuels like white gas or kerosene.
 
 The biggest mistake buyers make is mismatching the bottle to the fuel type. Pressurized fuels require specific, DOT-approved cylinders, while liquid fuels need bottles with specialized seals and double-spout pouring mechanisms to prevent sudden glugs and spills over an open flame. Getting this wrong isn't just inconvenient; it's a major safety hazard.
 
@@ -131,7 +131,7 @@ This guide is intentionally narrow: it covers **Empty Fuel Bottles** inside **Ca
 ## Buying Guide
 
 ### Matching Material to Fuel Type
-Your stove dictates your fuel, and your fuel dictates your bottle. You cannot put propane in an aluminum bottle, and you shouldn't put white gas in a standard water bottle. 
+Your stove dictates your fuel, and your fuel dictates your bottle. You cannot put propane in an aluminum bottle, and you shouldn't put white gas in a standard water bottle.
 * **Propane:** Requires heavy, DOT-certified steel cylinders designed to hold pressurized gas.
 * **Liquid Fuels (White gas, Kerosene):** Best stored in seamless aluminum bottles with heavy-duty O-rings. If you are building out your kit, check our guide on the [Best Replacement Fuel for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-replacement-fuel/) to match your liquids.
 * **Denatured Alcohol:** Can often be stored in high-density polyethylene (HDPE) plastic bottles to save weight, but the cap must be entirely leak-proof.
@@ -140,7 +140,7 @@ Your stove dictates your fuel, and your fuel dictates your bottle. You cannot pu
 Many aluminum liquid fuel bottles are strictly for storage and pouring. They cannot be connected directly to a pressurized stove pump. If your stove requires the bottle to act as the pressurized fuel tank (like many MSR liquid stoves), you must buy a bottle explicitly threaded and rated for pump pressurization. Using a non-pressurized storage bottle as a pump tank can result in explosive failure.
 
 ### Sealing Mechanisms and Pour Control
-A standard screw cap is rarely enough for liquid fuel. Look for double-spout systems or safety valves that allow air in while fuel pours out. This prevents the "glug" effect, which causes fuel to splash onto your hands, your stove, or your [Best Mess Kits for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-mess-kits/). O-rings are the most common failure point across all fuel bottles; always check if the manufacturer includes replacements. 
+A standard screw cap is rarely enough for liquid fuel. Look for double-spout systems or safety valves that allow air in while fuel pours out. This prevents the "glug" effect, which causes fuel to splash onto your hands, your stove, or your [Best Mess Kits for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-mess-kits/). O-rings are the most common failure point across all fuel bottles; always check if the manufacturer includes replacements.
 
 ### Why You Should Avoid Cheap Knockoffs
 Fuel storage is not the place to save three dollars. Low-quality aluminum bottles often feature weak threading, poorly sourced rubber gaskets that degrade rapidly when exposed to petroleum, or thin walls that dent easily. A dented pressurized bottle is a compromised bottle. Stick to established safety designs, especially when transporting fuel in the same pack as your [Best Flatware for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-flatware/) or food supplies.
@@ -276,7 +276,7 @@ Valve leaks, unclear compatibility, dents, bad caps, and confusing refill instru
 | Complaint pressure | Very low complaint pressure - No clear recurring complaint theme surfaced in the customer-summary data. |
 | Price tier | $ / Budget-friendly; exact Amazon prices change frequently. |
 
-**Complaint/Watch-out pattern:** There are very few functional complaints, but buyers strictly warn that this is a storage-only bottle. The documentation explicitly states it cannot be pressurized, meaning it won't work as the primary pump tank for certain liquid-fuel stove systems. 
+**Complaint/Watch-out pattern:** There are very few functional complaints, but buyers strictly warn that this is a storage-only bottle. The documentation explicitly states it cannot be pressurized, meaning it won't work as the primary pump tank for certain liquid-fuel stove systems.
 
 **Pros:**
 * Excellent double-spout safety cap prevents sudden spills
@@ -415,7 +415,7 @@ Valve leaks, unclear compatibility, dents, bad caps, and confusing refill instru
 | Complaint pressure | Low complaint pressure - No clear recurring complaint theme surfaced in the customer-summary data. |
 | Price tier | $ / Budget-friendly; exact Amazon prices change frequently. |
 
-**Complaint/Watch-out pattern:** Leakage through the flip-top lid is a highly debated issue. While many find it seals perfectly, a vocal segment of buyers report fuel leaking from the top of the lid or a poor overall cap seal. 
+**Complaint/Watch-out pattern:** Leakage through the flip-top lid is a highly debated issue. While many find it seals perfectly, a vocal segment of buyers report fuel leaking from the top of the lid or a poor overall cap seal.
 
 **Pros:**
 * Extremely lightweight polyurethane
@@ -508,7 +508,7 @@ Valve leaks, unclear compatibility, dents, bad caps, and confusing refill instru
 **Best For:** Nobody. We recommend skipping this item.
 **Skip It If:** You care about keeping fuel inside your bottle and off your gear.
 
-**What buyers may regret:** Relying on this bottle for a trip. The gasket on the lid is incredibly loose. The moment you unscrew the cap to pour fuel, the gasket is likely to fall out into the dirt or get lost entirely. 
+**What buyers may regret:** Relying on this bottle for a trip. The gasket on the lid is incredibly loose. The moment you unscrew the cap to pour fuel, the gasket is likely to fall out into the dirt or get lost entirely.
 
 **User Feedback Summary:**
 

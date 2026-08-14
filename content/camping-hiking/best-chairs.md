@@ -107,9 +107,9 @@ products:
     price_tier: "$ / Budget-friendly"
 ---
 
-Nothing ruins a long day outdoors faster than a bad camp chair. You hike for miles, set up your tent, and sit down—only to have the plastic hubs snap, the legs sink deep into the mud, or the front fabric cut off the circulation to your legs. Outdoor seating is entirely subjective, but the failure points are remarkably consistent across the industry. 
+Nothing ruins a long day outdoors faster than a bad camp chair. You hike for miles, set up your tent, and sit down—only to have the plastic hubs snap, the legs sink deep into the mud, or the front fabric cut off the circulation to your legs. Outdoor seating is entirely subjective, but the failure points are remarkably consistent across the industry.
 
-Buying the right chair means matching the frame geometry to your specific trip. Backpackers need collapsible, shock-corded aluminum frames that weigh less than three pounds, while overlanders and RV campers have the cargo space to haul heavy-duty steel quad chairs. A low-profile beach lounger works beautifully on sand but is notoriously hard to stand up from if you have bad knees. 
+Buying the right chair means matching the frame geometry to your specific trip. Backpackers need collapsible, shock-corded aluminum frames that weigh less than three pounds, while overlanders and RV campers have the cargo space to haul heavy-duty steel quad chairs. A low-profile beach lounger works beautifully on sand but is notoriously hard to stand up from if you have bad knees.
 
 A well-planned campsite relies on coordinated gear. You want a chair that puts you at a comfortable height for eating from your [camp mess kits](/camping-hiking/best-mess-kits/) and drinking from your [camp coffee and tea pots](/camping-hiking/best-coffee-tea-pots/). Whether you are gathering around the fire or recovering after sleeping on [camping cots](/camping-hiking/best-cots/), your seating should support your back without requiring a wrestling match to fold it back into its storage bag.
 
