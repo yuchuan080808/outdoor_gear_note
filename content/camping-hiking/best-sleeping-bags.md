@@ -9,7 +9,7 @@ keywords:
   - "sleeping bag buying guide"
 slug: "best-sleeping-bags"
 date: "2026-07-11T03:58:51+00:00"
-lastmod: "2026-08-14T14:05:52+00:00"
+lastmod: "2026-08-22T14:15:27+00:00"
 draft: false
 categories:
   - "Camp Sleep"

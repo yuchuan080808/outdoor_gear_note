@@ -12,7 +12,7 @@ keywords:
   - "leak prevention"
 slug: "best-sleeveless-suits"
 date: "2026-07-12T02:41:24+00:00"
-lastmod: "2026-08-14T14:05:52+00:00"
+lastmod: "2026-08-22T14:15:27+00:00"
 draft: false
 categories:
   - "Water Sports"
