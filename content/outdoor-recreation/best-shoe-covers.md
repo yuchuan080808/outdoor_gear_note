@@ -12,7 +12,7 @@ keywords:
   - "rain protection"
 slug: "best-shoe-covers"
 date: "2026-07-09T14:54:43+00:00"
-lastmod: "2026-08-23T13:13:07+00:00"
+lastmod: "2026-08-25T23:40:26+00:00"
 draft: false
 categories:
   - "Cycling Gear"

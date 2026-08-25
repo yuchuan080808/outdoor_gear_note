@@ -12,7 +12,7 @@ keywords:
   - "rain protection"
 slug: "best-external-frame-backpacks"
 date: "2026-08-07T13:30:20+00:00"
-lastmod: "2026-08-23T13:13:07+00:00"
+lastmod: "2026-08-25T23:40:26+00:00"
 draft: false
 categories:
   - "Packs and Bags"

@@ -12,7 +12,7 @@ keywords:
   - "warmth"
 slug: "best-hammocks"
 date: "2026-07-12T02:37:48+00:00"
-lastmod: "2026-08-23T13:13:07+00:00"
+lastmod: "2026-08-25T23:40:26+00:00"
 draft: false
 categories:
   - "Camp Sleep"

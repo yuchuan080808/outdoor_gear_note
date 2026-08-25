@@ -12,7 +12,7 @@ keywords:
   - "warmth"
 slug: "best-traction-pads"
 date: "2026-08-23T13:13:02+00:00"
-lastmod: "2026-08-23T13:13:07+00:00"
+lastmod: "2026-08-25T23:40:25+00:00"
 draft: false
 categories:
   - "Water Sports"
@@ -160,10 +160,10 @@ Noise, zipper feel, width, support, inflation or setup effort, and how easily th
 ## Related Resources
 
 ### Internal Gear Guides
+- [Best Indoor Surfboard Storage of 2026: Buyer Cautions](/outdoor-recreation/best-indoor-surfboard-storage/) - Use this to compare nearby surfing tradeoffs before you buy.
 - [Best Diving Electronics of 2026: Buyer Cautions](/outdoor-recreation/best-diving-electronics/) - Use this to compare nearby water sports tradeoffs before you buy.
 - [Best Full Suits of 2026: Buyer Cautions](/outdoor-recreation/best-full-suits/) - Use this to compare nearby water sports tradeoffs before you buy.
 - [Best Jackets of 2026: Buyer Cautions](/outdoor-recreation/best-jackets/) - Use this to compare nearby water sports tradeoffs before you buy.
-- [Best Kayak Accessories of 2026: Buyer Cautions](/outdoor-recreation/best-kayak-accessories/) - Use this to compare nearby water sports tradeoffs before you buy.
 
 ### External References
 - [Weather.gov outdoor safety guidance](https://www.weather.gov/safety/) - Weather-safety context for storms, heat, cold, wind, and lightning planning.

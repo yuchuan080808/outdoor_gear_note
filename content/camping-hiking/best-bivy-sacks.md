@@ -12,7 +12,7 @@ keywords:
   - "rain and wind"
 slug: "best-bivy-sacks"
 date: "2026-06-28T03:25:57+00:00"
-lastmod: "2026-08-23T13:13:07+00:00"
+lastmod: "2026-08-25T23:40:26+00:00"
 draft: false
 categories:
   - "Shelter and Weather"

@@ -9,7 +9,7 @@ keywords:
   - "fishing flashlight"
 slug: "best-hands-free-flashlights"
 date: "2026-05-17T04:41:46+00:00"
-lastmod: "2026-06-19T05:04:01+00:00"
+lastmod: "2026-08-25T23:40:25+00:00"
 draft: false
 categories:
   - "Lighting"
@@ -105,6 +105,7 @@ Weak brightness, awkward fit, dead batteries, poor switches, and lights that poi
 ### Internal Gear Guides
 - [Best Handheld Flashlights of 2026 for Camping and Emergencies](/camping-hiking/best-handheld-flashlights/) - Use this to compare nearby flashlights tradeoffs before you buy.
 - [Best Lantern Mantles and Adapters of 2026 for Camp Light](/camping-hiking/best-lantern-accessories/) - Use this to compare nearby lights & lanterns tradeoffs before you buy.
+- [Best Foot Warmers of 2026: Buyer Cautions](/camping-hiking/best-foot-warmers/) - Use this to compare nearby outdoor gear tradeoffs before you buy.
 
 ### External References
 - [USDA food safety while hiking, camping, and boating](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-safety-while-hiking-camping) - Cold-food, cooler-packing, and camp-kitchen safety guidance from USDA FSIS.

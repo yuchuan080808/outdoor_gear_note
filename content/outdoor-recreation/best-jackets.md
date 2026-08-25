@@ -12,7 +12,7 @@ keywords:
   - "leak prevention"
 slug: "best-jackets"
 date: "2026-08-07T13:37:44+00:00"
-lastmod: "2026-08-23T13:13:07+00:00"
+lastmod: "2026-08-25T23:40:26+00:00"
 draft: false
 categories:
   - "Water Sports"
@@ -167,7 +167,7 @@ Leaks, hard cleaning, poor flow, plastic taste, and poor pack fit are the proble
 - [Best Pants of 2026 for Hiking Hydration and Backcountry Water Planning](/outdoor-recreation/best-pants/) - Use this to compare nearby women tradeoffs before you buy.
 - [Best Full Suits of 2026: Buyer Cautions](/outdoor-recreation/best-full-suits/) - Use this to compare nearby water sports tradeoffs before you buy.
 - [Best Indoor Paddleboard Storage of 2026: Buyer Cautions](/outdoor-recreation/best-indoor-paddleboard-storage/) - Use this to compare nearby water sports tradeoffs before you buy.
-- [Best Kayak Accessories of 2026: Buyer Cautions](/outdoor-recreation/best-kayak-accessories/) - Use this to compare nearby water sports tradeoffs before you buy.
+- [Best Indoor Surfboard Storage of 2026: Buyer Cautions](/outdoor-recreation/best-indoor-surfboard-storage/) - Use this to compare nearby water sports tradeoffs before you buy.
 
 ### External References
 - [Weather.gov outdoor safety guidance](https://www.weather.gov/safety/) - Weather-safety context for storms, heat, cold, wind, and lightning planning.

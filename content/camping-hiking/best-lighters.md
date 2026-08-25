@@ -12,7 +12,7 @@ keywords:
   - "backup gear"
 slug: "best-lighters"
 date: "2026-08-22T14:07:17+00:00"
-lastmod: "2026-08-22T14:15:26+00:00"
+lastmod: "2026-08-25T23:40:25+00:00"
 draft: false
 categories:
   - "Trail Safety"
@@ -163,10 +163,10 @@ Emergency gear fails at the worst time if it is flimsy, hard to use, or untested
 ## Related Resources
 
 ### Internal Gear Guides
+- [Best Foot Warmers of 2026: Buyer Cautions](/camping-hiking/best-foot-warmers/) - Use this to compare nearby safety & survival tradeoffs before you buy.
 - [Best Fire Starters of 2026 for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-fire-starters/) - Use this to compare nearby outdoor safety tradeoffs before you buy.
 - [Best Handheld Flashlights of 2026 for Camping and Emergencies](/camping-hiking/best-handheld-flashlights/) - Use this to compare nearby outdoor safety tradeoffs before you buy.
 - [Best Open Fire Cookware of 2026 for Camp Kitchen Setup and Meal Prep](/camping-hiking/best-open-fire-cookware/) - Use this to compare nearby outdoor safety tradeoffs before you buy.
-- [Best Water Filters of 2026 for Backpacking, Camping, and Emergencies](/camping-hiking/best-water-filters/) - Use this to compare nearby outdoor safety tradeoffs before you buy.
 
 ### External References
 - [National Park Service Ten Essentials](https://www.nps.gov/articles/10essentials.htm) - Baseline trip-prep context for safety, navigation, light, water, food, and emergency layers.
