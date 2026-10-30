@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_synced": "2026-08-25T23:23:25+00:00",
+  "last_synced": "2026-10-30T15:40:01+00:00",
   "categories": [
     {
       "node_id": "10208168011",
@@ -723,88 +723,16 @@
       "last_updated": "2026-08-14T13:40:49+00:00"
     },
     {
-      "node_id": "14329821",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Safety & Survival > Hand & Foot Warmers > Hand Warmers",
-      "category_name": "Hand Warmers",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/14329821",
-      "section": "camping-hiking",
-      "status": "failed",
-      "last_updated": "2026-08-25T23:23:58+00:00"
-    },
-    {
-      "node_id": "14332931",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Safety & Survival > Hand & Foot Warmers > Foot Warmers",
-      "category_name": "Foot Warmers",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/14332931",
-      "section": "camping-hiking",
-      "status": "completed",
-      "last_updated": "2026-08-25T23:34:48+00:00",
-      "article_path": "content\\camping-hiking\\best-foot-warmers.md",
-      "article_url": "/camping-hiking/best-foot-warmers/",
-      "article_title": "Best Foot Warmers of 2026: Buyer Cautions"
-    },
-    {
-      "node_id": "172530",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Navigation & Electronics > CB & Two-Way Radios > CB Radios & Scanners > Radio Scanners",
-      "category_name": "Radio Scanners",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/172530",
-      "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
-    {
-      "node_id": "18685794011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Safety & Survival > Survival Kits",
-      "category_name": "Survival Kits",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/18685794011",
-      "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
-    {
-      "node_id": "2054490011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Navigation & Electronics > CB & Two-Way Radios > Accessories > Battery Chargers",
-      "category_name": "Battery Chargers",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/2054490011",
-      "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
-    {
-      "node_id": "219431011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Navigation & Electronics > Compasses",
-      "category_name": "Compasses",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/219431011",
-      "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
-    {
-      "node_id": "2204508011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Navigation & Electronics > Topographic Maps",
-      "category_name": "Topographic Maps",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/2204508011",
-      "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
-    {
-      "node_id": "2204653011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Safety & Survival > Whistles",
-      "category_name": "Whistles",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/2204653011",
-      "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
-    {
       "node_id": "23537017011",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Personal Care > Insect & Pest Repellents > Wearables > Wristbands",
       "category_name": "Wristbands",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/23537017011",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-10-30T15:49:18+00:00",
+      "article_path": "content\\camping-hiking\\best-wristbands.md",
+      "article_url": "/camping-hiking/best-wristbands/",
+      "article_title": "Best Wristbands of 2026 for Camping, Hiking, and Outdoor Use"
     },
     {
       "node_id": "23537018011",
@@ -812,8 +740,8 @@
       "category_name": "Garments",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/23537018011",
       "section": "camping-hiking",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "failed",
+      "last_updated": "2026-10-30T16:02:14+00:00"
     },
     {
       "node_id": "23537019011",
@@ -1167,6 +1095,84 @@
       "article_title": "Best Camping Fans of 2026 for Camping, Hiking, and Outdoor Use"
     },
     {
+      "node_id": "14329821",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Safety & Survival > Hand & Foot Warmers > Hand Warmers",
+      "category_name": "Hand Warmers",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/14329821",
+      "section": "camping-hiking",
+      "status": "failed",
+      "last_updated": "2026-08-25T23:23:58+00:00"
+    },
+    {
+      "node_id": "14332931",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Safety & Survival > Hand & Foot Warmers > Foot Warmers",
+      "category_name": "Foot Warmers",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/14332931",
+      "section": "camping-hiking",
+      "status": "completed",
+      "last_updated": "2026-08-25T23:34:48+00:00",
+      "article_path": "content\\camping-hiking\\best-foot-warmers.md",
+      "article_url": "/camping-hiking/best-foot-warmers/",
+      "article_title": "Best Foot Warmers of 2026: Buyer Cautions"
+    },
+    {
+      "node_id": "172530",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Navigation & Electronics > CB & Two-Way Radios > CB Radios & Scanners > Radio Scanners",
+      "category_name": "Radio Scanners",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/172530",
+      "section": "camping-hiking",
+      "status": "failed",
+      "last_updated": "2026-08-29T01:23:35+00:00"
+    },
+    {
+      "node_id": "18685794011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Safety & Survival > Survival Kits",
+      "category_name": "Survival Kits",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/18685794011",
+      "section": "camping-hiking",
+      "status": "pending",
+      "last_updated": "2026-10-30T14:15:53+00:00"
+    },
+    {
+      "node_id": "2054490011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Navigation & Electronics > CB & Two-Way Radios > Accessories > Battery Chargers",
+      "category_name": "Battery Chargers",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/2054490011",
+      "section": "camping-hiking",
+      "status": "failed",
+      "last_updated": "2026-10-30T14:16:25+00:00"
+    },
+    {
+      "node_id": "219431011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Navigation & Electronics > Compasses",
+      "category_name": "Compasses",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/219431011",
+      "section": "camping-hiking",
+      "status": "failed",
+      "last_updated": "2026-10-30T14:17:26+00:00"
+    },
+    {
+      "node_id": "2204508011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Navigation & Electronics > Topographic Maps",
+      "category_name": "Topographic Maps",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/2204508011",
+      "section": "camping-hiking",
+      "status": "completed",
+      "last_updated": "2026-10-30T14:40:41+00:00",
+      "article_path": "content\\camping-hiking\\best-topographic-maps.md",
+      "article_url": "/camping-hiking/best-topographic-maps/",
+      "article_title": "Best Topographic Maps of 2026 for Camping, Hiking, and Outdoor Use"
+    },
+    {
+      "node_id": "2204653011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Safety & Survival > Whistles",
+      "category_name": "Whistles",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/2204653011",
+      "section": "camping-hiking",
+      "status": "failed",
+      "last_updated": "2026-10-30T14:58:53+00:00"
+    },
+    {
       "node_id": "3403511",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Cycling > Hydration > Water Bottle Cages",
       "category_name": "Water Bottle Cages",
@@ -1203,91 +1209,16 @@
       "article_title": "Best Hiking Backpacks for Day Hikes, Travel, and Gear Fit"
     },
     {
-      "node_id": "10208164011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Water Sports > Surfing > Indoor Surfboard Storage",
-      "category_name": "Indoor Surfboard Storage",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208164011",
-      "section": "outdoor-recreation",
-      "status": "completed",
-      "last_updated": "2026-08-25T23:29:29+00:00",
-      "article_path": "content\\outdoor-recreation\\best-indoor-surfboard-storage.md",
-      "article_url": "/outdoor-recreation/best-indoor-surfboard-storage/",
-      "article_title": "Best Indoor Surfboard Storage of 2026: Buyer Cautions"
-    },
-    {
-      "node_id": "10208166011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Water Sports > Waterskiing & Towsports > Wakesurfing",
-      "category_name": "Wakesurfing",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208166011",
-      "section": "outdoor-recreation",
-      "status": "completed",
-      "last_updated": "2026-08-25T23:40:20+00:00",
-      "article_path": "content\\outdoor-recreation\\best-wakesurfing.md",
-      "article_url": "/outdoor-recreation/best-wakesurfing/",
-      "article_title": "Best Wakesurfing of 2026: Buyer Cautions"
-    },
-    {
-      "node_id": "10208176011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Winter Sports > Snowmobiling > Goggles",
-      "category_name": "Goggles",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208176011",
-      "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
-    {
-      "node_id": "10208178011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Accessories > Car Racks & Carriers > Kayak, Canoe & SUP Racks > Foam Block Rooftop Carriers",
-      "category_name": "Foam Block Rooftop Carriers",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208178011",
-      "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
-    {
-      "node_id": "10208180011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Accessories > Car Racks & Carriers > Kayak, Canoe & SUP Racks > Kayak & Canoe Trailers",
-      "category_name": "Kayak & Canoe Trailers",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208180011",
-      "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
-    {
-      "node_id": "10208182011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Accessories > Car Racks & Carriers > Car Rack Parts & Accessories",
-      "category_name": "Car Rack Parts & Accessories",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208182011",
-      "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
-    {
-      "node_id": "10208184011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Accessories > Gear Repair Equipment",
-      "category_name": "Gear Repair Equipment",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208184011",
-      "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
-    {
-      "node_id": "10208698011",
-      "category_path": "Sports & Outdoors > Outdoor Recreation > Winter Sports > Skiing > Goggles & Lenses > Replacement Lenses",
-      "category_name": "Replacement Lenses",
-      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208698011",
-      "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
-    },
-    {
       "node_id": "10425193011",
       "category_path": "Sports & Outdoors > Outdoor Recreation > Winter Sports > Snowmobiling > Replacement Parts",
       "category_name": "Replacement Parts",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10425193011",
       "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "completed",
+      "last_updated": "2026-10-30T16:01:54+00:00",
+      "article_path": "content\\outdoor-recreation\\best-replacement-parts.md",
+      "article_url": "/outdoor-recreation/best-replacement-parts/",
+      "article_title": "Best Replacement Parts of 2026 for Camping, Hiking, and Outdoor Use"
     },
     {
       "node_id": "1046036",
@@ -1295,8 +1226,8 @@
       "category_name": "Thermal Underwear",
       "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/1046036",
       "section": "outdoor-recreation",
-      "status": "pending",
-      "last_updated": "2026-05-10T03:45:28+00:00"
+      "status": "failed",
+      "last_updated": "2026-10-30T16:02:34+00:00"
     },
     {
       "node_id": "1046622",
@@ -7228,6 +7159,84 @@
       "article_path": "content\\outdoor-recreation\\best-traction-pads.md",
       "article_url": "/outdoor-recreation/best-traction-pads/",
       "article_title": "Best Traction Pads of 2026 for Camping Sleep Comfort and Packability"
+    },
+    {
+      "node_id": "10208164011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Water Sports > Surfing > Indoor Surfboard Storage",
+      "category_name": "Indoor Surfboard Storage",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208164011",
+      "section": "outdoor-recreation",
+      "status": "completed",
+      "last_updated": "2026-08-25T23:29:29+00:00",
+      "article_path": "content\\outdoor-recreation\\best-indoor-surfboard-storage.md",
+      "article_url": "/outdoor-recreation/best-indoor-surfboard-storage/",
+      "article_title": "Best Indoor Surfboard Storage of 2026: Buyer Cautions"
+    },
+    {
+      "node_id": "10208166011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Water Sports > Waterskiing & Towsports > Wakesurfing",
+      "category_name": "Wakesurfing",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208166011",
+      "section": "outdoor-recreation",
+      "status": "completed",
+      "last_updated": "2026-08-25T23:40:20+00:00",
+      "article_path": "content\\outdoor-recreation\\best-wakesurfing.md",
+      "article_url": "/outdoor-recreation/best-wakesurfing/",
+      "article_title": "Best Wakesurfing of 2026: Buyer Cautions"
+    },
+    {
+      "node_id": "10208176011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Winter Sports > Snowmobiling > Goggles",
+      "category_name": "Goggles",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208176011",
+      "section": "outdoor-recreation",
+      "status": "failed",
+      "last_updated": "2026-08-29T01:29:53+00:00"
+    },
+    {
+      "node_id": "10208178011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Accessories > Car Racks & Carriers > Kayak, Canoe & SUP Racks > Foam Block Rooftop Carriers",
+      "category_name": "Foam Block Rooftop Carriers",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208178011",
+      "section": "outdoor-recreation",
+      "status": "pending",
+      "last_updated": "2026-10-30T14:15:53+00:00"
+    },
+    {
+      "node_id": "10208180011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Accessories > Car Racks & Carriers > Kayak, Canoe & SUP Racks > Kayak & Canoe Trailers",
+      "category_name": "Kayak & Canoe Trailers",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208180011",
+      "section": "outdoor-recreation",
+      "status": "failed",
+      "last_updated": "2026-10-30T14:16:56+00:00"
+    },
+    {
+      "node_id": "10208182011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Accessories > Car Racks & Carriers > Car Rack Parts & Accessories",
+      "category_name": "Car Rack Parts & Accessories",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208182011",
+      "section": "outdoor-recreation",
+      "status": "failed",
+      "last_updated": "2026-10-30T14:17:57+00:00"
+    },
+    {
+      "node_id": "10208184011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Accessories > Gear Repair Equipment",
+      "category_name": "Gear Repair Equipment",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208184011",
+      "section": "outdoor-recreation",
+      "status": "failed",
+      "last_updated": "2026-10-30T14:49:25+00:00"
+    },
+    {
+      "node_id": "10208698011",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Winter Sports > Skiing > Goggles & Lenses > Replacement Lenses",
+      "category_name": "Replacement Lenses",
+      "bsr_url": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/10208698011",
+      "section": "outdoor-recreation",
+      "status": "pending",
+      "last_updated": "2026-10-30T15:40:01+00:00"
     }
   ]
 }

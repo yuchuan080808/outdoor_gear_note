@@ -2240,7 +2240,7 @@ Output Markdown body only. Do not output YAML frontmatter.
 """.strip()
 
     def __init__(self, model: str | None = None, base_url: str | None = None, api_key: str | None = None) -> None:
-        self.model = model or os.environ.get("LLM_MODEL") or os.environ.get("OPENAI_MODEL") or "qwen-plus"
+        self.model = model or os.environ.get("LLM_MODEL") or os.environ.get("OPENAI_MODEL") or "gpt-5.5"
         self.base_url = base_url or os.environ.get("LLM_BASE_URL") or os.environ.get("OPENAI_BASE_URL")
         self.api_key = (
             api_key
@@ -2249,9 +2249,8 @@ Output Markdown body only. Do not output YAML frontmatter.
             or os.environ.get("OPENAI_API_KEY")
         )
         self.max_tokens = int(os.environ.get("LLM_MAX_TOKENS", "8000"))
-        self.draft_model = os.environ.get("GEMINI_MODEL")
-        self.draft_base_url = os.environ.get("GEMINI_BASE_URL")
-        self.draft_api_key = os.environ.get("GEMINI_API_KEY")
+        self.draft_model = os.environ.get("OPENAI_DRAFT_MODEL")
+        self.draft_api_key = os.environ.get("OPENAI_API_KEY")
 
     def generate(
         self,
@@ -2281,7 +2280,9 @@ Output Markdown body only. Do not output YAML frontmatter.
         )
         LOGGER.info("Generating Markdown with model %s for %s", self.model, task.node_id)
 
-        has_draft_model = bool(self.draft_model and self.draft_api_key)
+        if self.draft_model and not self.draft_api_key:
+            raise RuntimeError("OPENAI_DRAFT_MODEL requires OPENAI_API_KEY")
+        has_draft_model = bool(self.draft_model)
         is_proxy_claude = "claude" in self.model.lower() and self.base_url
         is_native_anthropic = "claude" in self.model.lower() and not self.base_url
 
@@ -2289,7 +2290,7 @@ Output Markdown body only. Do not output YAML frontmatter.
             LOGGER.info("Using %s to generate the initial article draft.", self.draft_model)
             draft_prompt = user_prompt + "\n\nCRITICAL DIRECTIVE: Generate the entire Markdown article with all 7 required sections."
             old_model, old_base_url, old_api_key = self.model, self.base_url, self.api_key
-            self.model, self.base_url, self.api_key = self.draft_model, self.draft_base_url, self.draft_api_key
+            self.model, self.base_url, self.api_key = self.draft_model, None, self.draft_api_key
             try:
                 draft_markdown = self._generate_openai(self.SYSTEM_PROMPT, draft_prompt)
             finally:

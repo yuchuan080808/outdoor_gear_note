@@ -12,7 +12,7 @@ keywords:
   - "meal prep"
 slug: "best-pots-pans-griddles"
 date: "2026-07-12T02:45:14+00:00"
-lastmod: "2026-08-25T23:40:26+00:00"
+lastmod: "2026-10-30T16:04:21+00:00"
 draft: false
 categories:
   - "Camp Kitchen"

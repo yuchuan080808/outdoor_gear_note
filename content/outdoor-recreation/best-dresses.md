@@ -9,7 +9,7 @@ keywords:
   - "skating dress buying guide"
 slug: "best-dresses"
 date: "2026-06-10T13:52:52+00:00"
-lastmod: "2026-08-07T13:37:50+00:00"
+lastmod: "2026-10-30T16:04:15+00:00"
 draft: false
 categories:
   - "Winter Sports"
@@ -161,6 +161,7 @@ Scratchy seams, missing rhinestones, short torsos, thin fabric, and inaccurate s
 
 ### Internal Gear Guides
 - [Best Girls Figure Skating Tights of 2026 for Practice and Shows](/outdoor-recreation/best-tights/) - Use this to compare nearby girls tradeoffs before you buy.
+- [Best Replacement Parts of 2026 for Camping, Hiking, and Outdoor Use](/outdoor-recreation/best-replacement-parts/) - Use this to compare nearby winter sports tradeoffs before you buy.
 - [Best Coolers of 2026 for Camping, Road Trips, and Ice Retention](/camping-hiking/best-coolers/) - Use this to compare nearby outdoor gear tradeoffs before you buy.
 
 ### External References

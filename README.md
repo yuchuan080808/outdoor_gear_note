@@ -10,7 +10,7 @@ This project mirrors the structure of `pet_gear_note`, but is tuned for outdoor 
 - Finds true leaf categories from the crawler output
 - Stores task status in `data/tracking.json`
 - Uses AutoCLI to fetch Amazon bestseller pages and product detail JSON
-- Uses an OpenAI-compatible LLM to generate Hugo Markdown articles
+- Uses OpenAI by default to generate Hugo Markdown articles
 - Generates stable SEO titles, meta descriptions, keywords, FAQ sections, clean slugs, and contextual internal/resource links
 - Writes generated posts under `content/camping-hiking/` or `content/outdoor-recreation/`
 
@@ -29,10 +29,11 @@ copy .env.example .env
 Edit `.env`:
 
 ```env
-LLM_API_KEY=sk-your-key-here
-LLM_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
-LLM_MODEL=qwen-plus
+OPENAI_API_KEY=sk-your-key-here
+LLM_MODEL=gpt-5.5
 ```
+
+The official OpenAI endpoint is used when `LLM_BASE_URL` is unset. For a two-stage workflow, set `OPENAI_DRAFT_MODEL` to an OpenAI model and configure a separate refinement model with `LLM_MODEL`, `LLM_BASE_URL`, and `LLM_API_KEY`.
 
 ## Initialize Category Tasks
 

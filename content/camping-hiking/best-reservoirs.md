@@ -12,7 +12,7 @@ keywords:
   - "leak prevention"
 slug: "best-reservoirs"
 date: "2026-08-01T00:43:38+00:00"
-lastmod: "2026-08-25T23:40:26+00:00"
+lastmod: "2026-10-30T16:04:21+00:00"
 draft: false
 categories:
   - "Packs and Bags"
